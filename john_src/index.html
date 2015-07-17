@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- title -->
+		<title>Alari Homes and Fabrication</title>
+
+		<!-- External Styles -->
+		<link rel = 'stylesheet' href = 'styles/reset.css' />
+		<link rel = 'stylesheet' href = 'styles/alarimain.css' />
+
+		<!-- Favicon -->
+
+		<!-- Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		
+	</head>
+
+	<body>
+
+		<div class = 'topbar'>
+			<img class = 'alari-logo' src = 'res/landing/logo-dummy.png'/>
+		</div>
+
+		<div class = 'wrapper'>
+			<div class = 'section-home'>
+				<div class = 'section-caption home'>
+					<div class = 'content home'>
+						<h1>Alari Homes</h1>
+						<p>We are a company with experienced architects and engineers dedicated in creating beautiful and functional homes.</p>
+					</div>
+				</div>
+			</div>
+			<div class = 'section-fab'>
+				<div class = 'section-caption fab'>
+					<div class = 'content fab'>
+						<h1>Alari Fabrication</h1>
+						<p>Expertly hand-made home fabrications with the highest quality to meet the requirements of your projects.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class = 'footer'>
+			<p>&copy; 2015 Alari Homes and Fabrication</p>
+		</div>
+		
+
+		<!-- jQuery and Javascript Friends -->
+		<script src="scripts/jquery-2.0.1.min.js"></script>
+		<script src="scripts/jquery.easing.1.3.js"></script>
+		<script src="scripts/jquery.scrollTo.min.js"></script>
+
+		<script type = 'text/javascript'>
+			//Add reference to jQuery and Easings library
+			var $root = $('body, html');
+			var $lnk = $('a:not(.nav-link)');
+			var $doc = $(document);
+			var idTo = '';
+
+			$doc.ready(function(){
+
+				//smooth scroll function.
+				$lnk.click(function(){
+					event.preventDefault();
+					idTo =  $(this).attr('href');
+				    $root.stop().animate({
+				        scrollTop: $(idTo).offset().top
+				    }, 1000, 'easeInOutQuint');
+				    return false;
+				});
+
+			});
+
+
+		</script>
+
+	</body>
+</html>

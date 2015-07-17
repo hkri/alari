@@ -1,0 +1,142 @@
+/* Alari Homes and Fabrication Website
+ * Landing page stylesheet.
+ * Designed and coded by: John Espiritu
+ * Made for Alari.
+ */
+
+/* ------------------ Basic layout styles ----------------------*/
+
+body{
+	background-color: rgb(247,249,250);
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: auto;
+}
+
+/* Top bar Style*/
+.topbar{
+	height: 85px;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	background-color: white;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+/* Alari Logo Holder (180x85)*/
+.alari-logo{
+	width: 180px;
+	height: 85px;
+	margin: 0px auto;
+	display: block;
+}
+
+/* Wrapper class - wraps content, minimum of 960 */
+.wrapper{
+	min-width: 960px;
+	background-color: black;
+	height: 100%;
+}
+
+/* Sets the homes and fabrication section styles */
+.section-home, .section-fab{
+	float: left;
+	width: 50%;
+	height: 100%;
+	position: relative;
+}
+
+.section-home{
+	background-image: url('../res/landing/homes_bg.png');
+	background-color: #101013;
+	background-repeat: no-repeat;
+	background-position: 0% 70%;
+	background-size: contain;
+}
+.section-fab{
+	background-color: #f8f8f8;
+	background-image: url('../res/landing/fab_bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* set footer style */
+.footer{
+	clear: both;
+	width: 100%;
+	height: 95px;
+	background-color: #101013;
+}
+
+/* Styles for the description inside each section */
+.section-caption{
+	position: absolute;
+	width: 100%;
+	height: 230px;
+	background-color: red;
+	bottom: 70px;
+}
+
+/* Section descriptions style*/
+.section-caption .content{
+	max-width: 440px;
+	padding:20px;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* section caption text home style*/
+.section-caption .content.home{
+	float: right;
+}
+
+/* section caption home style */
+.section-caption.home{
+	background-color: rgba(10, 10, 10, 0.80);
+}
+
+/* section caption fabrications style */
+.section-caption.fab{
+	background-color: rgba(255, 255, 255, 0.80);
+	color: #222224;
+}
+
+/* Section Text H1 Styles */
+.section-caption h1{
+	font-size: 2.1em;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+/* Section Text P Styles */
+.section-caption p{
+	line-height: 1.7;
+}
+
+/* Footer styles */
+.footer{
+	overflow: hidden;
+}
+
+/* Footer text style */
+.footer p{
+	color: #747477;
+	margin-top: 40px;
+	text-align: center;
+}
+
+/* --------------- Basic layout styles End----------------------*/
+
+/* ---------------Homes/Fab Section Styles--------------------- */
+
+/* ------------- Homes/Fab Section Styles End------------------- */
+
+.section-caption.home{
+	color: white;
+}
+
+/* ---------------Homes/Fab Section Styles--------------------- */
+
+/* ------------- Homes/Fab Section Styles End------------------- */
