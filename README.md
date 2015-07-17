@@ -9,7 +9,7 @@ Online Information System of Alari Homes and Fabrication
 
 ### Login Credentials
 
-**Database**
-database: alari
-username: vagrant
-password: vagrant
+**Database**  
+database: alari  
+username: vagrant  
+password: vagrant  
