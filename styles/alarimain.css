@@ -4,8 +4,6 @@
  * Made for Alari.
  */
 
-/* ------------------ Basic layout styles ----------------------*/
-
 body{
 	background-color: rgb(247,249,250);
 	height: 100%;
@@ -15,12 +13,15 @@ body{
 
 /* Top bar Style*/
 .topbar{
-	height: 85px;
+	height: 160px;
 	width: 100%;
-	position: fixed;
+	min-width: 960px;
 	z-index: 999;
 	background-color: white;
-	border-bottom: 1px solid #d4d4d4;
+	background-image: url('../res/landing/header_bg.jpg');
+	background-size: cover;
+	background-position: middle;
+	overflow: hidden;
 }
 
 /* Alari Logo Holder (180x85)*/
@@ -29,114 +30,124 @@ body{
 	height: 85px;
 	margin: 0px auto;
 	display: block;
+	margin-top: 40px;
 }
 
 /* Wrapper class - wraps content, minimum of 960 */
 .wrapper{
-	min-width: 960px;
-	background-color: black;
-	height: 100%;
-}
-
-/* Sets the homes and fabrication section styles */
-.section-home, .section-fab{
-	float: left;
-	width: 50%;
-	height: 100%;
 	position: relative;
+	width: 960px;
+	background-color: #f8f9fb;
+	min-height: 80%;
+	margin: 0px auto;
+	padding-bottom: 120px;
+	overflow: hidden;
 }
 
-.section-home{
-	background-image: url('../res/landing/homes_bg.png');
-	background-color: #101013;
-	background-repeat: no-repeat;
-	background-position: 0% 70%;
-	background-size: contain;
-}
-.section-fab{
-	background-color: #f8f8f8;
-	background-image: url('../res/landing/fab_bg.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
+/* Section Styles */
+.section{
+	width: 460px;
+	min-height: 200px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: center;
+	background-color: #fafbfc;
+	margin-top: 40px;
+	border: 1px solid #e2e3e4;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
-/* set footer style */
-.footer{
-	clear: both;
+.section.fab{
+	margin-right: 0;
+}
+
+/* Thumbnail Photo Styles */
+.thumbnail{
+	position: relative;
+	margin: 0px auto 40px auto;
 	width: 100%;
-	height: 95px;
-	background-color: #101013;
+	padding-top: 75%;
+	overflow: hidden;
+
+	/* Add top left/top-right border radius because webkit
+	   does not clip children under border radius. */
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	border-top-right-radius: 5px;
+	/*
+	-webkit-box-shadow: 0px 0px 15px #909397;
+	-moz-box-shadow: 0px 0px 15px #909397;
+	box-shadow: 0px 0px 15px #909397;
+	border-radius: 5px;
+	*/
 }
 
-/* Styles for the description inside each section */
-.section-caption{
+.thumbnail img{
 	position: absolute;
 	width: 100%;
-	height: 230px;
-	background-color: red;
-	bottom: 70px;
+	left: 0;
+	top: 0;
 }
 
-/* Section descriptions style*/
-.section-caption .content{
-	max-width: 440px;
-	padding:20px;
-	height: 100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-/* section caption text home style*/
-.section-caption .content.home{
-	float: right;
-}
-
-/* section caption home style */
-.section-caption.home{
-	background-color: rgba(10, 10, 10, 0.80);
-}
-
-/* section caption fabrications style */
-.section-caption.fab{
-	background-color: rgba(255, 255, 255, 0.80);
-	color: #222224;
-}
-
-/* Section Text H1 Styles */
-.section-caption h1{
-	font-size: 2.1em;
+/* Text Styles */
+.section h1{
+	font-size: 1.65em;
 	font-weight: normal;
-	margin-bottom: 10px;
+	color: #2d2e30;
+	text-align: center;
+	margin-bottom: 15px;
 }
 
-/* Section Text P Styles */
-.section-caption p{
-	line-height: 1.7;
+.section p{
+	font-size: 0.95em;
+	color: #2d2e30;
+	text-align: center;
+	width: 80%;
+	margin: 0px auto;
+	line-height: 1.6;
 }
 
 /* Footer styles */
 .footer{
+	clear: both;
 	overflow: hidden;
+	background-color: black;
+	height: 120px;
+	background-image: url('../res/landing/footer_bg.jpg');
+	background-size: cover;
+	min-width: 960px;
 }
 
 /* Footer text style */
 .footer p{
-	color: #747477;
-	margin-top: 40px;
+	color: #eaebee;
+	margin-top: 55px;
 	text-align: center;
 }
 
-/* --------------- Basic layout styles End----------------------*/
-
-/* ---------------Homes/Fab Section Styles--------------------- */
-
-/* ------------- Homes/Fab Section Styles End------------------- */
-
-.section-caption.home{
-	color: white;
+/* Link button styles */
+.button-link{
+	display: inline-block;
+	margin: 40px auto;
+	background-color: #1e2227;
+	padding: 16px 50px;
+	border-radius: 5px;
+	color: #f7fcff;
+	font-size: 0.9em;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: all ease-in-out 0.25s;
+	-moz-transition: all ease-in-out 0.25s;
+	-o-transition: all ease-in-out 0.25s;
+	transition: all ease-in-out 0.25s;
 }
 
-/* ---------------Homes/Fab Section Styles--------------------- */
-
-/* ------------- Homes/Fab Section Styles End------------------- */
+.button-link:hover{
+	background-color: #3c8972;
+}
