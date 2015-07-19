@@ -30,7 +30,7 @@
 
 				<h1>Alari Homes</h1>
 				<p>We are a company with experienced architects and engineers dedicated in creating beautiful and functional homes.</p>
-				<a href = '#' class = 'button-link'>Learn More</a>
+				<a href = 'homes/index.php' class = 'button-link'>Learn More</a>
 			</div>
 
 			<div class = 'section fab'>
@@ -39,7 +39,7 @@
 				</div>
 				<h1>Alari Fabrication</h1>
 				<p>Expertly hand-made home fabrications with the highest quality to meet the requirements of your projects.</p>
-				<a href = '#' class = 'button-link'>Learn More</a>
+				<a href = 'fabrication/index.php' class = 'button-link'>Learn More</a>
 			</div>
 			
 		</div>
@@ -57,12 +57,11 @@
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library
 			var $root = $('body, html');
-			var $lnk = $('a:not(.nav-link)');
+			var $lnk = $('.slide-a');
 			var $doc = $(document);
 			var idTo = '';
 
 			$doc.ready(function(){
-
 				//smooth scroll function.
 				$lnk.click(function(){
 					event.preventDefault();
