@@ -32,14 +32,14 @@
 			.team-name, .team-title{
 				display: block;
 				position: relative;
-				margin-top: 40px;
+				margin-top: 15px;
 				font-size: 2.0em;
 				color: #2e2f32;
 				font-weight: normal;
 			}
 			.team-title{
 				font-size: 1.3em;
-				color: #4c4d52;
+				color: #225e45;
 				margin-top: 0;
 
 			}
@@ -104,6 +104,7 @@
 					<div class = 'cell size-fill'>
 						<h3 class = 'team-name'>Lorem Ipsum</h3>
 						<h4 class = 'team-title'>President, Engineer</h4>
+						<hr class = 'title-line team' />
 						<p class = 'team-description'>
 							Lorem is a passionate and success-driven individual. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
 						</p> 
@@ -119,6 +120,7 @@
 					<div class = 'cell size-fill'>
 						<h3 class = 'team-name'>Dolor Sit Amet</h3>
 						<h4 class = 'team-title'>Senior Architect</h4>
+						<hr class = 'title-line team' />
 						<p class = 'team-description'>
 							She make sure every design is accurate and functional. Coffee addict.
 						</p>
@@ -134,6 +136,7 @@
 					<div class = 'cell size-fill'>
 						<h3 class = 'team-name'>Qwerty Asdfgjk</h3>
 						<h4 class = 'team-title'>Senior Engineer</h4>
+						<hr class = 'title-line team' />
 						<p class = 'team-description'>
 							In charge of every work done in the construction.
 						</p>
