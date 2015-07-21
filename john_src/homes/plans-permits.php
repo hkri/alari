@@ -22,6 +22,11 @@
 	</head>
 
 	<body>
+		<div id = 'fader' class = "fader"></div>
+		<!-- If script is enabled, make fading possible. -->
+		<script>
+			document.getElementById("fader").style.display= 'block';
+		</script>
 
 		<div class = 'header'>
 			<div class = 'wrapper'>
@@ -43,7 +48,9 @@
 		</div>
 
 		<div class = 'content'>
-			<h1 style = 'position: absolute;top: 50%; width: 100%;text-align: center;font-weight: normal;opacity: 0.7'>TODO: PUT "PLANS AND PERMITS" RELATED STUFF HERE.</h1>
+			<div class = 'cover-photo' style = 'background-image:url("../res/homes/homes_plans.jpg")'>
+				<h1 class = 'light'>Plans and Permits</h1>
+			</div>
 		</div>
 
 		<div class = 'footer'>
@@ -53,16 +60,22 @@
 		
 
 		<!-- jQuery and Javascript Friends -->
-		<script src="scripts/jquery-2.0.1.min.js"></script>
-		<script src="scripts/jquery.easing.1.3.js"></script>
-		<script src="scripts/jquery.scrollTo.min.js"></script>
+		<script src="../scripts/jquery-2.0.1.min.js"></script>
+		<script src="../scripts/jquery.easing.1.3.js"></script>
+		<script src="../scripts/page-fader.js"></script>
+		<script src="../scripts/jquery.scrollTo.min.js"></script>
 
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library
 			var $root = $('body, html');
-			var $lnk = $('.scrolllink);
+			var $lnk = $('.scrolllink');
 			var $doc = $(document);
 			var idTo = '';
+
+			//Fade in when all page finishes loading.
+			$(window).bind("load", function() {
+				fadePage();
+			});
 
 			$doc.ready(function(){
 
