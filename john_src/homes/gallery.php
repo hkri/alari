@@ -1,3 +1,18 @@
+
+<!-- 
+
+	Alari Homes Website
+	Gallery Page
+
+	Designed and layout by: John Espiritu
+
+	Plugins:
+	- jQuery
+	- Lightbox Powered by NO-MARGIN-FOR-ERRORS.COM
+		Credits to: http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/
+
+-->
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -12,7 +27,8 @@
 		<!-- External Styles -->
 		<link rel = 'stylesheet' href = '../styles/reset.css' />
 		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
-
+		<link rel = 'stylesheet' href = '../styles/prettyPhoto.css' />
+		
 		<!-- TypeKit Font -->
 		<!-- Register domain first to use TypeKit fonts. -->
 		<!-- Remove the script below to disable the TypeKit font. -->
@@ -50,40 +66,66 @@
 		<div class = 'content'>
 			<div class = 'cover-photo' style = 'background-image:url("../res/homes/homes_gallery_cover.jpg")'>
 				<h1 class = 'light'>Gallery</h1>
-			</div>	
+			</div>
+
+			<div class = 'size-fill'>
+					<h2 class = 'section-caption'>View the collection of photographs and videos of our products and services.</h2>
+			</div>
 
 			<div class = 'gallery'>
 				<div class = 'thumb-wrapper'>
-					<div class = 'photothumb thumbnail-160'>
-						<img src = 'gallery/p1.png' />
-					</div>
-					<div class = 'photothumb thumbnail-160'>
-						<img src = 'gallery/p2.png' />
-					</div>
-					<div class = 'photothumb thumbnail-160'>
-						<img src = 'gallery/p3.png' />
-					</div>
-					<div class = 'photothumb thumbnail-160'>
-						<img src = 'gallery/p4.jpg' />
-					</div>
-					<div class = 'photothumb thumbnail-160'>
-						<img src = 'gallery/p5.jpg' />
-					</div>
-					<div class = 'photothumb thumbnail-160'>
-						<img src = 'gallery/p6.jpg' />
-					</div>
-					<div class = 'photothumb thumbnail-160'>
-						<img src = 'gallery/p7.jpg' />
-					</div>
-					<div class = 'photothumb thumbnail-160'>
-						<img src = 'gallery/p8.jpg' />
-					</div>
-					<div class = 'photothumb thumbnail-160'>
-						<img src = 'gallery/p9.jpg' />
-					</div>
-					<div class = 'photothumb thumbnail-160'>
-						<img src = 'gallery/p10.jpg' />
-					</div>
+
+					<!-- A thumbnail
+					[a tag]
+					class = 'thumblink' - disable fader effect.
+					href = "link.to.hi-res.photo" - link to high res photo
+					rel = 'prettyPhoto[gal]' - always add this to enable the lightbox in gallery mode.
+					title = "your.title" - the description of the photo.
+				
+					For QuickTime .mov files, add "?width=xxx&height=xxx" at end of file url.
+					For more info, see http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/#prettyPhoto
+					-->
+					<a class = 'thumblink' href = 'gallery/p1.png' rel = 'prettyPhoto[gal]' title = 'Rendered model of home.'>
+						<div class = 'photothumb thumbnail-160'>
+							<img src = 'gallery/photo_thumb1.jpg' alt = 'RENDERED HOME'  />
+						</div>
+					</a>
+
+					<a class = 'thumblink' href = 'gallery/p10.jpg' rel = 'prettyPhoto[gal]' title = 'A miniature model of a house that we designed.'>
+						<div class = 'photothumb thumbnail-160'>
+							<img src = 'gallery/photo_thumb10.jpg' alt = 'Miniature Model Home'  />
+						</div>
+					</a>
+
+					<a class = 'thumblink' href = 'https://www.youtube.com/watch?v=eBSHulTdoN8' rel = 'prettyPhoto[gal]' title = 'Sample YouTube Video'>
+						<div class = 'photothumb thumbnail-160'>
+							<img src = 'gallery/video_thumb1.jpg' alt = 'Want Emancipation?' />
+						</div>
+					</a>
+
+					<a class = 'thumblink' href = 'gallery/p9.jpg' rel = 'prettyPhoto[gal]' title = 'A miniature model of a house that we designed.'>
+						<div class = 'photothumb thumbnail-160'>
+							<img src = 'gallery/photo_thumb9.jpg' alt = 'Miniature Model Home'  />
+						</div>
+					</a>
+
+					<a class = 'thumblink' href = 'gallery/p8.jpg' rel = 'prettyPhoto[gal]' title = 'A miniature model of a house that we designed.'>
+						<div class = 'photothumb thumbnail-160'>
+							<img src = 'gallery/photo_thumb8.jpg' alt = 'Miniature Model Home'  />
+						</div>
+					</a>
+
+					<a class = 'thumblink' href = 'gallery/p7.jpg' rel = 'prettyPhoto[gal]' title = 'A miniature model of a house that we designed.'>
+						<div class = 'photothumb thumbnail-160'>
+							<img src = 'gallery/photo_thumb7.jpg' alt = 'Miniature Model Home'  />
+						</div>
+					</a>
+
+					<a class = 'thumblink' href = 'video_01.mov?width=400&height=300' rel = 'prettyPhoto[gal]' title = 'Sample YouTube Video'>
+						<div class = 'photothumb thumbnail-160'>
+							<img src = 'gallery/video_thumb2.jpg' alt = 'Want Emancipation?' />
+						</div>
+					</a>
 
 				</div>
 			</div>
@@ -100,6 +142,7 @@
 		<script src="../scripts/jquery.easing.1.3.js"></script>
 		<script src="../scripts/jquery.scrollTo.min.js"></script>
 		<script src="../scripts/page-fader.js"></script>
+		<script src="../scripts/jquery.prettyPhoto.js"></script>
 
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library
@@ -109,7 +152,17 @@
 			var idTo = '';
 			var $imgthumb = $('.photothumb img');
 
+			//Fade in when all page finishes loading.
+			$(window).bind("load", function() {
+				fadePage();
+			});
+
 			$doc.ready(function(){
+
+				//Initialize prettyPhoto lightbox.
+				 $("a[rel^='prettyPhoto']").prettyPhoto({
+				 	social_tools:false
+				 });
 
 				//smooth scroll function.
 				$lnk.click(function(){
@@ -120,8 +173,6 @@
 				    }, 1000, 'easeInOutQuint');
 				    return false;
 				});
-
-				fadePage();
 
 				//Make image fit in wrapping div.
 				$imgthumb.each(function(key, value){
