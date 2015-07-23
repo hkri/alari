@@ -123,7 +123,7 @@
 	position: relative;
 	background-color: black;
 	/*padding-top: 18%;*/
-	height: 135px;
+	height: 125px;
 	left: 0px;
 	right: -10px;
 	background-size: cover;
@@ -132,7 +132,7 @@
 
 .content .cover-photo h1{
 	position: absolute;
-	font-size: 3.0em;
+	font-size: 2.7em;
 	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: 300;
@@ -225,8 +225,8 @@
 
 .profile-photo{
 	float: none !important;
-	width: 210px;
-	height: 210px;
+	width: 170px;
+	height: 170px;
 	overflow: hidden;
 	border-radius: 50%;
 	position: relative;
@@ -387,4 +387,183 @@
 	background-color: #91bcaa;
 	margin-top: 10px;
 	width: 200px;
+}
+
+.toolbar{
+	position: relative;
+	width: 100%;
+	min-width: 960px;
+	height: 50px;
+	background-color: #eaeaea;
+	border-bottom: 1px solid #c1c1c1;
+	border-top: 1px solid #5b222a;
+	text-align: center;
+}
+
+.toolbar a{
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.1em;
+	color: #2d2d2f;
+	border: 1px solid transparent;
+	text-align: center;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	padding-top: 6px;
+}
+
+.toolbar .option-text:hover{
+	background-color: #c8c8c8;
+}
+
+.toolbar .option.selected a{
+	color: #fbfbfb;
+}
+
+.toolbar .option{
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	padding: 8px 25px;
+	margin: 7px 15px 0px 10px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	min-width: 120px;
+	height: 18px;
+	cursor: default;
+}
+
+.toolbar .option.selected{
+	background-color: #b0404e;
+}
+
+.toolbar .option .shadow{display: none;}
+.toolbar .option.selected .shadow{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: inset 0px 0px 8px #3a0912;
+	-moz-box-shadow: inset 0px 0px 8px #3a0912;
+	box-shadow: inset 0px 0px 8px #3a0912;
+}
+
+.listbox{
+	position: relative;
+	width: 800px;
+	min-height: 200px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.listbox .no-items{
+	text-align: center;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 1.2em;
+	margin-top: 30px;
+	color: #abadb2;
+}
+
+.listbox .listitem{
+	position: relative;
+	display: inline-block;
+	height: 140px;
+	border: 1px solid #dbdbdb;
+	overflow: hidden;
+	width: 28%;
+	background-color: white;
+	padding: 12px;
+	margin: 10px 5px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.listbox .section-title{
+	font-size: 1.8em;
+	font-weight: normal;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dedfe1;
+	color: #363738;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.listbox .listitem h1{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #1c1c1d;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.listbox .listitem hr{
+	background-color: #dbdbdb;
+	height: 1px;
+	margin-top: 7px;
+}
+
+.listbox .listitem h6{
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #a53f4c;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.listbox .listitem p{
+	font-size: 0.8em;
+	margin-top: 5px;
+	height: 55px;
+	overflow: hidden;
+	line-height: 1.4;
+	text-overflow: ellipsis;
+	color: #3c3c3d;
+}
+
+.listbox .listitem .description{
+	position: relative;
+}
+
+.listbox .listitem p.ellipsis:after{
+	position: absolute;
+	content: '...';
+	right: 3px; bottom: 0px;
+	background-color: white;
+	width: 25px;
+	text-align: center;
+}
+
+.listbox .listitem a{
+	font-size: 0.8em;
+	display: inline-block;
+	margin: 8px 0;
+	text-decoration: none;
+	border-radius: 5px;
+	color: #343435;
+
+	-webkit-transition: all ease-in-out 0.2s;
+	-moz-transition: all ease-in-out 0.2s;
+	-o-transition: all ease-in-out 0.2s;
+	transition: all ease-in-out 0.2s;
+}
+
+.listbox .listitem a:hover{
+	color: #4f9bd4;
+}
+
+.listbox .listitem img{
+	vertical-align: bottom;
+	margin-right: 4px;
 }
