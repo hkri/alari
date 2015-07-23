@@ -138,7 +138,7 @@
 		
 
 		<!-- jQuery and Javascript Friends -->
-		<script src="../scripts/jquery-2.0.1.min.js"></script>
+		<script src="../scripts/jquery-1.8.0.min.js"></script>
 		<script src="../scripts/jquery.easing.1.3.js"></script>
 		<script src="../scripts/jquery.scrollTo.min.js"></script>
 		<script src="../scripts/page-fader.js"></script>
