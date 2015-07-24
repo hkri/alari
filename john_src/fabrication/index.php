@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<!-- title -->
-		<title>Alari Fabrication</title>
+		<title>Alari Homes</title>
 
 		<!-- Favicon -->
 
@@ -12,16 +12,18 @@
 		<!-- External Styles -->
 		<link rel = 'stylesheet' href = '../styles/reset.css' />
 		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
-
-		<!-- TypeKit Font -->
-		<!-- Register domain first to use TypeKit fonts. -->
-		<!-- Remove the script below to disable the TypeKit font. -->
-		<script src="//use.typekit.net/jnx0liq.js"></script>
-		<script>try{Typekit.load();}catch(e){}</script>
 		
 	</head>
 
 	<body>
+		<div id = 'fader' class = "fader">
+			<div class = 'centerer'></div>
+			<img class = 'icon-loading' src = '../res/icons/loading.gif' />
+		</div>
+		<!-- If script is enabled, make fading possible. -->
+		<script>
+			document.getElementById("fader").style.display= 'block';
+		</script>
 
 		<div class = 'header'>
 			<div class = 'wrapper'>
@@ -31,9 +33,11 @@
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
+						<a href = '../index.html'><li>Home</li></a>
 						<a class = 'active'><li>About Us</li></a>
+						<a href = 'dda.php'><li>DDA Services</li></a>
 						<a href = 'our-team.php'><li>Our Team</li></a>
-						<a href = 'plans-drawings.php'><li>Plans &amp; Shop Drawings</li></a>
+						<a href = 'shop-drawings.php'><li>Shop Drawings</li></a>
 						<a href = 'gallery.php'><li>Gallery</li></a>
 						<a href = 'contact.php'><li>Contact</li></a>
 					</ul>
@@ -42,7 +46,12 @@
 		</div>
 
 		<div class = 'content'>
+			<!--
 			<h1 style = 'position: absolute;top: 50%; width: 100%;text-align: center;font-weight: normal;opacity: 0.7'>TODO: PUT "HOME/ABOUT US" RELATED STUFF HERE.</h1>
+			-->
+			<div class = 'cover-photo' style = 'background-image:url("../res/fabrication/fab_cover.jpg")'>
+				<h1 class = 'light'>About Us</h1>
+			</div>
 		</div>
 
 		<div class = 'footer'>
@@ -52,20 +61,26 @@
 		
 
 		<!-- jQuery and Javascript Friends -->
-		<script src="scripts/jquery-2.0.1.min.js"></script>
-		<script src="scripts/jquery.easing.1.3.js"></script>
-		<script src="scripts/jquery.scrollTo.min.js"></script>
+		<script src="../scripts/jquery-1.8.0.min.js"></script>
+		<script src="../scripts/page-fader.js"></script>
 
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library
 			var $root = $('body, html');
-			var $lnk = $('.scrolllink);
+			var $lnk = $('.scrolllink');
 			var $doc = $(document);
 			var idTo = '';
 
+			//Fade in when all page finishes loading.
+			$(window).bind("load", function() {
+				fadePage();
+				$('.icon-loading').css('display', 'none');
+			});
+
+
 			$doc.ready(function(){
 
-				//smooth scroll function.
+				//Enable smooth scroll.
 				$lnk.click(function(){
 					event.preventDefault();
 					idTo =  $(this).attr('href');
@@ -74,7 +89,6 @@
 				    }, 1000, 'easeInOutQuint');
 				    return false;
 				});
-
 			});
 
 
