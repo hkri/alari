@@ -12,6 +12,9 @@ function fadePage(){
 	//Fade page when navigating on next page.
 	$a.click(function(event){
 		var atr = $(this).attr('class');
+		if(atr == 'no-fade'){
+			return true;
+		}
 		if(atr === undefined) {
 			var href = $(this).attr('href');
 			$fader.css('display', 'block');
