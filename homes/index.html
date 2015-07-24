@@ -68,10 +68,10 @@
 
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library
-			var $root;
-			var $lnk;
+			var $root = $('body, html');
+			var $lnk = $(document);
 			var $doc;
-			var idTo;
+			var idTo = '';
 
 			//Fade in when all page finishes loading.
 			$(window).bind("load", function() {
@@ -82,10 +82,7 @@
 
 			$doc.ready(function(){
 				//load objects once DOM is complete.
-				$root = $('body, html');
 				$lnk = $('.scrolllink');
-				$doc = $(document);
-				idTo = '';
 
 				//Enable smooth scroll.
 				$lnk.click(function(){
