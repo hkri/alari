@@ -13,12 +13,6 @@
 		<link rel = 'stylesheet' href = '../styles/reset.css' />
 		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
 
-		<!-- TypeKit Font -->
-		<!-- Register domain first to use TypeKit fonts. -->
-		<!-- Remove the script below to disable the TypeKit font. -->
-		<script src="//use.typekit.net/jnx0liq.js"></script>
-		<script>try{Typekit.load();}catch(e){}</script>
-
 		<!-- Page specific styles -->
 		<style type = 'text/css'>
 			.spacer{
@@ -26,36 +20,41 @@
 				margin-bottom: 70px;
 			}
 			.row{
-				min-height: 300px;
+				min-height: 240px;
 				margin-bottom: 25px;
 			}
 			.team-name, .team-title{
 				display: block;
 				position: relative;
 				margin-top: 15px;
-				font-size: 2.0em;
+				font-size: 1.5em;
 				color: #2e2f32;
 				font-weight: normal;
 			}
 			.team-title{
-				font-size: 1.3em;
+				font-size: 1.2em;
 				color: #225e45;
 				margin-top: 0;
 
 			}
 			.team-description{
 				margin-top: 15px;
-				font-size: 1.2em;
+				font-size: 1.0em;
 				color: #4b4b4d;
-				font-weight: lighter;
 				line-height: 1.6;
+			}
+			.profile-photo{
+				margin-right: 40px;
 			}
 		</style>
 		
 	</head>
 
 	<body>
-		<div id = 'fader' class = "fader"></div>
+		<div id = 'fader' class = "fader">
+			<div class = 'centerer'></div>
+			<img class = 'icon-loading' src = '../res/icons/loading.gif' />
+		</div>
 		<!-- If script is enabled, make fading possible. -->
 		<script>
 			document.getElementById("fader").style.display= 'block';
@@ -69,6 +68,7 @@
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
+						<a href = '../index.html'><li>Home</li></a>
 						<a href = 'index.php'><li>About Us</li></a>
 						<a href = 'dda.php'><li>DDA Services</li></a>
 						<a class = 'active'><li>Our Team</li></a>
@@ -154,7 +154,7 @@
 		
 
 		<!-- jQuery and Javascript Friends -->
-		<script src="../scripts/jquery-2.0.1.min.js"></script>
+		<script src="../scripts/jquery-1.8.0.min.js"></script>
 		<script src="../scripts/jquery.easing.1.3.js"></script>
 		<script src="../scripts/jquery.scrollTo.min.js"></script>
 		<script src="../scripts/page-fader.js"></script>
@@ -164,7 +164,12 @@
 			var $root = $('body, html');
 			var $lnk = $('.scrolllink');
 			var $doc = $(document);
-			var idTo = '';
+
+			//Fade in when all page finishes loading.
+			$(window).bind("load", function() {
+				fadePage();
+				$('.icon-loading').css('display', 'none');
+			});
 
 			$doc.ready(function(){
 
@@ -177,8 +182,6 @@
 				    }, 1000, 'easeInOutQuint');
 				    return false;
 				});
-
-				fadePage();
 
 			});
 
