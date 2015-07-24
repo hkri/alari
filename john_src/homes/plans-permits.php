@@ -12,17 +12,14 @@
 		<!-- External Styles -->
 		<link rel = 'stylesheet' href = '../styles/reset.css' />
 		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
-
-		<!-- TypeKit Font -->
-		<!-- Register domain first to use TypeKit fonts. -->
-		<!-- Remove the script below to disable the TypeKit font. -->
-		<script src="//use.typekit.net/jnx0liq.js"></script>
-		<script>try{Typekit.load();}catch(e){}</script>
 		
 	</head>
 
 	<body>
-		<div id = 'fader' class = "fader"></div>
+		<div id = 'fader' class = "fader">
+			<div class = 'centerer'></div>
+			<img class = 'icon-loading' src = '../res/icons/loading.gif' />
+		</div>
 		<!-- If script is enabled, make fading possible. -->
 		<script>
 			document.getElementById("fader").style.display= 'block';
@@ -36,6 +33,7 @@
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
+						<a href = '../index.html'><li>Home</li></a>
 						<a href = 'index.php'><li>About Us</li></a>
 						<a href = 'dda.php'><li>DDA Services</li></a>
 						<a href = 'our-team.php'><li>Our Team</li></a>
@@ -81,11 +79,11 @@
 						<p>
 							<i>Main House Renovation</i>
 							<br />
-							4079 Kulamanu St., Honolulu, Hawaii 96816
+							Site plan, notes, and area computation.
 						</p>
 					</div>
-					 <!-- To do: updated href to plan PDF link -->
-					<a target = '_blank' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACS3creaJrAb8Ui5-7QpEXza/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A000.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<!-- add class no-fade to each a to disable the link click fade effect -->
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACS3creaJrAb8Ui5-7QpEXza/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A000.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -96,10 +94,10 @@
 						<p>
 							<i>Main House Renovation</i>
 							<br />
-							4079 Kulamanu St., Honolulu, Hawaii 96816
+							Main level floorplan.
 						</p>
 					</div>
-					<a href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACbunzMrHsSrtNyGRiso4YCa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A004.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACbunzMrHsSrtNyGRiso4YCa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A004.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -110,10 +108,10 @@
 						<p>
 							<i>Main House Renovation</i>
 							<br />
-							4079 Kulamanu St., Honolulu, Hawaii 96816
+							Left and rear elevation.
 						</p>
 					</div>
-					<a href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABLYB5DeBydrbAUMXmZCp03a/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A007.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABLYB5DeBydrbAUMXmZCp03a/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A007.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -124,10 +122,10 @@
 						<p>
 							<i>Main House Renovation</i>
 							<br />
-							4079 Kulamanu St., Honolulu, Hawaii 96816
+							Right and front elevation.
 						</p>
 					</div>
-					<a href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AADbcM469BKHsP4e8ZgwMl3Ba/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A008.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AADbcM469BKHsP4e8ZgwMl3Ba/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A008.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -138,10 +136,10 @@
 						<p>
 							<i>Main House Renovation</i>
 							<br />
-							4079 Kulamanu St., Honolulu, Hawaii 96816
+							Section "A" and section "B".
 						</p>
 					</div>
-					<a href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAColMn_SO9TAlKm07p-GWsna/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A009.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAColMn_SO9TAlKm07p-GWsna/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A009.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -152,10 +150,10 @@
 						<p>
 							<i>Main House Renovation</i>
 							<br />
-							4079 Kulamanu St., Honolulu, Hawaii 96816
+							Blow-up plan, sections, finishes.
 						</p>
 					</div>
-					<a href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABDf01thzOZaAB0FZhly31Ha/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A011.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABDf01thzOZaAB0FZhly31Ha/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A011.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -166,10 +164,10 @@
 						<p>
 							<i>Main House Renovation</i>
 							<br />
-							4079 Kulamanu St., Honolulu, Hawaii 96816
+							Blow-up plan, sections, finishes.
 						</p>
 					</div>
-					<a href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABZ8Izk6l9Hn_afcsF6d6Waa/Ryan%27s%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A014.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABZ8Izk6l9Hn_afcsF6d6Waa/Ryan%27s%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A014.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -180,10 +178,10 @@
 						<p>
 							<i>Main House Renovation</i>
 							<br />
-							4079 Kulamanu St., Honolulu, Hawaii 96816
+							Roof framing and details.
 						</p>
 					</div>
-					<a href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAACh_q4DqYT4nKhATBPIZIda/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/S002.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAACh_q4DqYT4nKhATBPIZIda/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/S002.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 
@@ -197,10 +195,10 @@
 						<p>
 							<i>Proposed Garage and 2nd Flr.</i>
 							<br />
-							4079 Kulamanu St., Honolulu, Hawaii 96816
+							Ground floor plan, 2nd floor plan.
 						</p>
 					</div>
-					<a href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACV_2FRNnfcOLsENUSXfOWsa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-2.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACV_2FRNnfcOLsENUSXfOWsa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-2.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -211,10 +209,10 @@
 						<p>
 							<i>Proposed Garage and 2nd Flr.</i>
 							<br />
-							4079 Kulamanu St., Honolulu, Hawaii 96816
+							Elevation northwest northeast.
 						</p>
 					</div>
-					<a href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAn-NjzymC_LpzOJukg2vjCa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-3.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAn-NjzymC_LpzOJukg2vjCa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-3.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -225,10 +223,10 @@
 						<p>
 							<i>Proposed Garage and 2nd Flr.</i>
 							<br />
-							4079 Kulamanu St., Honolulu, Hawaii 96816
+							Elevation southwest southeast.
 						</p>
 					</div>
-					<a href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAZ8Es3Royk64tsl2_UTlrJa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-4.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAZ8Es3Royk64tsl2_UTlrJa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-4.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -239,10 +237,10 @@
 						<p>
 							<i>Proposed Garage and 2nd Flr.</i>
 							<br />
-							4079 Kulamanu St., Honolulu, Hawaii 96816
+							Sections, cross section longitudinal.
 						</p>
 					</div>
-					<a href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABFKq7toSzzj5Ld7H2xF4mna/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-6.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABFKq7toSzzj5Ld7H2xF4mna/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-6.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -253,10 +251,10 @@
 						<p>
 							<i>Proposed Garage and 2nd Flr.</i>
 							<br />
-							4079 Kulamanu St., Honolulu, Hawaii 96816
+							Foundation details of footing.
 						</p>
 					</div>
-					<a href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAd5ISSt4HWg7d-0tXLncLNa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/S-1.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAd5ISSt4HWg7d-0tXLncLNa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/S-1.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -267,10 +265,10 @@
 						<p>
 							<i>Proposed Garage and 2nd Flr.</i>
 							<br />
-							4079 Kulamanu St., Honolulu, Hawaii 96816
+							2nd floor framing and roof framing.
 						</p>
 					</div>
-					<a href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAJLz78q5VRDxDm0lLBFxNpa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/S-2.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAJLz78q5VRDxDm0lLBFxNpa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/S-2.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 				
 			</div>
@@ -299,6 +297,7 @@
 			//Fade in when all page finishes loading.
 			$(window).bind("load", function() {
 				fadePage();
+				$('.icon-loading').css('display', 'none');
 			});
 
 			$doc.ready(function(){
