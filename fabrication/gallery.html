@@ -172,7 +172,7 @@
 			var $lnk = $('.scrolllink');
 			var $doc = $(document);
 			var idTo = '';
-			var $imgthumb = $('.photothumb img');
+			var $imgthumb;
 
 			//Fade in when all page finishes loading.
 			$(window).bind("load", function() {
@@ -181,6 +181,8 @@
 			});
 
 			$doc.ready(function(){
+				//On DOM Ready.
+				$imgthumb = $('.photothumb img');
 
 				//Initialize prettyPhoto lightbox.
 				 $("a[rel^='prettyPhoto']").prettyPhoto({
