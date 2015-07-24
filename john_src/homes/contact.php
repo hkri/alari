@@ -17,12 +17,6 @@
 		<!-- Google Maps Script -->
 		<script src="https://maps.googleapis.com/maps/api/js"></script>
 
-		<!-- TypeKit Font -->
-		<!-- Register domain first to use TypeKit fonts. -->
-		<!-- Remove the script below to disable the TypeKit font. -->
-		<script src="//use.typekit.net/jnx0liq.js"></script>
-		<script>try{Typekit.load();}catch(e){}</script>
-
 		<!-- Local Stylsheet -->
 		<style type = 'text/css'>
 		 h1{
@@ -101,7 +95,10 @@
 	</head>
 
 	<body>
-		<div id = 'fader' class = "fader"></div>
+		<div id = 'fader' class = "fader">
+			<div class = 'centerer'></div>
+			<img class = 'icon-loading' src = '../res/icons/loading.gif' />
+		</div>
 		<!-- If script is enabled, make fading possible. -->
 		<script>
 			document.getElementById("fader").style.display= 'block';
@@ -116,6 +113,7 @@
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
+						<a href = '../index.html'><li>Home</li></a>
 						<a href = 'index.php'><li>About Us</li></a>
 						<a href = 'dda.php'><li>DDA Services</li></a>
 						<a href = 'our-team.php'><li>Our Team</li></a>
@@ -183,7 +181,7 @@
 		
 
 		<!-- jQuery and Javascript Friends -->
-		<script src="../scripts/jquery-2.0.1.min.js"></script>
+		<script src="../scripts/jquery-1.8.0.min.js"></script>
 		<script src="../scripts/jquery.easing.1.3.js"></script>
 		<script src="../scripts/jquery.scrollTo.min.js"></script>
 		<script src="../scripts/jquery.prettyPhoto.js"></script>
@@ -213,6 +211,7 @@
 			//Fade in when all page finishes loading.
 			$(window).bind("load", function() {
 				fadePage();
+				$('.icon-loading').css('display', 'none');
 			});
 
 
