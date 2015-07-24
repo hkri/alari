@@ -61,7 +61,7 @@
 
 .nav{
 	margin-top: 25px;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	text-align: right;
 	margin-right: 20px;
 }
@@ -210,6 +210,20 @@
 	background-color: #f7f8fa;
 	opacity: 1;
 	display: none;
+	text-align: center;
+}
+
+.fader .centerer{
+	height: 100%;
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+}
+
+.fader .icon-loading{
+	display: inline-block;
+	position: relative;
+	margin: auto auto;
 }
 
 .section-caption{
@@ -225,8 +239,8 @@
 
 .profile-photo{
 	float: none !important;
-	width: 170px;
-	height: 170px;
+	width: 180px;
+	height: 180px;
 	overflow: hidden;
 	border-radius: 50%;
 	position: relative;
@@ -404,7 +418,7 @@
 	position: absolute;
 	display: inline-block;
 	text-decoration: none;
-	font-size: 1.1em;
+	font-size: 1.0em;
 	color: #2d2d2f;
 	border: 1px solid transparent;
 	text-align: center;
