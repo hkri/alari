@@ -29,16 +29,14 @@
 		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
 		<link rel = 'stylesheet' href = '../styles/prettyPhoto.css' />
 		
-		<!-- TypeKit Font -->
-		<!-- Register domain first to use TypeKit fonts. -->
-		<!-- Remove the script below to disable the TypeKit font. -->
-		<script src="//use.typekit.net/jnx0liq.js"></script>
-		<script>try{Typekit.load();}catch(e){}</script>
 		
 	</head>
 
 	<body>
-		<div id = 'fader' class = "fader"></div>
+		<div id = 'fader' class = "fader">
+			<div class = 'centerer'></div>
+			<img class = 'icon-loading' src = '../res/icons/loading.gif' />
+		</div>
 		<!-- If script is enabled, make fading possible. -->
 		<script>
 			document.getElementById("fader").style.display= 'block';
@@ -52,6 +50,7 @@
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
+						<a href = '../index.html'><li>Home</li></a>
 						<a href = 'index.php'><li>About Us</li></a>
 						<a href = 'dda.php'><li>DDA Services</li></a>
 						<a href = 'our-team.php'><li>Our Team</li></a>
@@ -146,18 +145,25 @@
 
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library
-			var $root = $('body, html');
-			var $lnk = $('.scrolllink');
-			var $doc = $(document);
-			var idTo = '';
-			var $imgthumb = $('.photothumb img');
+			var $root;
+			var $lnk;
+			var $doc;
+			var idTo;
+			var $imgthumb;
 
 			//Fade in when all page finishes loading.
 			$(window).bind("load", function() {
 				fadePage();
+				$('.icon-loading').css('display', 'none');
 			});
 
 			$doc.ready(function(){
+				//DOM complete: initialize objects.
+				$root = $('body, html');
+				$lnk = $('.scrolllink');
+				$doc = $(document);
+				idTo = '';
+				$imgthumb = $('.photothumb img');
 
 				//Initialize prettyPhoto lightbox.
 				 $("a[rel^='prettyPhoto']").prettyPhoto({
