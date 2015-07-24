@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- title -->
+		<title>Alari Homes and Fabrication</title>
+
+		<!-- External Styles -->
+		<link rel = 'stylesheet' href = 'styles/reset.css' />
+		<link rel = 'stylesheet' href = 'styles/alarimain.css' />
+
+		<!-- Favicon -->
+
+		<!-- Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		
+	</head>
+
+	<body>
+		<div id = 'fader' class = "fader"></div>
+		<!-- If script is enabled, make fading possible. -->
+		<script>
+			document.getElementById("fader").style.display= 'block';
+		</script>
+
+		<div class = 'topbar'>
+			<!-- TOPBAR Logo should be 180x85 pixels -->
+			<img class = 'alari-logo' src = 'res/landing/logo-dummy.png'/>
+		</div>
+
+		<div class = 'wrapper'>
+
+			<div class = 'section homes'>
+				<div class = 'thumbnail'>
+					<img src = 'res/landing/home_thumb.jpg' />
+				</div>
+
+				<h1>Alari Homes</h1>
+				<p>We are a company with experienced architects and engineers dedicated in creating beautiful and functional homes.</p>
+				<a href = 'homes/index.html' class = 'button-link'>Learn More</a>
+			</div>
+
+			<div class = 'section fab'>
+				<div class = 'thumbnail'>
+					<img src = 'res/landing/fab_thumb.jpg' />
+				</div>
+				<h1>Alari Fabrication</h1>
+				<p>Expertly hand-made home fabrications with the highest quality to meet the requirements of your projects.</p>
+				<a href = 'fabrication/index.html' class = 'button-link'>Learn More</a>
+			</div>
+			
+		</div>
+
+		<div class = 'footer'>
+			<p>&copy; 2015 Alari Homes and Fabrication. All Rights Reserved.</p>
+		</div>
+		
+
+		<!-- jQuery and Javascript Friends -->
+		<script src="scripts/jquery-1.8.0.min.js"></script>
+		<script src="scripts/jquery.easing.1.3.js"></script>
+		<script src="scripts/jquery.scrollTo.min.js"></script>
+		<script src="scripts/page-fader.js"></script>
+
+		<script type = 'text/javascript'>
+			//Add reference to jQuery and Easings library
+			var $root = $('body, html');
+			var $lnk = $('.slide-a');
+			var $doc = $(document);
+			var idTo = '';
+
+			//Fade in when all page finishes loading.
+			$(window).bind("load", function() {
+				fadePage();
+			});
+
+			$doc.ready(function(){
+				//smooth scroll function.
+				$lnk.click(function(){
+					event.preventDefault();
+					idTo =  $(this).attr('href');
+				    $root.stop().animate({
+				        scrollTop: $(idTo).offset().top
+				    }, 1000, 'easeInOutQuint');
+				    return false;
+				});
+
+			});
+
+
+		</script>
+
+	</body>
+</html>
