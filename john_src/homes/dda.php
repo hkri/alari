@@ -12,12 +12,6 @@
 		<!-- External Styles -->
 		<link rel = 'stylesheet' href = '../styles/reset.css' />
 		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
-
-		<!-- TypeKit Font -->
-		<!-- Register domain first to use TypeKit fonts. -->
-		<!-- Remove the script below to disable the TypeKit font. -->
-		<script src="//use.typekit.net/jnx0liq.js"></script>
-		<script>try{Typekit.load();}catch(e){}</script>
 		
 	</head>
 
@@ -31,6 +25,7 @@
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
+						<a href = '../index.html'><li>Home</li></a>
 						<a href = 'index.php'><li>About Us</li></a>
 						<a class = 'active'><li>DDA Services</li></a>
 						<a href = 'our-team.php'><li>Our Team</li></a>
@@ -53,7 +48,7 @@
 		
 
 		<!-- jQuery and Javascript Friends -->
-		<script src="scripts/jquery-2.0.1.min.js"></script>
+		<script src="scripts/jquery-1.8.0.min.js"></script>
 		<script src="scripts/jquery.easing.1.3.js"></script>
 		<script src="scripts/jquery.scrollTo.min.js"></script>
 
