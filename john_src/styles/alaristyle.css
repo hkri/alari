@@ -245,6 +245,7 @@
 	border-radius: 50%;
 	position: relative;
 	margin: 0 auto 0 auto;
+	background-color: black;
 }
 
 .profile-photo img{
@@ -366,7 +367,7 @@
 
 .messageus-form input[type='text']{
 	display: block;
-	margin: 10px 5px;
+	margin: 10px 0px;
 	padding: 12px 12px;
 	border-radius: 5px;
 	border: 1px solid #d0d1d6;
@@ -376,7 +377,7 @@
 .messageus-form textarea{
 	display: block;
 	position: relative;
-	margin: 10px 5px;
+	margin: 10px 0px;
 	padding: 12px 12px;
 	border-radius: 5px;
 	border: 1px solid #d0d1d6;
@@ -389,7 +390,7 @@
 	float: none;
 	display: block;
 	height: 1px;
-	width: 150px;
+	width: 300px;
 	margin: 4px 0 10px 0;
 }
 
@@ -491,7 +492,7 @@
 .listbox .listitem{
 	position: relative;
 	display: inline-block;
-	height: 140px;
+	height: 340px; /*140px original + 200px for thumbnail*/
 	border: 1px solid #dbdbdb;
 	overflow: hidden;
 	width: 28%;
@@ -510,6 +511,16 @@
 	color: #363738;
 	margin-top: 15px;
 	margin-bottom: 10px;
+}
+
+.listbox .listitem .thumb{
+	position: relative;
+	width: 250px;
+	margin: -12px 0px 10px -12px;
+	height: 200px;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .listbox .listitem h1{
