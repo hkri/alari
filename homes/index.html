@@ -7,7 +7,7 @@
 		<!-- Favicon -->
 
 		<!-- Fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
 		<!-- External Styles -->
 		<link rel = 'stylesheet' href = '../styles/reset.css' />
@@ -49,9 +49,23 @@
 			<!--
 			<h1 style = 'position: absolute;top: 50%; width: 100%;text-align: center;font-weight: normal;opacity: 0.7'>TODO: PUT "HOME/ABOUT US" RELATED STUFF HERE.</h1>
 			-->
+			<!--
 			<div class = 'cover-photo' style = 'background-image:url("../res/homes/homes_cover.jpg")'>
 				<h1 class = 'light'>About Us</h1>
 			</div>
+		-->
+
+			<div class = 'wrapper home'>
+			<p align = 'center' style = 'color:red'><i>Page is still under construction.</i></p>
+			<h1>ALARI</h1>
+			<p>An Architectural Design (ALARI Homes) and Special Build Firm (ALARI Fabrication) established in Hawaii catering Luxury Residential Homes.   From planning phase, conceptualization, and Final design stage up to Customizing Architectural components using oriental and natural materials, we at ALARI prove to be on a hands-on approach team.</p>
+			<p>ALARI believes that each area of design and each component of the build tell a story... and being a part of it is what we do best.</p>
+			<h1>Our Mission</h1>
+			<p>
+				To provide client with a distinctive design and fabrication service, thru maximize outsourcing ideas and material sources from Asia, America and Europe.  We connect to deliver best, and unique, that clients can claim their own.
+			</p>
+			</div>
+
 		</div>
 
 		<div class = 'footer'>
@@ -69,7 +83,7 @@
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library
 			var $root = $('body, html');
-			var $lnk;
+			var $lnk = $('.scrolllink');
 			var $doc = $(document);
 			var idTo = '';
 
@@ -81,8 +95,6 @@
 
 
 			$doc.ready(function(){
-				//load objects once DOM is complete.
-				$lnk = $('.scrolllink');
 
 				//Enable smooth scroll.
 				$lnk.click(function(){

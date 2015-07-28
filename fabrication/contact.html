@@ -7,7 +7,7 @@
 		<!-- Favicon -->
 
 		<!-- Fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
 		<!-- External Styles -->
 		<link rel = 'stylesheet' href = '../styles/reset.css' />
@@ -19,15 +19,20 @@
 
 		<!-- Local Stylsheet -->
 		<style type = 'text/css'>
-		 h1{
-		 	font-size: 2.0em;
+		 h1, h2{
+		 	font-size: 1.6em;
 		 	font-weight: lighter;
 		 	color: #212122;
 		 	font-family: 'Open Sans', sans-serif;
 		 }
+
+		 h2{
+		 	font-size: 1.2em;
+		 	font-weight: 600;
+		 }
 		 p{
 		 	font-family: 'Open Sans', sans-serif;
-		 	font-size: 1.1em;
+		 	font-size: 1.0em;
 		 	line-height: 1.6;
 		 	color: #4b4c50;
 		 	
@@ -38,18 +43,21 @@
 			-moz-hyphens: auto;
 		    hyphens: auto;
 		 }
+		 .row.cdetails{
+		 	margin-bottom: 40px;
+		 }
 		 .spacer{
 		 	height: 80px;
 		 }
 		 .contact-box{
 		 	float:none;
-		 	margin-left: 40px;
+		 	margin-left: 50px;
 		 	max-width: 350px;
 		 }
 
 		 .content .wrapper{
 		 	min-width: 0px;
-		 	width: 800px;
+		 	width: 750px;
 		 	left: 0px;
 		 }
 		 .message-box{
@@ -64,35 +72,19 @@
 		 	margin-top: 20px;
 		 	height: 500px;
 		 }
-		 .message-box h1{
-		 	margin-left: 5px;
-		 }
 		 .message-box p{
 		 	margin-top: 15px;
-		 	margin-left: 5px;
 		 	font-size: 1.1em;
 		 	line-height: 1.6;
 		 }
-		 input[name='Submit']{
-		 	margin: 5px;
-		 	background-color: #409e73;
-		 }
-		 input[name='Submit']:hover{
-		 	background-color: #487d65;
-		 }
-		 input[name='Clear']{
-		 	margin: 5px;
-		 	background-color: #84858a;
-		 }
-		 input[name='Clear']:hover{
-		 	background-color: #5a5b63;
-		 }
-		 .form-controls{
-		 	text-align: center;
-		 }
 		 .title-line.contacts{
-		 	background-color: #811951;
+		 	background-color: #924178;
 		 }
+		 input[name='Submit']{background-color: #409e73;}
+		 input[name='Submit']:hover{background-color: #487d65;}
+		 input[name='Clear']{background-color: #84858a;}
+		 input[name='Clear']:hover{background-color: #5a5b63;}
+		 .form-controls{text-align: center;}
 		</style>
 		
 	</head>
@@ -118,7 +110,6 @@
 					<ul class = 'nav noselect'>
 						<a href = '../index.html'><li>Home</li></a>
 						<a href = 'index.html'><li>About Us</li></a>
-						<a href = 'dda.html'><li>DDA Services</li></a>
 						<a href = 'our-team.html'><li>Our Team</li></a>
 						<a href = 'shop-drawings.html'><li>Shop Drawings</li></a>
 						<a href = 'gallery.html'><li>Gallery</li></a>
@@ -135,30 +126,55 @@
 
 				<div class = 'wrapper'>
 					<div class = 'row spacer'></div>
-					<div class = 'row'>
-						<div class = 'cell size-5'></div>
+					
+					<!-- Section Contact-->
+					<div class = 'row csection'>
+						<h1>Philippines</h1>
+						<hr class = 'title-line contacts' />
+					</div>
+
+					<div class = 'row cdetails'>
 						<div class = 'cell size-50'>
 							<div class = 'address-box'>
-								<h1>Address</h1>
-								<hr class = 'title-line contacts' />
-								<p>Blk 123 Lot 50 #55 Kahit anong street kung saan saan man sulok sa mundo</p>
-								<p>Cebu City, Cebu</p>
-								<p><a id = 'btnShowMap' class = 'button-link' href = '#'>View Address on Google Maps</a></p>
+								<h2>Address</h2>
+								<p>Cebu Factory - Looc, Tayud</p>
+								<p>Liloan, Cebu</p>
 							</div>
 						</div>
 						<div class = 'cell fill'>
 							<div class = 'contact-box'>
-								<h1>Contact</h1>
-								<hr class = 'title-line contacts' />
+								<h2>Contact</h2>
+								<p>Mobile: +639083481382</p>
+							</div>
+						</div>
+					</div>
+					<!-- End of Section Contact -->
+
+					<!-- Section Contact-->
+					<div class = 'row csection'>
+						<h1>Hawaii, U.S.A</h1>
+						<hr class = 'title-line contacts' />
+					</div>
+
+					<div class = 'row cdetails'>
+						<div class = 'cell size-50'>
+							<div class = 'address-box'>
+								<h2>Address</h2>
+								<p>-----------</p>
+								<p>-----------</p>
+							</div>
+						</div>
+						<div class = 'cell fill'>
+							<div class = 'contact-box'>
+								<h2>Contact</h2>
 								<p>Landline: (431)252-4851</p>
 								<p>Mobile: +634123498503</p>
 								<p>Email: alarihomes@gmail.com</p>
 							</div>
 						</div>
 					</div>
-					<div class = 'row'>
-						<div id="map-canvas" class = 'hidden'></div>
-					</div>
+					<!-- End of Section Contact -->
+
 					<div class = 'row message-box'>
 						<h1>Send A Message</h1>
 						<p>You can also write us a message here. Fill up the fields below, and we'll respond to your email as soon as we can.</p>
