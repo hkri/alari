@@ -86,7 +86,6 @@
 
             });
 
-
         </script>
         
     </head>
@@ -98,34 +97,37 @@
         </div>
         <!-- If script is enabled, make fading possible. -->
         <script>
-            // document.getElementById("fader").style.display= 'block';
+            document.getElementById("fader").style.display= 'block';
         </script>
 
         <div class = 'header'>
             <div class = 'wrapper'>
                 <div class = 'header-logobox noselect'>
                     <!-- Please use 380x80 pixel logo for best results. -->
-                    <img class = 'nav-logo' src = '../res/homes/homes-dummy-logo.png' />
+                    <?php if ($this->request->controller === 'Homes'): ?>
+                        <img class = 'nav-logo' src = '../res/homes/homes-dummy-logo.png' />
+                    <?php endif; ?>
                 </div>
                 <div class = 'header-navbox'>
                     <ul class = 'nav noselect'>
                         <a href = '/'><li>Home</li></a>
-                        <a href = '/homes/'><li>About Us</li></a>
-                        <a href = '/homes/dda'><li>DDA Services</li></a>
-                        <a href = '/homes/our_team'><li>Our Team</li></a>
-                        <a href = '/homes/plans_permits'><li>Plans and Permits</li></a>
-                        <a href = '/homes/gallery'><li>Gallery</li></a>
-                        <a href = '/homes/contact'><li>Contact</li></a>
+                        <a class="<?php echo $this->request->action === 'index' ? 'active' : ''; ?>" href = '/homes/'><li>About Us</li></a>
+                        <a class="<?php echo $this->request->action === 'dda' ? 'active' : ''; ?>" href = '/homes/dda'><li>DDA Services</li></a>
+                        <a class="<?php echo $this->request->action === 'our_team' ? 'active' : ''; ?>" href = '/homes/our_team'><li>Our Team</li></a>
+                        <a class="<?php echo $this->request->action === 'plans_permits' ? 'active' : ''; ?>" href = '/homes/plans_permits'><li>Plans and Permits</li></a>
+                        <a class="<?php echo $this->request->action === 'gallery' ? 'active' : ''; ?>" href = '/homes/gallery'><li>Gallery</li></a>
+                        <a class="<?php echo $this->request->action === 'contact' ? 'active' : ''; ?>" href = '/homes/contact'><li>Contact</li></a>
                     </ul>
                 </div>
             </div>
         </div>
-            
+
         <?= $this->fetch('content') ?>
 
         <div class = 'footer'>
             <h6>&copy; 2015 Alari Homes and Fabrication. All Rights Reserved.</h6>
         </div>
 
+        <script src="../scripts/page-fader.js"></script>
     </body>
 </html>
