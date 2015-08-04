@@ -37,7 +37,7 @@
                 <!-- ALARI HOMES DESCRIPTION -->
                 <h1>Alari Homes</h1>
                 <p>Delivering a tour de force and uncompromising fusion of <b><i>modern island</i></b> elegance to the Kahala and Hawaii beachfront luxury residential real estate marketplace.</p>
-                <a href = 'homes/index.html' class = 'button-link'>Learn More</a>
+                <a href = 'homes' class = 'button-link'>Learn More</a>
             </div>
 
             <div class = 'section fab'>
