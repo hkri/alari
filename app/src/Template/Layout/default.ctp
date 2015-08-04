@@ -1,59 +1,101 @@
-<?php
-/**
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- *
- * Licensed under The MIT License
- * For full copyright and license information, please see the LICENSE.txt
- * Redistributions of files must retain the above copyright notice.
- *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @since         0.10.0
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
- */
-
-$cakeDescription = 'CakePHP: the rapid development php framework';
-?>
 <!DOCTYPE html>
 <html>
-<head>
-    <?= $this->Html->charset() ?>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        <?= $cakeDescription ?>:
-        <?= $this->fetch('title') ?>
-    </title>
-    <?= $this->Html->meta('icon') ?>
+    <head>
+        <!-- title -->
+        <title>Alari Homes</title>
 
-    <?= $this->Html->css('base.css') ?>
-    <?= $this->Html->css('cake.css') ?>
+        <!-- Identify encoding as UTF-8 for IE  -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <?= $this->fetch('meta') ?>
-    <?= $this->fetch('css') ?>
-    <?= $this->fetch('script') ?>
-</head>
-<body>
-    <header>
-        <div class="header-title">
-            <span><?= $this->fetch('title') ?></span>
+        <!-- Favicon -->
+
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+
+        <!-- External Styles -->
+        <link rel = 'stylesheet' href = '../styles/reset.css' />
+        <link rel = 'stylesheet' href = '../styles/alaristyle.css' />
+        
+    </head>
+
+    <body>
+        <div id = 'fader' class = "fader">
+            <div class = 'centerer'></div>
+            <img class = 'icon-loading' src = '../res/icons/loading.gif' />
         </div>
-        <div class="header-help">
-            <span><a target="_blank" href="http://book.cakephp.org/3.0/">Documentation</a></span>
-            <span><a target="_blank" href="http://api.cakephp.org/3.0/">API</a></span>
-        </div>
-    </header>
-    <div id="container">
+        <!-- If script is enabled, make fading possible. -->
+        <script>
+            document.getElementById("fader").style.display= 'block';
+        </script>
 
-        <div id="content">
-            <?= $this->Flash->render() ?>
-
-            <div class="row">
-                <?= $this->fetch('content') ?>
+        <div class = 'header'>
+            <div class = 'wrapper'>
+                <div class = 'header-logobox noselect'>
+                    <!-- Please use 380x80 pixel logo for best results. -->
+                    <img class = 'nav-logo' src = '../res/homes/homes-dummy-logo.png' />
+                </div>
+                <div class = 'header-navbox'>
+                    <ul class = 'nav noselect'>
+                        <a href = '/'><li>Home</li></a>
+                        <a href = '/homes/'><li>About Us</li></a>
+                        <a href = '/homes/dda'><li>DDA Services</li></a>
+                        <a href = '/homes/our_team'><li>Our Team</li></a>
+                        <a href = '/homes/plans_permits'><li>Plans and Permits</li></a>
+                        <a href = '/homes/gallery'><li>Gallery</li></a>
+                        <a href = '/homes/contact'><li>Contact</li></a>
+                    </ul>
+                </div>
             </div>
         </div>
-        <footer>
-        </footer>
-    </div>
-</body>
+            
+        <?= $this->fetch('content') ?>
+
+        <div class = 'footer'>
+            <h6>&copy; 2015 Alari Homes and Fabrication. All Rights Reserved.</h6>
+        </div>
+        
+        
+
+        <!-- jQuery and Javascript Friends -->
+        <script src="../scripts/jquery-1.8.0.min.js"></script>
+        <script src="../scripts/jquery.easing.1.3.js"></script>
+        <script src="../scripts/jquery.scrollTo.min.js"></script>
+        <script src="../scripts/page-fader.js"></script>
+
+        <script type = 'text/javascript'>
+            //Add reference to jQuery and Easings library
+            var $root = $('body, html');
+            var $lnk = $('.scrolllink');
+            var $doc = $(document);
+            var idTo = '';
+
+            //Fade in when all page finishes loading.
+            $(window).bind("load", function() {
+                fadePage();
+                $('.icon-loading').css('display', 'none');
+            });
+
+
+            $doc.ready(function(){
+
+                //Enable smooth scroll.
+                $lnk.click(function(){
+                    event.preventDefault();
+                    idTo =  $(this).attr('href');
+                    $root.stop().animate({
+                        scrollTop: $(idTo).offset().top
+                    }, 1000, 'easeInOutQuint');
+                    return false;
+                });
+            });
+
+
+        </script>
+
+    </body>
 </html>
