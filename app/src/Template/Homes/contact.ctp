@@ -16,7 +16,7 @@
     font-size: 1.0em;
     line-height: 1.6;
     color: #4b4c50;
-    
+
     -ms-word-break: break-all;
     word-break: break-all;
     word-break: break-word;
@@ -131,15 +131,19 @@
             <p>You can also write us a message here. Fill up the fields below, and we'll respond to your email as soon as we can.</p>
         </div>
         <div class = 'row'>
-            <form class = 'messageus-form'>
-                <input name = 'FullName' type = 'text' placeholder = 'Full Name' />
-                <input name = 'Email' type = 'text' placeholder = 'Email Address' />
-                <textarea name = 'Message' placeholder = 'Write your message here.'></textarea>
+            <form class = 'messageus-form' method="post" accept-charset="utf-8" action="/homes/contact">
+                <p><input name = 'FullName' type = 'text' placeholder = 'Full Name' data-validation="length" data-validation-length="min4" data-validation-error-msg="Please enter valid name" /></p>
+                <p><input name = 'Email' type = 'text' placeholder = 'Email Address' data-validation="email" data-validation-error-msg="Please enter valid email" /></p>
+                <p><textarea name = 'Message' placeholder = 'Write your message here.' data-validation="length" data-validation-length="min4" data-validation-error-msg="Please enter valid message"></textarea></p>
                 <div class = 'form-controls'>
                     <input name = 'Submit' class = 'button-link' type = 'submit' value = 'Send' />
                     <input name = 'Clear' class = 'button-link' type = 'reset' value = 'Clear' />
                 </div>
             </form>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.1/jquery.form-validator.min.js"></script>
+            <script>
+              $.validate();
+            </script>
         </div>
     </div>
 </div>

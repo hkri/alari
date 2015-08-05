@@ -168,13 +168,13 @@ return [
      */
     'EmailTransport' => [
         'default' => [
-            'className' => 'Mail',
+            'className' => 'Smtp',
             // The following keys are used in SMTP transports
-            'host' => 'localhost',
-            'port' => 25,
+            'host' => 'ssl://smtp.gmail.com',
+            'port' => 465,
             'timeout' => 30,
-            'username' => 'user',
-            'password' => 'secret',
+            'username' => 'test.email.cipher@gmail.com',
+            'password' => 'asdfqwer?',
             'client' => null,
             'tls' => null,
         ],
@@ -192,7 +192,7 @@ return [
     'Email' => [
         'default' => [
             'transport' => 'default',
-            'from' => 'you@localhost',
+            'from' => 'do-not-reply@alarihawaii.com',
             //'charset' => 'utf-8',
             //'headerCharset' => 'utf-8',
         ],
