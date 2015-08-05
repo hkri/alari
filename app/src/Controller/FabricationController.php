@@ -44,7 +44,7 @@ class FabricationController extends AppController {
             $email->template('inquiry')
                 ->emailFormat('text')
                 ->subject('Inquiry')
-                ->to('renegade.cipher@gmail.com') //DUMMY implementation for email
+                ->to('blakeyoon@yahoo.com')
                 ->viewVars($data)
                 ->send();
             $this->Flash->set('Your inquiry has been sent successfully.');
