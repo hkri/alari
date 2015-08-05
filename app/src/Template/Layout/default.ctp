@@ -106,17 +106,28 @@
                     <!-- Please use 380x80 pixel logo for best results. -->
                     <?php if ($this->request->controller === 'Homes'): ?>
                         <img class = 'nav-logo' src = '../res/homes/homes-dummy-logo.png' />
+                    <?php else: ?>
+                        <img class = 'nav-logo' src = '../res/fabrication/fabrication-dummy-logo.png' />
                     <?php endif; ?>
                 </div>
                 <div class = 'header-navbox'>
                     <ul class = 'nav noselect'>
-                        <a href = '/'><li>Home</li></a>
-                        <a class="<?php echo $this->request->action === 'index' ? 'active' : ''; ?>" href = '/homes/'><li>About Us</li></a>
-                        <a class="<?php echo $this->request->action === 'dda' ? 'active' : ''; ?>" href = '/homes/dda'><li>DDA Services</li></a>
-                        <a class="<?php echo $this->request->action === 'our_team' ? 'active' : ''; ?>" href = '/homes/our_team'><li>Our Team</li></a>
-                        <a class="<?php echo $this->request->action === 'plans_permits' ? 'active' : ''; ?>" href = '/homes/plans_permits'><li>Plans and Permits</li></a>
-                        <a class="<?php echo $this->request->action === 'gallery' ? 'active' : ''; ?>" href = '/homes/gallery'><li>Gallery</li></a>
-                        <a class="<?php echo $this->request->action === 'contact' ? 'active' : ''; ?>" href = '/homes/contact'><li>Contact</li></a>
+                        <?php if ($this->request->controller === 'Homes'): ?>
+                            <a href = '/'><li>Home</li></a>
+                            <a class="<?php echo $this->request->action === 'index' ? 'active' : ''; ?>" href = '/homes/'><li>About Us</li></a>
+                            <a class="<?php echo $this->request->action === 'dda' ? 'active' : ''; ?>" href = '/homes/dda'><li>DDA Services</li></a>
+                            <a class="<?php echo $this->request->action === 'our_team' ? 'active' : ''; ?>" href = '/homes/our_team'><li>Our Team</li></a>
+                            <a class="<?php echo $this->request->action === 'plans_permits' ? 'active' : ''; ?>" href = '/homes/plans_permits'><li>Plans and Permits</li></a>
+                            <a class="<?php echo $this->request->action === 'gallery' ? 'active' : ''; ?>" href = '/homes/gallery'><li>Gallery</li></a>
+                            <a class="<?php echo $this->request->action === 'contact' ? 'active' : ''; ?>" href = '/homes/contact'><li>Contact</li></a>
+                        <?php else: ?>
+                            <a href = '/'><li>Home</li></a>
+                            <a class="<?php echo $this->request->action === 'index' ? 'active' : ''; ?>" href = '/fabrication/'><li>About Us</li></a>
+                            <a class="<?php echo $this->request->action === 'our_team' ? 'active' : ''; ?>" href = '/fabrication/our_team'><li>Our Team</li></a>
+                            <a class="<?php echo $this->request->action === 'shop_drawings' ? 'active' : ''; ?>" href = '/fabrication/shop_drawings'><li>Shop Drawings</li></a>
+                            <a class="<?php echo $this->request->action === 'gallery' ? 'active' : ''; ?>" href = '/fabrication/gallery'><li>Gallery</li></a>
+                            <a class="<?php echo $this->request->action === 'contact' ? 'active' : ''; ?>" href = '/fabrication/contact'><li>Contact</li></a>
+                        <?php endif; ?>
                     </ul>
                 </div>
             </div>

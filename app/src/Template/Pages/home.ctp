@@ -47,7 +47,7 @@
                 <!-- ALARI FABRICATION DESCRIPTION -->
                 <h1>Alari Custom Fabrication &amp; Design</h1>
                 <p>Coming into existence solely to create exquisite and unique one-of-a-kind designs for both the interior and exterior of your high end build.  Covering the full spectrum of the classic and modern – from conceptualization to fabrication to installation.</p>
-                <a href = 'fabrication/index.html' class = 'button-link'>Learn More</a>
+                <a href = 'fabrication' class = 'button-link'>Learn More</a>
             </div>
             
         </div>
