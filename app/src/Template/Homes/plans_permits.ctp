@@ -1,3 +1,6 @@
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <div class = 'content'>
     <div class = 'cover-photo' style = 'background-image:url("../res/homes/homes_plans.jpg")'>
         <h1 class = 'light'>Plans and Permits</h1>

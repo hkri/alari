@@ -74,6 +74,43 @@
 
         <!-- Section Contact-->
         <div class = 'row csection'>
+            <h1>U.S.A</h1>
+            <hr class = 'title-line contacts' />
+        </div>
+
+        <div class = 'row cdetails'>
+            <div class = 'cell size-50'>
+                <div class = 'address-box'>
+                    <h2>California Headquarters</h2>
+                    <p>Alari Fine Homes</p>
+                    <p>2204 Garnet Avenue, Suite 303</p>
+                    <p>San Diego, CA 92109-3771</p>
+                </div>
+            </div>
+            <div class = 'cell size-fill'>
+                <div class = 'contact-box'>
+                    <h2>Contact</h2>
+                    <p>Call/Text:(323)854-1494</p>
+                </div>
+            </div>
+        </div>
+        <div class = 'row cdetails'>
+            <div class = 'cell size-50'>
+                <div class = 'address-box'>
+                    <h2>Hawaii</h2>
+                    <p>4079 Kulamanu Street</p>
+                    <p>Honolulu, HI 96816</p>
+                </div>
+            </div>
+            <div class = 'cell size-fill'>
+                <div class = 'contact-box'>
+                </div>
+            </div>
+        </div>
+        <!-- End of Section Contact -->
+
+        <!-- Section Contact-->
+        <div class = 'row csection'>
             <h1>Philippines</h1>
             <hr class = 'title-line contacts' />
         </div>
@@ -81,13 +118,12 @@
         <div class = 'row cdetails'>
             <div class = 'cell size-50'>
                 <div class = 'address-box'>
-                    <h2>Address</h2>
-                    <p>Manila Office - JAKA Center</p>
+                    <h2>Manila Office - JAKA Center</h2>
                     <p>2111 Chino Roces Ave.</p>
                     <p>1231 Makati City, Philippines</p>
                 </div>
             </div>
-            <div class = 'cell fill'>
+            <div class = 'cell size-fill'>
                 <div class = 'contact-box'>
                     <h2>Contact</h2>
                     <p>Mobile: +63928935531 to 40</p>
@@ -96,33 +132,6 @@
             </div>
         </div>
         <!-- End of Section Contact -->
-
-        <!-- Section Contact-->
-        <div class = 'row csection'>
-            <h1>Hawaii, U.S.A</h1>
-            <hr class = 'title-line contacts' />
-        </div>
-
-        <div class = 'row cdetails'>
-            <div class = 'cell size-50'>
-                <div class = 'address-box'>
-                    <h2>Address</h2>
-                    <p>-----------</p>
-                    <p>-----------</p>
-                </div>
-            </div>
-            <div class = 'cell fill'>
-                <div class = 'contact-box'>
-                    <h2>Contact</h2>
-                    <p>Landline: (431)252-4851</p>
-                    <p>Mobile: +634123498503</p>
-                    <p>Email: alarihomes@gmail.com</p>
-                </div>
-            </div>
-        </div>
-        <!-- End of Section Contact -->
-
-
         <div class = 'row'>
             <div id="map-canvas" class = 'hidden'></div>
         </div>

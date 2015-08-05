@@ -1,3 +1,6 @@
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <div class = 'content'>
     <div class = 'cover-photo' style = 'background-image:url("../res/homes/homes_gallery_cover.jpg")'>
         <h1 class = 'light'>Gallery</h1>
@@ -78,14 +81,6 @@
                 </div>
             </a>
 
-            <a class = 'thumblink' href = '../res/homes/gallery/model/model5.jpg' rel = 'prettyPhoto[model]' title = 'A scaled model of a house.'>
-                <div class = 'gallery-photo'>
-                    <div class = 'photothumb' style = 'background-image:url("../res/homes/gallery/model/thumb5.jpg")'></div>
-                    <h2>Home Model 5</h2>
-                </div>
-            </a>
-
-            
 
             <a class = 'thumblink' href = '../res/homes/gallery/model/model8.jpg' rel = 'prettyPhoto[model]' title = 'A scaled model of a house.'>
                 <div class = 'gallery-photo'>

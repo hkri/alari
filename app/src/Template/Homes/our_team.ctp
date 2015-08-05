@@ -1,3 +1,43 @@
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Numans' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<!-- Page specific styles -->
+<style type = 'text/css'>
+    .spacer{
+        min-height: 40px;
+        margin-bottom: 70px;
+    }
+    .row{
+        min-height: 240px;
+        margin-bottom: 25px;
+    }
+    .team-name, .team-title{
+        display: block;
+        position: relative;
+        margin-top: 15px;
+        font-size: 1.4em;
+        color: #2e2f32;
+        font-weight: normal;
+        font-family: 'Numans', sans-serif;
+    }
+    .team-title{
+        font-size: 1.0em;
+        color: #225e45;
+        margin-top: 0;
+
+    }
+    .team-description{
+        margin-top: 15px;
+        font-size: 1.0em;
+        color: #4b4b4d;
+        line-height: 1.6;
+    }
+    .profile-photo{
+        margin-right: 40px;
+    }
+</style>
 <div class = 'content'>
     <!--
     <h1 style = 'position: absolute;top: 50%; width: 100%;text-align: center;font-weight: normal;opacity: 0.7'>TODO: PUT "OUR TEAM" RELATED STUFF HERE.</h1>
