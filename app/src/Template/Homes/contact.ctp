@@ -70,7 +70,7 @@
     </div>
 
     <div class = 'wrapper'>
-        <div class = 'row spacer'></div>
+        <div class = 'row spacer'><?= $this->Flash->render() ?></div>
 
         <!-- Section Contact-->
         <div class = 'row csection'>

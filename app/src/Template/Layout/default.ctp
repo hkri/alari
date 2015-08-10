@@ -21,6 +21,7 @@
         <link rel = 'stylesheet' href = '../styles/reset.css' />
         <link rel = 'stylesheet' href = '../styles/alaristyle.css' />
         <link rel = 'stylesheet' href = '../styles/prettyPhoto.css' />
+        <link rel = 'stylesheet' href = '../styles/cake.css' />
 
         <!-- jQuery and Javascript Friends -->
         <script src="../scripts/jquery-1.8.0.min.js"></script>
@@ -87,7 +88,7 @@
             });
 
         </script>
-        
+
     </head>
 
     <body>

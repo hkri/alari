@@ -28,7 +28,7 @@ abstract class ContactController extends AppController {
                 ->to(OWNER_EMAIL)
                 ->viewVars($data)
                 ->send();
-            $this->Flash->set('Your inquiry has been sent successfully.');
+            $this->Flash->success('Your inquiry has been sent successfully.');
             return $this->redirect(['action' => 'contact']);
         }
     }

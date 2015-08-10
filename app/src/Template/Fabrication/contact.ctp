@@ -20,7 +20,7 @@
     font-size: 1.0em;
     line-height: 1.6;
     color: #4b4c50;
-    
+
     -ms-word-break: break-all;
     word-break: break-all;
     word-break: break-word;
@@ -78,8 +78,8 @@
     </div>
 
     <div class = 'wrapper'>
-        <div class = 'row spacer'></div>
-        
+        <div class = 'row spacer'><?= $this->Flash->render() ?></div>
+
         <!-- Section Contact-->
         <div class = 'row csection'>
             <h1>U.S.A</h1>
