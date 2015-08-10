@@ -166,19 +166,19 @@ return [
      * appropriate file to src/Network/Email.  Transports should be named
      * 'YourTransport.php', where 'Your' is the name of the transport.
      */
-    'EmailTransport' => [
-        'default' => [
-            'className' => 'Smtp',
-            // The following keys are used in SMTP transports
-            'host' => 'ssl://smtp.gmail.com',
-            'port' => 465,
-            'timeout' => 30,
-            'username' => 'test.email.cipher@gmail.com',
-            'password' => 'asdfqwer?',
-            'client' => null,
-            'tls' => null,
-        ],
-    ],
+     'EmailTransport' => [
+         'default' => [
+             'className' => 'Smtp',
+             // The following keys are used in SMTP transports
+             'host' => 'smtp.alarihawaii.com',
+             'port' => 25,
+             'timeout' => 30,
+             'username' => 'admin@alarihawaii.com',
+             'password' => 'Alarihomes2015+',
+             'client' => null,
+             'tls' => null,
+         ],
+     ],
 
     /**
      * Email delivery profiles
@@ -189,14 +189,14 @@ return [
      * easier. Each profile accepts a number of keys. See `Cake\Network\Email\Email`
      * for more information.
      */
-    'Email' => [
-        'default' => [
-            'transport' => 'default',
-            'from' => 'do-not-reply@alarihawaii.com',
-            //'charset' => 'utf-8',
-            //'headerCharset' => 'utf-8',
-        ],
-    ],
+     'Email' => [
+         'default' => [
+             'transport' => 'default',
+             'from' => 'admin@alarihawaii.com',
+             'charset' => 'utf-8',
+             'headerCharset' => 'utf-8',
+         ],
+     ],
 
     /**
      * Connection information used by the ORM to connect
