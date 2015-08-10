@@ -20,7 +20,7 @@
             href = "link.to.hi-res.photo" - link to high res photo
             rel = 'prettyPhoto[gal]' - always add this to enable the lightbox in gallery mode.
             title = "your.title" - the description of the photo.
-        
+
             For QuickTime .mov files, add "?width=xxx&height=xxx" at end of file url.
             For more info, see http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/#prettyPhoto
             -->
@@ -291,14 +291,14 @@
             <h1>Fabrication Videos</h1>
             <hr />
 
-            <a class = 'thumblink' href = 'https://youtu.be/-KOmoyIHIzg' rel = 'prettyPhoto[vid]' title = 'Window cleaning and packaging.'>
+            <a class = 'thumblink' href = '<?php echo VIDEO_URL_1; ?>' rel = 'prettyPhoto[vid]' title = 'Window cleaning and packaging.'>
                 <div class = 'gallery-photo'>
                     <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/videos/thumb1.jpg")'></div>
                     <h2>Workshop video</h2>
                 </div>
             </a>
 
-            <a class = 'thumblink' href = 'https://youtu.be/4pojPMvxdoE' rel = 'prettyPhoto[vid]' title = 'Window cleaning and packaging.'>
+            <a class = 'thumblink' href = '<?php echo VIDEO_URL_2; ?>' rel = 'prettyPhoto[vid]' title = 'Window cleaning and packaging.'>
                 <div class = 'gallery-photo'>
                     <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/videos/thumb2.jpg")'></div>
                     <h2>Workshop video</h2>
@@ -311,7 +311,7 @@
 
     <div id = 'inline-1' class = 'hide'>
 
-        
+
 
     </div>
 
