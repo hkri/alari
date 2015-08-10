@@ -291,14 +291,14 @@
             <h1>Fabrication Videos</h1>
             <hr />
 
-            <a class = 'thumblink' href = '' rel = 'prettyPhoto[vid]' title = 'Window cleaning and packaging.'>
+            <a class = 'thumblink' href = 'https://youtu.be/-KOmoyIHIzg' rel = 'prettyPhoto[vid]' title = 'Window cleaning and packaging.'>
                 <div class = 'gallery-photo'>
                     <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/videos/thumb1.jpg")'></div>
                     <h2>Workshop video</h2>
                 </div>
             </a>
 
-            <a class = 'thumblink' href = '' rel = 'prettyPhoto[vid]' title = 'Window cleaning and packaging.'>
+            <a class = 'thumblink' href = 'https://youtu.be/4pojPMvxdoE' rel = 'prettyPhoto[vid]' title = 'Window cleaning and packaging.'>
                 <div class = 'gallery-photo'>
                     <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/videos/thumb2.jpg")'></div>
                     <h2>Workshop video</h2>
