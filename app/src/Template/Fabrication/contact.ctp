@@ -98,7 +98,7 @@
             <div class = 'cell size-fill'>
                 <div class = 'contact-box'>
                     <h2>Contact</h2>
-                    <p>Landline:(323)854-1494</p>
+                    <p>Call/Text:(323)854-1494</p>
                 </div>
             </div>
         </div>
