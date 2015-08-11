@@ -6,6 +6,7 @@
 
  body{
  	background-color: #f7f8fa;
+ 	background-color: #ebedf0;
  	font-family: 'Open Sans', sans-serif;
  }
 
@@ -20,17 +21,19 @@
 }
 
 .header{
-	position: relative;
+	position: fixed;
 	width: 100%;
 	min-width: 960px;
-	height: 80px;
+	height: 60px;
 	padding-top: 5px;
 	overflow: hidden;
-	z-index: 999;/*
-	-webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); */
- 	background-color: #f7f8fa;
+	z-index: 999;
+	-webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+ 	background-color: #fcfdff;
+ 	top: 0 !important;
+ 	opacity: 0.98;
 }
 
 a{
@@ -45,8 +48,8 @@ a:hover{
 .widebox{
 	width: 100%;
 	position: relative;
-	padding: 20px 0 50px 0;
-	min-height: 100px;
+	padding: 20px 0 10px 0;
+	min-height: 50px;
 	background-color: white;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -80,7 +83,7 @@ a:hover{
 }
 
 .nav{
-	margin-top: 25px;
+	margin-top: 16px;
 	font-size: 0.8em;
 	text-align: right;
 	margin-right: 20px;
@@ -135,7 +138,7 @@ a:hover{
 	display: block;
 	width: 960px;
 	text-align: center;
-	font-size: 0.9em;
+	font-size: 12px;
 	margin: 0 auto;
 	color: #96999f;
 }
@@ -149,6 +152,7 @@ a:hover{
 	right: -10px;
 	background-size: cover;
 	background-position: center;
+	margin-top: 65px;
 }
 
 .content .cover-photo h1{
@@ -182,7 +186,7 @@ a:hover{
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0px 20px;
-	margin-bottom: 100px;
+	margin-bottom: 40px;
 }
 
 .content .wrapper .row .cell{
@@ -625,6 +629,29 @@ a:hover{
 	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
+	overflow: hidden;
+}
+
+
+.listbox .listitem .thumb:before{
+	content:'Preview Plan';
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	color: white;
+	font-size: 0.9em;
+	text-align: center;
+	padding-top: 40%;
+	opacity: 0;
+	-webkit-transition: all ease-in-out 0.25s;
+	-moz-transition: all ease-in-out 0.25s;
+	-o-transition: all ease-in-out 0.25s;
+	transition: all ease-in-out 0.25s;
+}
+
+.listbox .listitem .thumb:hover:before{
+	opacity: 1;
 }
 
 .listbox .listitem h1{
@@ -692,16 +719,10 @@ a:hover{
 	color: #4f9bd4;
 }
 
-.listbox .listitem img{
-	vertical-align: bottom;
-	margin-right: 4px;
-}
-
-
 /* Home and Fabrication index page styles */
 .index-cover{
 	height: 300px;
-	margin: 0 auto;
+	margin: 65px auto 0 auto;
 	width: 100%;
 	min-width: 960px;
 	background-color: red;
@@ -755,7 +776,7 @@ a:hover{
 .index-description-div h1{
 	font-family: 'Karla', sans-serif;
 	text-align: center;
-	font-size: 2.7em;
+	font-size: 2.2em;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -810,4 +831,12 @@ a:hover{
 .content .wrapper.dds p{
 	font-size: 1.1em;
 	font-family: 'Karla', sans-serif;
+}
+
+.widebox{
+	min-height: 260px;
+}
+
+.listbox a{
+	margin: 0 !important;
 }
