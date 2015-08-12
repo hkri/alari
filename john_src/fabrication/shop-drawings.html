@@ -3,6 +3,8 @@
 	<head>
 		<!-- title -->
 		<title>Alari Homes | Plans and Permits</title>
+		<!-- Identify encoding as UTF-8 -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 		<!-- Favicon -->
 
@@ -13,6 +15,7 @@
 		<!-- External Styles -->
 		<link rel = 'stylesheet' href = '../styles/reset.css' />
 		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
+		<link rel = 'stylesheet' href = '../styles/prettyPhoto.css' />
 
 		<!-- Page specific styles -->
 		<style type = 'text/css'>
@@ -27,14 +30,6 @@
 	</head>
 
 	<body>
-		<div id = 'fader' class = "fader">
-			<div class = 'centerer'></div>
-			<img class = 'icon-loading' src = '../res/icons/loading.gif' />
-		</div>
-		<!-- If script is enabled, make fading possible. -->
-		<script>
-			document.getElementById("fader").style.display= 'block';
-		</script>
 
 		<div class = 'header'>
 			<div class = 'wrapper'>
@@ -83,7 +78,9 @@
 				<!-- Listbox Item Plans/Permit/Shop Drawings -->
 
 				<div class = 'listitem'>
-					<div class = 'thumb' style = 'background-image:url("shop_drawings/thumb1.png")'></div>
+					<a href = 'shop_drawings/garage_door/preview/preview1.jpg' rel = 'prettyPhoto[shop-drawing]' title = 'Garage Door'>
+						<div class = 'thumb' style = 'background-image:url("shop_drawings/thumb1.png")'></div>
+					</a>
 					<h1>SD-1</h1> <!-- Plan title -->
 					<h6><i>Garage Door</i></h6> <!-- Plan Author/Architect -->
 					<hr />
@@ -99,7 +96,9 @@
 				</div>
 
 				<div class = 'listitem'>
-					<div class = 'thumb' style = 'background-image:url("shop_drawings/thumb2.png")'></div>
+					<a href = 'shop_drawings/garage_door/preview/preview2.jpg' rel = 'prettyPhoto[shop-drawing]' title = 'Bamboo Concept with dimensions.'>
+						<div class = 'thumb' style = 'background-image:url("shop_drawings/thumb2.png")'></div>
+					</a>
 					<h1>Bamboo Concept</h1> <!-- Plan title -->
 					<h6><i>Garage Door</i></h6> <!-- Plan Author/Architect -->
 					<hr />
@@ -115,7 +114,9 @@
 				</div>
 
 				<div class = 'listitem'>
-					<div class = 'thumb' style = 'background-image:url("shop_drawings/thumb3.png")'></div>
+					<a href = 'shop_drawings/window_joining/preview/preview1.jpg' rel = 'prettyPhoto[shop-drawing]' title = 'Awning Window Sample 1'>
+						<div class = 'thumb' style = 'background-image:url("shop_drawings/thumb3.png")'></div>
+					</a>
 					<h1>Awning</h1> <!-- Plan title -->
 					<h6><i>Windows Joinery System</i></h6> <!-- Plan Author/Architect -->
 					<hr />
@@ -131,6 +132,7 @@
 				</div>
 
 				<div class = 'listitem'>
+					<a href = 'shop_drawings/window_joining/preview/preview2.jpg' rel = 'prettyPhoto[shop-drawing]' title = 'Casement window sample'>
 					<div class = 'thumb' style = 'background-image:url("shop_drawings/thumb4.png")'></div>
 					<h1>Casement Window</h1> <!-- Plan title -->
 					<h6><i>Windows Joinery System</i></h6> <!-- Plan Author/Architect -->
@@ -147,7 +149,9 @@
 				</div>
 
 				<div class = 'listitem'>
-					<div class = 'thumb' style = 'background-image:url("shop_drawings/thumb5.png")'></div>
+					<a href = 'shop_drawings/window_joining/preview/preview3.jpg' rel = 'prettyPhoto[main_home]' title = 'Sliding window sample'>
+						<div class = 'thumb' style = 'background-image:url("shop_drawings/thumb5.png")'></div>
+					</a>
 					<h1>W-3 - Sliding Window</h1> <!-- Plan title -->
 					<h6><i>Windows Joinery System</i></h6> <!-- Plan Author/Architect -->
 					<hr />
@@ -173,7 +177,7 @@
 
 		<!-- jQuery and Javascript Friends -->
 		<script src="../scripts/jquery-1.8.0.min.js"></script>
-		<script src="../scripts/page-fader.js"></script>
+		<script src="../scripts/jquery.prettyPhoto.js"></script>
 
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library
@@ -183,23 +187,11 @@
 			var idTo = '';
 
 
-			//Fade in when all page finishes loading.
-			$(window).bind("load", function() {
-				fadePage();
-				$('.icon-loading').css('display', 'none');
-			});
-
 			$doc.ready(function(){
-
-				//smooth scroll function.
-				$lnk.click(function(){
-					event.preventDefault();
-					idTo =  $(this).attr('href');
-				    $root.stop().animate({
-				        scrollTop: $(idTo).offset().top
-				    }, 1000, 'easeInOutQuint');
-				    return false;
-				});
+				//Initialize prettyPhoto lightbox.
+				 $("a[rel^='prettyPhoto']").prettyPhoto({
+				 	social_tools:false
+				 });
 
 				//check if overflow text in each thumbnail.
 				var $itemdesc = $('.listitem p');
