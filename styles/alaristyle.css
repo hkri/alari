@@ -5,8 +5,7 @@
  */
 
  body{
- 	background-color: #f7f8fa;
- 	background-color: #ebedf0;
+ 	background-color: #f5f7fa;
  	font-family: 'Open Sans', sans-serif;
  }
 
@@ -421,7 +420,7 @@ a:hover{
 }
 
 .thumblink{
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 /* Link button styles */
@@ -448,18 +447,6 @@ a:hover{
 	background-color: #3c8972;
 }
 
-/* Google Maps */
-#map-canvas {
-	height: 500px;
-	-webkit-transition: all ease-in-out 0.25s;
-	-moz-transition: all ease-in-out 0.25s;
-	-o-transition: all ease-in-out 0.25s;
-	transition: all ease-in-out 0.25s;
-}
-#map-canvas.hidden{
-	height: 0px;
-}
-
 .messageus-form {
 	display: block;
 	position: relative;
@@ -467,9 +454,9 @@ a:hover{
 }
 
 .messageus-form *{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Karla', sans-serif;
 	position: relative;
-	font-size: 1.10em;
+	font-size: 16px;
 	font-weight: 300;
 }
 
@@ -480,6 +467,7 @@ a:hover{
 	border-radius: 5px;
 	border: 1px solid #d0d1d6;
 	width: 95%;
+	outline: none;
 }
 
 .messageus-form textarea{
@@ -492,6 +480,7 @@ a:hover{
 	width: 95%;
 	height: 250px;
 	resize: none;
+	outline: none;
 }
 
 .title-line{
@@ -504,6 +493,10 @@ a:hover{
 
 .title-line.contacts{
 	background-color: #dea45a;
+}
+
+.title-line.contacts.fab{
+	background-color: #992979;
 }
 
 .title-line.team{
@@ -840,3 +833,68 @@ a:hover{
 .listbox a{
 	margin: 0 !important;
 }
+
+.message-box{
+	margin-top: 40px;
+	padding-top: 20px;
+	border-top: 1px solid #dddddd;
+}
+
+.message-box h1{
+	font-size: 30px;
+ 	font-weight: lighter;
+ 	color: #212122;
+ 	font-family: 'Open Sans', sans-serif;
+}
+
+.address-box h2, .contact-box h2, .message-box h2{
+	font-size: 18px;
+ 	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	color: #212122;
+	margin-top: 10px;
+}
+
+.address-box p, .contact-box p, .message-box p{
+	font-size: 16px;
+	font-family: 'Karla', sans-serif;
+	-ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+    hyphens: auto;
+	color: #4b4c50;
+	line-height: 1.6;
+}
+
+.message-box p{
+	margin-top: 15px;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.contact-header{
+	margin-top: 30px;
+ 	font-size: 1.6em;
+ 	font-weight: lighter;
+ 	color: #212122;
+ 	font-family: 'Open Sans', sans-serif;
+}
+
+.contact-details{
+	margin-bottom: 20px;
+}
+
+.contact-box{
+ 	float:none;
+ 	margin-left: 50px;
+ 	max-width: 350px;
+}
+
+.form-controls{text-align: center;}	
+
+.content.contact-us input[name='Submit']{background-color: #409e73;}
+.content.contact-us input[name='Submit']:hover{background-color: #487d65;}
+.content.contact-us input[name='Clear']{background-color: #84858a;}
+.content.contact-us input[name='Clear']:hover{background-color: #5a5b63;}
