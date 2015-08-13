@@ -1,20 +1,24 @@
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+
 <!-- Local Stylesheet -->
 <style type = 'text/css'>
     .our-story{
         padding-right: 30px;
     }
     .row-mission{
-        margin-top: 80px;
+        margin-top: 30px;
     }
     .story-image{
         margin-top: 30px;
     }
     .widebox{
-        min-height: 300px;
         background-color: #26ac85;
     }
 </style>
-<div class = 'content'>      
+<div class = 'content'>
     <div class = 'index-cover' style = 'background-image: url("../res/homes/index_image01.jpg")'>
         <div class = 'tint'>
             <h2>ALARI FINE HOMES DESIGN AND DEVELOPMENT</h2>

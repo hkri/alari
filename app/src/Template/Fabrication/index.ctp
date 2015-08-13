@@ -8,13 +8,12 @@
         padding-right: 30px;
     }
     .row-mission{
-        margin-top: 80px;
+        margin-top: 30px;
     }
     .story-image{
         margin-top: 30px;
     }
     .widebox{
-        min-height: 300px;
         background-color: #4e9dc2;
     }
 </style>
@@ -24,13 +23,13 @@
             <h2>ALARI CUSTOM FABRICATION</h2>
         </div>
     </div>
-    <div class = 'wrapper index-description-div'>
+    <div class = 'wrapper index-description-div' style = 'margin-top: 25px;'>
         <div class = 'row row-story'>
             <div class = 'cell size-50 our-story' style = 'background-color: transparent'>
                 <p>
                 ALARI CUSTOM FABRICATION &amp; DESIGN is staffed by expert and degreed designers and fabricators – model makers and craftsmen.  The management of our overseas factory is covered by both European (German), Filipino Architects and American personnel.
                 <br /> <br />
-                Our selection of hardwoods are harvested both locally and from abroad and are always selected for the highest quality attainable anywhere.   
+                Our selection of hardwoods are harvested both locally and from abroad and are always selected for the highest quality attainable anywhere.
                 <br /> <br />
                 Our commitment to <b><i>only</i></b> renewable natural resources is vigorously maintained.  Our rare Mother-of-Pearl inlays, tiles, mosaics and vanities come from only farmed pearl oysters in the Philippines.
                 <br /> <br />
