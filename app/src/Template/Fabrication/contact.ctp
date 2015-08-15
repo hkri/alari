@@ -1,78 +1,15 @@
-<!-- Fonts -->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-
 <!-- Local Stylsheet -->
 <style type = 'text/css'>
- h1, h2{
-    font-size: 1.6em;
-    font-weight: lighter;
-    color: #212122;
-    font-family: 'Open Sans', sans-serif;
- }
-
- h2{
-    font-size: 1.2em;
-    font-weight: 600;
- }
- p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.0em;
-    line-height: 1.6;
-    color: #4b4c50;
-
-    -ms-word-break: break-all;
-    word-break: break-all;
-    word-break: break-word;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
- }
- .row.cdetails{
-    margin-bottom: 40px;
- }
- .spacer{
-    height: 80px;
- }
- .contact-box{
-    float:none;
-    margin-left: 50px;
-    max-width: 350px;
- }
 
  .content .wrapper{
-    min-width: 0px;
-    width: 750px;
-    left: 0px;
+     min-width: 0px;
+     width: 750px;
+     left: 0px;
  }
- .message-box{
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid #dddddd;
- }
- #btnShowMap{
-    margin-top: 15px;
- }
- #map-canvas{
-    margin-top: 20px;
-    height: 500px;
- }
- .message-box p{
-    margin-top: 15px;
-    font-size: 1.1em;
-    line-height: 1.6;
- }
- .title-line.contacts{
-    background-color: #924178;
- }
- input[name='Submit']{background-color: #409e73;}
- input[name='Submit']:hover{background-color: #487d65;}
- input[name='Clear']{background-color: #84858a;}
- input[name='Clear']:hover{background-color: #5a5b63;}
- .form-controls{text-align: center;}
+
 </style>
 
-<div class = 'content'>
+<div class = 'content contact-us'>
     <div class = 'cover-photo' style = 'background-image:url("../res/fabrication/fab_contactus.jpg")'>
         <h1 class = 'light'>Contact Us</h1>
     </div>
@@ -82,11 +19,11 @@
 
         <!-- Section Contact-->
         <div class = 'row csection'>
-            <h1>U.S.A</h1>
-            <hr class = 'title-line contacts' />
+            <h1 class = 'contact-header'>U.S.A</h1>
+            <hr class = 'title-line contacts fab' />
         </div>
 
-        <div class = 'row cdetails'>
+        <div class = 'row contact-details'>
             <div class = 'cell size-50'>
                 <div class = 'address-box'>
                     <h2>California Headquarters</h2>
@@ -102,7 +39,7 @@
                 </div>
             </div>
         </div>
-        <div class = 'row cdetails'>
+        <div class = 'row contact-details'>
             <div class = 'cell size-50'>
                 <div class = 'address-box'>
                     <h2>Hawaii</h2>
@@ -119,11 +56,11 @@
 
         <!-- Section Contact-->
         <div class = 'row csection'>
-            <h1>Philippines</h1>
-            <hr class = 'title-line contacts' />
+            <h1 class = 'contact-header'>Philippines</h1>
+            <hr class = 'title-line contacts fab' />
         </div>
 
-        <div class = 'row cdetails'>
+        <div class = 'row contact-details'>
             <div class = 'cell size-50'>
                 <div class = 'address-box'>
                     <h2>Cebu Factory</h2>
