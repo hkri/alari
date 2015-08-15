@@ -17,11 +17,6 @@
     </head>
 
     <body>
-        <div id = 'fader' class = "fader"></div>
-        <!-- If script is enabled, make fading possible. -->
-        <script>
-            document.getElementById("fader").style.display= 'block';
-        </script>
 
         <div class = 'topbar'>
             <!-- TOPBAR Logo should be AT MOST 1000 x 100 pixels -->
@@ -59,37 +54,6 @@
 
         <!-- jQuery and Javascript Friends -->
         <script src="scripts/jquery-1.8.0.min.js"></script>
-        <script src="scripts/jquery.easing.1.3.js"></script>
-        <script src="scripts/jquery.scrollTo.min.js"></script>
-        <script src="scripts/page-fader.js"></script>
-
-        <script type = 'text/javascript'>
-            //Add reference to jQuery and Easings library
-            var $root = $('body, html');
-            var $lnk = $('.slide-a');
-            var $doc = $(document);
-            var idTo = '';
-
-            //Fade in when all page finishes loading.
-            $(window).bind("load", function() {
-                fadePage();
-            });
-
-            $doc.ready(function(){
-                //smooth scroll function.
-                $lnk.click(function(){
-                    event.preventDefault();
-                    idTo =  $(this).attr('href');
-                    $root.stop().animate({
-                        scrollTop: $(idTo).offset().top
-                    }, 1000, 'easeInOutQuint');
-                    return false;
-                });
-
-            });
-
-
-        </script>
 
     </body>
 </html>
