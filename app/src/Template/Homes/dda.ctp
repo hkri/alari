@@ -1,3 +1,4 @@
+<?php $this->assign('title', 'Alari Homes | DDA Services'); ?>
 <div class = 'content'>
     <div class = 'cover-photo' style = 'background-image:url("../res/homes/homes_cover.jpg")'>
         <h1 class = 'light'>Drafting and Architectural Design Service</h1>

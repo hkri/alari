@@ -1,3 +1,4 @@
+<?php $this->assign('title', 'Alari Fabrication | Contact Us'); ?>
 <!-- Local Stylsheet -->
 <style type = 'text/css'>
 
@@ -8,7 +9,6 @@
  }
 
 </style>
-
 <div class = 'content contact-us'>
     <div class = 'cover-photo' style = 'background-image:url("../res/fabrication/fab_contactus.jpg")'>
         <h1 class = 'light'>Contact Us</h1>

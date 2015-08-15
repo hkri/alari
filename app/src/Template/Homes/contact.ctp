@@ -1,3 +1,4 @@
+<?php $this->assign('title', 'Alari Homes | Contact Us'); ?>
 <!-- Local Stylsheet -->
 <style type = 'text/css'>
  .content .wrapper{

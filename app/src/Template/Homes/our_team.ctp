@@ -1,3 +1,4 @@
+<?php $this->assign('title', 'Alari Homes | Our Team'); ?>
 <!-- Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Numans' rel='stylesheet' type='text/css'>
@@ -63,7 +64,7 @@
                 <hr class = 'title-line team' />
                 <p class = 'team-description'>
                     Mr. Yoon has 20+ years of real estate construction experience building custom homes, improving commercial buildings and developing new restaurant and night club venues.  Mr. Yoon was born and resides in Honolulu where he is raising his young son.
-                </p> 
+                </p>
             </div>
         </div>
 

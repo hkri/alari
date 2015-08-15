@@ -1,3 +1,4 @@
+<?php $this->assign('title', 'Alari Homes | Plans and Permits'); ?>
 <!-- Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>

@@ -2,7 +2,7 @@
 <html>
     <head>
         <!-- title -->
-        <title>Alari Homes</title>
+        <title><?= $this->fetch('title') ?></title>
 
         <!-- Identify encoding as UTF-8 for IE  -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />

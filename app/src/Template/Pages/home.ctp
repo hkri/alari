@@ -13,7 +13,7 @@
 
         <!-- Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-        
+
     </head>
 
     <body>
@@ -49,13 +49,13 @@
                 <p>Coming into existence solely to create exquisite and unique one-of-a-kind designs for both the interior and exterior of your high end build.  Covering the spectrum from classic to modern – from conceptualization to fabrication to installation.</p>
                 <a href = 'fabrication' class = 'button-link'>Enter</a>
             </div>
-            
+
         </div>
 
         <div class = 'footer'>
             <p>&copy; 2015 Alari Homes and Fabrication. All Rights Reserved.</p>
         </div>
-        
+
 
         <!-- jQuery and Javascript Friends -->
         <script src="scripts/jquery-1.8.0.min.js"></script>
