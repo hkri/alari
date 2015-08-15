@@ -1,3 +1,17 @@
+<!--
+
+    Alari Homes Website
+    Gallery Page
+
+    Designed and layout by: John Espiritu
+
+    Plugins:
+    - jQuery
+    - Lightbox Powered by NO-MARGIN-FOR-ERRORS.COM
+        Credits to: http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/
+
+-->
+
 <!-- Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
@@ -7,7 +21,7 @@
     </div>
 
     <div class = 'size-fill'>
-            <h2 class = 'section-caption'>View the collection of photographs and videos of our products and services.</h2>
+        <h2 class = 'section-caption'>View the collection of photographs and videos of our products and services.</h2>
     </div>
 
     <div class = 'gallery'>
@@ -19,7 +33,7 @@
             href = "link.to.hi-res.photo" - link to high res photo
             rel = 'prettyPhoto[gal]' - always add this to enable the lightbox in gallery mode.
             title = "your.title" - the description of the photo.
-        
+
             For QuickTime .mov files, add "?width=xxx&height=xxx" at end of file url.
             For more info, see http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/#prettyPhoto
             -->

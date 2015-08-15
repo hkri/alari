@@ -1,23 +1,10 @@
 <!-- Fonts -->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <div class = 'content'>
     <div class = 'cover-photo' style = 'background-image:url("../res/homes/homes_plans.jpg")'>
         <h1 class = 'light'>Plans and Permits</h1>
     </div>
-
-    <!--
-    <div class = 'toolbar'>
-        <div class = 'option selected'>
-            <div class = 'shadow'></div>
-            <a class = ''>Plans</a>
-        </div>
-        <div class = 'option'>
-            <div class = 'shadow'></div>
-            <a class = 'option-text' href = '#'>Permits</a>
-        </div>
-    </div>
-    -->
 
     <div class = 'listbox'>
 
@@ -32,11 +19,14 @@
         <!-- NOTE: ITEM THUMBNAILS SHOULD BE AT LEAST 250PX WIDE AND 200PX HIGH -->
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-a000.png")'></div>
+
+            <a href = '../res/homes/plans/main_house/preview/preview1.jpg' rel = 'prettyPhoto[main_home]' title = 'Main Home Plan'>
+                <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-a000.png")'></div>
+            </a>
             <h1>A000</h1> <!-- Plan title -->
             <h6>Kulamanu St., Honolulu</h6> <!-- Plan Author/Architect -->
             <hr />
-            <div class = 'description'>  <!-- Plan Description -->
+            <div class = 'description'>	 <!-- Plan Description -->
                 <p>
                     <i>Main House Renovation</i>
                     <br />
@@ -48,7 +38,9 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-a004.png")'></div>
+            <a href = '../res/homes/plans/main_house/preview/preview2.jpg' rel = 'prettyPhoto[main_home]' title = 'Main Home Plan'>
+                <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-a004.png")'></div>
+            </a>
             <h1>A004</h1>
             <h6>Kulamanu St., Honolulu</h6>
             <hr />
@@ -63,7 +55,9 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-a007.png")'></div>
+            <a href = '../res/homes/plans/main_house/preview/preview3.jpg' rel = 'prettyPhoto[main_home]' title = 'Main Home Plan'>
+                <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-a007.png")'></div>
+            </a>
             <h1>A007</h1>
             <h6>Kulamanu St., Honolulu</h6>
             <hr />
@@ -78,7 +72,9 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-a008.png")'></div>
+            <a href = '../res/homes/plans/main_house/preview/preview4.jpg' rel = 'prettyPhoto[main_home]' title = 'Main Home Plan'>
+                <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-a008.png")'></div>
+            </a>
             <h1>A008</h1>
             <h6>Kulamanu St., Honolulu</h6>
             <hr />
@@ -93,7 +89,9 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-a009.png")'></div>
+            <a href = '../res/homes/plans/main_house/preview/preview5.jpg' rel = 'prettyPhoto[main_home]' title = 'Main Home Plan'>
+                <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-a009.png")'></div>
+            </a>
             <h1>A009</h1>
             <h6>Kulamanu St., Honolulu</h6>
             <hr />
@@ -108,7 +106,9 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-a011.png")'></div>
+            <a href = '../res/homes/plans/main_house/preview/preview6.jpg' rel = 'prettyPhoto[main_home]' title = 'Main Home Plan'>
+                <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-a011.png")'></div>
+            </a>
             <h1>A011</h1>
             <h6>Kulamanu St., Honolulu</h6>
             <hr />
@@ -123,7 +123,9 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-a014.png")'></div>
+            <a href = '../res/homes/plans/main_house/preview/preview7.jpg' rel = 'prettyPhoto[main_home]' title = 'Main Home Plan'>
+                <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-a014.png")'></div>
+            </a>
             <h1>A014</h1>
             <h6>Kulamanu St., Honolulu</h6>
             <hr />
@@ -138,7 +140,9 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-s002.png")'></div>
+            <a href = '../res/homes/plans/main_house/preview/preview8.jpg' rel = 'prettyPhoto[main_home]' title = 'Main Home Plan'>
+                <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-s002.png")'></div>
+            </a>
             <h1>S002</h1>
             <h6>Kulamanu St., Honolulu</h6>
             <hr />
@@ -156,7 +160,9 @@
         <h1 class = 'section-title'>Accessory House</h1>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-acsry-a002.png")'></div>
+            <a href = '../res/homes/plans/accessory_house/preview/preview1.jpg' rel = 'prettyPhoto[acc_home]' title = 'Accessory House Plan'>
+                <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-acsry-a002.png")'></div>
+            </a>
             <h1>A-2</h1>
             <h6>Kulamanu St., Honolulu</h6>
             <hr />
@@ -171,7 +177,9 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-acsry-a003.png")'></div>
+            <a href = '../res/homes/plans/accessory_house/preview/preview2.jpg' rel = 'prettyPhoto[acc_home]' title = 'Accessory House Plan'>
+                <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-acsry-a003.png")'></div>
+            </a>
             <h1>A-3</h1>
             <h6>Kulamanu St., Honolulu</h6>
             <hr />
@@ -186,7 +194,9 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-acsry-a004.png")'></div>
+            <a href = '../res/homes/plans/accessory_house/preview/preview3.jpg' rel = 'prettyPhoto[acc_home]' title = 'Accessory House Plan'>
+                <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-acsry-a004.png")'></div>
+            </a>
             <h1>A-4</h1>
             <h6>Kulamanu St., Honolulu</h6>
             <hr />
@@ -201,7 +211,9 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-acsry-a006.png")'></div>
+            <a href = '../res/homes/plans/accessory_house/preview/preview4.jpg' rel = 'prettyPhoto[acc_home]' title = 'Accessory House Plan'>
+                <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-acsry-a006.png")'></div>
+            </a>
             <h1>A-6</h1>
             <h6>Kulamanu St., Honolulu</h6>
             <hr />
@@ -216,7 +228,9 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-acsry-s001.png")'></div>
+            <a href = '../res/homes/plans/accessory_house/preview/preview5.jpg' rel = 'prettyPhoto[acc_home]' title = 'Accessory House Plan'>
+                <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-acsry-s001.png")'></div>
+            </a>
             <h1>S-1</h1>
             <h6>Kulamanu St., Honolulu</h6>
             <hr />
@@ -231,7 +245,9 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-acsry-s002.png")'></div>
+            <a href = '../res/homes/plans/accessory_house/preview/preview6.jpg' rel = 'prettyPhoto[acc_home]' title = 'Accessory House Plan'>
+                <div class = 'thumb' style = 'background-image:url("../res/homes/plans/thumb-kulamanu-acsry-s002.png")'></div>
+            </a>
             <h1>S-2</h1>
             <h6>Kulamanu St., Honolulu</h6>
             <hr />
@@ -244,6 +260,6 @@
             </div>
             <a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAJLz78q5VRDxDm0lLBFxNpa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/S-2.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
         </div>
-        
+
     </div>
 </div>
