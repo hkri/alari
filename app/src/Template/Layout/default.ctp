@@ -92,15 +92,6 @@
     </head>
 
     <body>
-        <div id = 'fader' class = "fader">
-            <div class = 'centerer'></div>
-            <img class = 'icon-loading' src = '../res/icons/loading.gif' />
-        </div>
-        <!-- If script is enabled, make fading possible. -->
-        <script>
-            document.getElementById("fader").style.display= 'block';
-        </script>
-
         <div class = 'header'>
             <div class = 'wrapper'>
                 <div class = 'header-logobox noselect'>
@@ -139,7 +130,5 @@
         <div class = 'footer'>
             <h6>&copy; 2015 Alari Homes and Fabrication. All Rights Reserved.</h6>
         </div>
-
-        <script src="../scripts/page-fader.js"></script>
     </body>
 </html>
