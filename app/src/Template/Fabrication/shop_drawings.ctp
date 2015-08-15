@@ -40,11 +40,13 @@
         <!-- Listbox Item Plans/Permit/Shop Drawings -->
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/fabrication/shop_drawings/thumb1.png")'></div>
+            <a href = '../res/fabrication/shop_drawings/garage_door/preview/preview1.jpg' rel = 'prettyPhoto[shop-drawing]' title = 'Garage Door'>
+                <div class = 'thumb' style = 'background-image:url("../res/fabrication/shop_drawings/thumb1.png")'></div>
+            </a>
             <h1>SD-1</h1> <!-- Plan title -->
             <h6><i>Garage Door</i></h6> <!-- Plan Author/Architect -->
             <hr />
-            <div class = 'description'>  <!-- Plan Description -->
+            <div class = 'description'>	 <!-- Plan Description -->
                 <p>
                     <i>Shop Drawing</i>
                     <br />
@@ -56,11 +58,13 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/fabrication/shop_drawings/thumb2.png")'></div>
+            <a href = '../res/fabrication/shop_drawings/garage_door/preview/preview2.jpg' rel = 'prettyPhoto[shop-drawing]' title = 'Bamboo Concept with dimensions.'>
+                <div class = 'thumb' style = 'background-image:url("../res/fabrication/shop_drawings/thumb2.png")'></div>
+            </a>
             <h1>Bamboo Concept</h1> <!-- Plan title -->
             <h6><i>Garage Door</i></h6> <!-- Plan Author/Architect -->
             <hr />
-            <div class = 'description'>  <!-- Plan Description -->
+            <div class = 'description'>	 <!-- Plan Description -->
                 <p>
                     <i>Shop Drawing</i>
                     <br />
@@ -72,11 +76,13 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/fabrication/shop_drawings/thumb3.png")'></div>
+            <a href = '../res/fabrication/shop_drawings/window_joining/preview/preview1.jpg' rel = 'prettyPhoto[shop-drawing]' title = 'Awning Window Sample 1'>
+                <div class = 'thumb' style = 'background-image:url("../res/fabrication/shop_drawings/thumb3.png")'></div>
+            </a>
             <h1>Awning</h1> <!-- Plan title -->
             <h6><i>Windows Joinery System</i></h6> <!-- Plan Author/Architect -->
             <hr />
-            <div class = 'description'>  <!-- Plan Description -->
+            <div class = 'description'>	 <!-- Plan Description -->
                 <p>
                     <i>Shop Drawing</i>
                     <br />
@@ -88,11 +94,12 @@
         </div>
 
         <div class = 'listitem'>
+            <a href = '../res/fabrication/shop_drawings/window_joining/preview/preview2.jpg' rel = 'prettyPhoto[shop-drawing]' title = 'Casement window sample'>
             <div class = 'thumb' style = 'background-image:url("../res/fabrication/shop_drawings/thumb4.png")'></div>
             <h1>Casement Window</h1> <!-- Plan title -->
             <h6><i>Windows Joinery System</i></h6> <!-- Plan Author/Architect -->
             <hr />
-            <div class = 'description'>  <!-- Plan Description -->
+            <div class = 'description'>	 <!-- Plan Description -->
                 <p>
                     <i>Shop Drawing</i>
                     <br />
@@ -104,11 +111,13 @@
         </div>
 
         <div class = 'listitem'>
-            <div class = 'thumb' style = 'background-image:url("../res/fabrication/shop_drawings/thumb5.png")'></div>
+            <a href = '../res/fabrication/shop_drawings/window_joining/preview/preview3.jpg' rel = 'prettyPhoto[main_home]' title = 'Sliding window sample'>
+                <div class = 'thumb' style = 'background-image:url("../res/fabrication/shop_drawings/thumb5.png")'></div>
+            </a>
             <h1>W-3 - Sliding Window</h1> <!-- Plan title -->
             <h6><i>Windows Joinery System</i></h6> <!-- Plan Author/Architect -->
             <hr />
-            <div class = 'description'>  <!-- Plan Description -->
+            <div class = 'description'>	 <!-- Plan Description -->
                 <p>
                     <i>Shop Drawing</i>
                     <br />
@@ -118,6 +127,6 @@
              <!-- To do: updated href to plan PDF link -->
             <a class = 'no-fade' target = '_blank' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACFNG0MJbg5TescncxSMarga/Ryan%27s%20File%20_for%20Website/SHOP%20DRAWINGS-ALARI%20FABRICATION/W3_SLIDING%20WINDOW_SAMPLE.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
         </div>
-        
+
     </div>
 </div>
