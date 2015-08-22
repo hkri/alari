@@ -70,14 +70,14 @@
 
         <div class = 'row'>
             <div class = 'cell size-35'>
-                <div class = 'profile-photo' style = 'background-image:url("")'></div>
+                <div class = 'profile-photo' style = 'background-image:url("../res/bio/jim.jpg")'></div>
             </div>
             <div class = 'cell size-fill'>
-                <h3 class = 'team-name'>Jim Matichuk</h3>
-                <h4 class = 'team-title'>Hawaii based Senior Architect</h4>
+                <h3 class = 'team-name'>James Matichuk</h3>
+                <h4 class = 'team-title'>Licensed Architect and Professional Engineer in Hawaii</h4>
                 <hr class = 'title-line team' />
                 <p class = 'team-description'>
-                    Well established in his field with a degree in Civil Engineering, design and produced respected clients through design service and consultation.
+                    Principal and Manager of Hawaii Architects, Inc. that has been providing architectural and engineering services in Hawaii since 1990. Hawaii Architects, Inc. (HAI) has a diverse cliental which includes everything from Tract Homes to multi-million dollar Custom Homes. HAI has also designed many commercial projects, including but not limited to, schools, churches, offices, industrial and agricultural buildings, restaurants and multi-family projects.
                 </p>
             </div>
         </div>
