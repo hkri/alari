@@ -84,7 +84,7 @@
 
         <div class = 'row'>
             <div class = 'cell size-35'>
-                <div class = 'profile-photo' style = 'background-image:url("")'></div>
+                <div class = 'profile-photo' style = 'background-image:url("../res/bio/emilio.jpg")'></div>
             </div>
             <div class = 'cell size-fill'>
                 <h3 class = 'team-name'>Emilio Elpedes</h3>

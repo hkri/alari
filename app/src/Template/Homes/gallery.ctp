@@ -68,74 +68,74 @@
             <h1>Scaled Models</h1>
             <hr />
 
-            <a class = 'thumblink' href = '../res/homes/gallery/model/model1.jpg' rel = 'prettyPhoto[model]' title = 'A scaled model of a house.'>
+            <a class = 'thumblink' href = '../res/homes/gallery/model/model1.jpg' rel = 'prettyPhoto[model]' title = 'Kulamanu model Right side view'>
                 <div class = 'gallery-photo'>
                     <div class = 'photothumb' style = 'background-image:url("../res/homes/gallery/model/thumb1.jpg")'></div>
-                    <h2>Home Model 1</h2>
+                    <h2>Kulamanu model Right side view</h2>
                 </div>
             </a>
 
-            <a class = 'thumblink' href = '../res/homes/gallery/model/model2.jpg' rel = 'prettyPhoto[model]' title = 'A scaled model of a house.'>
+            <a class = 'thumblink' href = '../res/homes/gallery/model/model2.jpg' rel = 'prettyPhoto[model]' title = 'Kulamanu model rear view at pool area'>
                 <div class = 'gallery-photo'>
                     <div class = 'photothumb' style = 'background-image:url("../res/homes/gallery/model/thumb2.jpg")'></div>
-                    <h2>Home Model 2</h2>
+                    <h2>Kulamanu model rear view at pool area</h2>
                 </div>
             </a>
 
-            <a class = 'thumblink' href = '../res/homes/gallery/model/model3.jpg' rel = 'prettyPhoto[model]' title = 'A scaled model of a house.'>
+            <a class = 'thumblink' href = '../res/homes/gallery/model/model3.jpg' rel = 'prettyPhoto[model]' title = 'Kulamanu model driveway with accessory house'>
                 <div class = 'gallery-photo'>
                     <div class = 'photothumb' style = 'background-image:url("../res/homes/gallery/model/thumb3.jpg")'></div>
-                    <h2>Home Model 3</h2>
+                    <h2>Kulamanu model driveway with accessory house</h2>
                 </div>
             </a>
 
-            <a class = 'thumblink' href = '../res/homes/gallery/model/model4.jpg' rel = 'prettyPhoto[model]' title = 'A scaled model of a house.'>
+            <a class = 'thumblink' href = '../res/homes/gallery/model/model4.jpg' rel = 'prettyPhoto[model]' title = 'Driveway view showing reflection pond and water feature'>
                 <div class = 'gallery-photo'>
                     <div class = 'photothumb' style = 'background-image:url("../res/homes/gallery/model/thumb4.jpg")'></div>
-                    <h2>Home Model 4</h2>
+                    <h2>Driveway view showing reflection pond and water feature</h2>
                 </div>
             </a>
 
 
-            <a class = 'thumblink' href = '../res/homes/gallery/model/model8.jpg' rel = 'prettyPhoto[model]' title = 'A scaled model of a house.'>
+            <a class = 'thumblink' href = '../res/homes/gallery/model/model8.jpg' rel = 'prettyPhoto[model]' title = 'Kulamanu model pool area'>
                 <div class = 'gallery-photo'>
                     <div class = 'photothumb' style = 'background-image:url("../res/homes/gallery/model/thumb8.jpg")'></div>
-                    <h2>Home Model 8</h2>
+                    <h2>Kulamanu model pool area</h2>
                 </div>
             </a>
 
-            <a class = 'thumblink' href = '../res/homes/gallery/model/model9.jpg' rel = 'prettyPhoto[model]' title = 'A scaled model of a house.'>
+            <a class = 'thumblink' href = '../res/homes/gallery/model/model9.jpg' rel = 'prettyPhoto[model]' title = 'Kulamanu model roofing profile'>
                 <div class = 'gallery-photo'>
                     <div class = 'photothumb' style = 'background-image:url("../res/homes/gallery/model/thumb9.jpg")'></div>
-                    <h2>Home Model 9</h2>
+                    <h2>Kulamanu model roofing profile</h2>
                 </div>
             </a>
 
-            <a class = 'thumblink' href = '../res/homes/gallery/model/model10.jpg' rel = 'prettyPhoto[model]' title = 'A scaled model of a house.'>
+            <a class = 'thumblink' href = '../res/homes/gallery/model/model10.jpg' rel = 'prettyPhoto[model]' title = 'Kulamanu model accessory house connection to Main house'>
                 <div class = 'gallery-photo'>
                     <div class = 'photothumb' style = 'background-image:url("../res/homes/gallery/model/thumb10.jpg")'></div>
-                    <h2>Home Model 10</h2>
+                    <h2>Kulamanu model accessory house connection to Main house</h2>
                 </div>
             </a>
 
-            <a class = 'thumblink' href = '../res/homes/gallery/model/model11.jpg' rel = 'prettyPhoto[model]' title = 'A scaled model of a house.'>
+            <a class = 'thumblink' href = '../res/homes/gallery/model/model11.jpg' rel = 'prettyPhoto[model]' title = 'Kulamanu model accessory house roofing profile'>
                 <div class = 'gallery-photo'>
                     <div class = 'photothumb' style = 'background-image:url("../res/homes/gallery/model/thumb11.jpg")'></div>
-                    <h2>Home Model 11</h2>
+                    <h2>Kulamanu model accessory house roofing profile</h2>
                 </div>
             </a>
 
-            <a class = 'thumblink' href = '../res/homes/gallery/model/model12.jpg' rel = 'prettyPhoto[model]' title = 'A scaled model of a house.'>
+            <a class = 'thumblink' href = '../res/homes/gallery/model/model12.jpg' rel = 'prettyPhoto[model]' title = 'Right side walkway to lower ground'>
                 <div class = 'gallery-photo'>
                     <div class = 'photothumb' style = 'background-image:url("../res/homes/gallery/model/thumb12.jpg")'></div>
-                    <h2>Home Model 12</h2>
+                    <h2>Right side walkway to lower ground</h2>
                 </div>
             </a>
 
-            <a class = 'thumblink' href = '../res/homes/gallery/model/model13.jpg' rel = 'prettyPhoto[model]' title = 'A scaled model of a house.'>
+            <a class = 'thumblink' href = '../res/homes/gallery/model/model13.jpg' rel = 'prettyPhoto[model]' title = 'Kulamanu model showing roman stair concept to pool area'>
                 <div class = 'gallery-photo'>
                     <div class = 'photothumb' style = 'background-image:url("../res/homes/gallery/model/thumb13.jpg")'></div>
-                    <h2>Home Model 13</h2>
+                    <h2>Kulamanu model showing roman stair concept to pool area</h2>
                 </div>
             </a>
 
