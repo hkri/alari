@@ -61,6 +61,22 @@
         <!-- Rows for members. Small divisions for avatar, large for profile info. -->
         <div class = 'row'>
             <div class = 'cell size-35'>
+                <div class = 'profile-photo' style = 'background-image:url("../res/bio/damon.png")'>
+                </div>
+            </div>
+            <div class = 'cell size-fill'>
+                <h3 class = 'team-name'>Damon Rhys</h3>
+                <h4 class = 'team-title'>V.P. Hawaii Regional Distributor</h4>
+                <hr class = 'title-line team' />
+                <p class = 'team-description'>
+                    Damon is originally from California but has spent a significant part of his life living in the AsiaPacific  Region  including  13  years  in  Japan  where  he  both  went  to  school  and  started  hisbusiness  career.  He  earned  a  Bachelor’s  Degree  in  Management  Science  and  a  Master’sDegree  in  Pacific  International  Affairs  (MPIA)  both  from the  University  of  California.  Damonstarted  his  career  in  the  telecommunications  industry  and  eventually  helped  establish  aninternational  telecommunications  firm  based in  both  Tokyo  and Singapore  which  served theentire  Asia  Pacific  Region.  He  relocated  to  Hawaii  in  2002  with  his  family  with  the  goal  oftransitioning to  a career  in  real  estate thus fulfilling his  lifelong dream.
+                    Damon joined SachiHawaii Pacific Centuries Properties in 2014 focusing his efforts on the luxury properties market inHawaii.Representing Alari Homes, as the Sales and Marketing Director of the Asia Pacific Region,Damon brings his unique skills to provide the right solutions for his clients.
+                </p>
+            </div>
+        </div>
+
+        <div class = 'row'>
+            <div class = 'cell size-35'>
                 <div class = 'profile-photo' style = 'background-image:url("../res/bio/blake.png")'>
                 </div>
             </div>
