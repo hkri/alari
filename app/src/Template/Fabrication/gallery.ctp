@@ -286,6 +286,163 @@
                 </div>
             </a>
 
+            <a class = 'thumblink' href = '../res/fabrication/gallery/mop/mop2.jpg' rel = 'prettyPhoto[mop]' title = 'Mother of Pearl'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/mop/thumb2.jpg")'></div>
+                    <h2>Mother of Pearl</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/mop/mop3.jpg' rel = 'prettyPhoto[mop]' title = 'Mother of Pearl'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/mop/thumb3.jpg")'></div>
+                    <h2>Mother of Pearl</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/mop/mop4.jpg' rel = 'prettyPhoto[mop]' title = 'Mother of Pearl'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/mop/thumb4.jpg")'></div>
+                    <h2>Mother of Pearl</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/mop/mop5.jpg' rel = 'prettyPhoto[mop]' title = 'Mother of Pearl'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/mop/thumb5.jpg")'></div>
+                    <h2>Mother of Pearl</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/mop/mop6.jpg' rel = 'prettyPhoto[mop]' title = 'Mother of Pearl'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/mop/thumb6.jpg")'></div>
+                    <h2>Mother of Pearl</h2>
+                </div>
+            </a>
+
+            <!-- Section Title -->
+            <h1>Past Projects</h1>
+            <hr />
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_1.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb1.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_2.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb2.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_3.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb3.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_4.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb4.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_5.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb5.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_6.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb6.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_7.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb7.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_8.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb8.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_9.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb9.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_10.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb10.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_11.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb11.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_12.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb12.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_13.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb13.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_14.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb14.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_15.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb15.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_16.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb16.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
+
+            <a class = 'thumblink' href = '../res/fabrication/gallery/past_projects/past_project_17.jpg' rel = 'prettyPhoto[mop]' title = 'Past Projects'>
+                <div class = 'gallery-photo'>
+                    <div class = 'photothumb' style = 'background-image:url("../res/fabrication/gallery/past_projects/thumb17.jpg")'></div>
+                    <h2>Past Project</h2>
+                </div>
+            </a>
 
 
             <!-- Section Title -->
