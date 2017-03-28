@@ -56,20 +56,6 @@
         <!-- Rows for members. Small divisions for avatar, large for profile info. -->
         <div class = 'row'>
             <div class = 'cell size-35'>
-                <div class = 'profile-photo' style = 'background-image:url("../res/bio/blake.png")'></div>
-            </div>
-            <div class = 'cell size-fill'>
-                <h3 class = 'team-name'>B.T. Yoon</h3>
-                <h4 class = 'team-title'>President, Founder, ALARI Homes and Fabrication</h4>
-                <hr class = 'title-line team' />
-                <p class = 'team-description'>
-                    Mr. Yoon has 20+ years of real estate construction experience building custom homes, improving commercial buildings and developing new restaurant and night club venues.  Mr. Yoon was born and resides in Honolulu where he is raising his young son.
-                </p>
-            </div>
-        </div>
-
-        <div class = 'row'>
-            <div class = 'cell size-35'>
                 <div class = 'profile-photo' style = 'background-image:url("../res/bio/jim.jpg")'></div>
             </div>
             <div class = 'cell size-fill'>
