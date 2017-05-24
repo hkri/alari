@@ -23,7 +23,7 @@
 		 	left: 0px;
 		 }
 		</style>
-		
+
 	</head>
 
 	<body>
@@ -74,7 +74,7 @@
 						<div class = 'cell size-fill'>
 							<div class = 'contact-box'>
 								<h2>Contact</h2>
-								<p>Landline:(323)854-1494</p>
+								<p>Call/Text:(323)854-1494</p>
 							</div>
 						</div>
 					</div>
@@ -122,27 +122,25 @@
 						<p>You can also write us a message here. Fill up the fields below, and we'll respond to your email as soon as we can.</p>
 					</div>
 					<div class = 'row'>
-						<form class = 'messageus-form'>
-							<input name = 'FullName' type = 'text' placeholder = 'Full Name' />
-							<input name = 'Email' type = 'text' placeholder = 'Email Address' />
-							<textarea name = 'Message' placeholder = 'Write your message here.'></textarea>
-							<div class = 'form-controls'>
-								<input name = 'Submit' class = 'button-link' type = 'submit' value = 'Send' />
-								<input name = 'Clear' class = 'button-link' type = 'reset' value = 'Clear' />
-							</div>
+						<form class = 'messageus-form' method="post" accept-charset="utf-8">
+							<p><input name = 'FullName' type = 'text' placeholder = 'Full Name' data-validation="length" data-validation-length="min4" data-validation-error-msg="Please enter valid name" /></p>
+			                <p><input name = 'Email' type = 'text' placeholder = 'Email Address' data-validation="email" data-validation-error-msg="Please enter valid email" /></p>
+			                <p><textarea name = 'Message' placeholder = 'Write your message here.' data-validation="length" data-validation-length="min4" data-validation-error-msg="Please enter valid message"></textarea></p>
+			                <div class = 'form-controls'>
+			                    <input name = 'Submit' class = 'button-link' type = 'submit' value = 'Send' />
+			                    <input name = 'Clear' class = 'button-link' type = 'reset' value = 'Clear' />
+			                </div>
 						</form>
+						<!-- TODO: Validate and send email -->
 					</div>
 				</div>
+			</div>
 		</div>
 
 		<div class = 'footer'>
 			<h6>&copy; 2015 Alari Homes and Fabrication. All Rights Reserved.</h6>
 		</div>
-		
-		
-
-		<!-- jQuery and Javascript Friends -->
-		<script src="../scripts/jquery-1.8.0.min.js"></script>
 
 	</body>
+
 </html>
