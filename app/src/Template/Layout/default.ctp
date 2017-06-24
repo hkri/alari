@@ -109,6 +109,14 @@
                             <a class="<?php echo $this->request->action === 'plans_permits' ? 'active' : ''; ?>" href = '/homes/plans_permits'><li>Plans and Permits</li></a>
                             <a class="<?php echo $this->request->action === 'gallery' ? 'active' : ''; ?>" href = '/homes/gallery'><li>Gallery</li></a>
                             <a class="<?php echo $this->request->action === 'contact' ? 'active' : ''; ?>" href = '/homes/contact'><li>Contact</li></a>
+                            <a class="<?php echo strpos($this->request->action, 'kulamanu_') !== false ? 'active' : ''; ?>">
+                                <li>4079 Kulamanu
+                                    <ul class = 'dropdown'>
+                                        <li><a href = '/homes/kulamanu_pricing'>Pricing</a></li>
+                                        <li><a href = '/homes/kulamanu_gallery'>Gallery</a></li>
+                                    </ul>
+                                </li>
+                            </a>
                         <?php else: ?>
                             <a href = '/'><li>Home</li></a>
                             <a class="<?php echo $this->request->action === 'index' ? 'active' : ''; ?>" href = '/fabrication/'><li>About Us</li></a>
