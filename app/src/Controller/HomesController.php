@@ -38,8 +38,14 @@ class HomesController extends ContactController {
     }
 
     /**
-     * 4079 Kulamanu
+     * 4079 Kulamanu pricing
      */
     public function kulamanu_pricing() {
+    }
+
+    /**
+     * 4079 Kulamanu gallery
+     */
+    public function kulamanu_gallery() {
     }
 }
