@@ -47,10 +47,10 @@
 		</div>
 	  </a>
 
-	  <a class = 'thumblink' href = '../res/homes/gallery/kulamanu/5 Reflecting Pool Deck.jpg' rel = 'prettyPhoto[render]' title = 'Reflecting Pool Deck'>
+	  <a class = 'thumblink' href = '../res/homes/gallery/kulamanu/5 Reflecting Pool Deck.jpg' rel = 'prettyPhoto[render]' title = 'Reflecting Pool'>
 		<div class = 'gallery-photo'>
 		  <div class = 'photothumb' style = 'background-image:url("../res/homes/gallery/kulamanu/thumb/5 Reflecting Pool Deck.jpg")'></div>
-		  <h2>Pool Deck</h2>
+		  <h2>Reflecting Pool</h2>
 		</div>
 	  </a>
 
@@ -68,10 +68,10 @@
 		</div>
 	  </a>
 
-	  <a class = 'thumblink' href = '../res/homes/gallery/kulamanu/8 Cellar.jpg' rel = 'prettyPhoto[render]' title = 'Cellar'>
+	  <a class = 'thumblink' href = '../res/homes/gallery/kulamanu/8 Cellar.jpg' rel = 'prettyPhoto[render]' title = 'Spiral Wine Cellar'>
 		<div class = 'gallery-photo'>
 		  <div class = 'photothumb' style = 'background-image:url("../res/homes/gallery/kulamanu/thumb/8 Cellar.jpg")'></div>
-		  <h2>Cellar</h2>
+		  <h2>Spiral Wine Cellar</h2>
 		</div>
 	  </a>
 
@@ -145,10 +145,10 @@
 		</div>
 	  </a>
 
-	  <a class = 'thumblink' href = '../res/homes/gallery/kulamanu/19 Spa.jpg' rel = 'prettyPhoto[render]' title = 'Spa'>
+	  <a class = 'thumblink' href = '../res/homes/gallery/kulamanu/19 Spa.jpg' rel = 'prettyPhoto[render]' title = 'Spa and Salon'>
 		<div class = 'gallery-photo'>
 		  <div class = 'photothumb' style = 'background-image:url("../res/homes/gallery/kulamanu/thumb/19 Spa.jpg")'></div>
-		  <h2>Spa</h2>
+		  <h2>Spa and Salon</h2>
 		</div>
 	  </a>
 
