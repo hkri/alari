@@ -13,9 +13,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
 		<!-- External Styles -->
-		<link rel = 'stylesheet' href = '../styles/reset.css' />
-		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
-		<link rel = 'stylesheet' href = '../styles/prettyPhoto.css' />
+		<link rel = 'stylesheet' href = '../../styles/reset.css' />
+		<link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
+		<link rel = 'stylesheet' href = '../../styles/prettyPhoto.css' />
 
 		<!-- Page specific styles -->
 		<style type = 'text/css'>
@@ -26,7 +26,7 @@
 			color: #255c54;
 		}
 		</style>
-		
+
 	</head>
 
 	<body>
@@ -35,23 +35,23 @@
 			<div class = 'wrapper'>
 				<div class = 'header-logobox noselect'>
 					<!-- Please use 380x80 pixel logo for best results. -->
-					<img class = 'nav-logo' src = '../res/fabrication/fabrication-dummy-logo.png' />
+					<img class = 'nav-logo' src = '../../res/fabrication/fabrication-dummy-logo.png' />
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
-						<a href = '../index.php'><li>Home</li></a>
-						<a href = 'index.php'><li>About Us</li></a>
-						<a href = 'our-team.php'><li>Our Team</li></a>
+						<a href = '/'><li>Home</li></a>
+						<a href = '../'><li>About Us</li></a>
+						<a href = '../our_team'><li>Our Team</li></a>
 						<a class = 'active'><li>Shop Drawings</li></a>
-						<a href = 'gallery.php'><li>Gallery</li></a>
-						<a href = 'contact.php'><li>Contact</li></a>
+						<a href = '../gallery'><li>Gallery</li></a>
+						<a href = '../contact'><li>Contact</li></a>
 					</ul>
 				</div>
 			</div>
 		</div>
 
 		<div class = 'content'>
-			<div class = 'cover-photo' style = 'background-image:url("../res/fabrication/fab_shopdraw.jpg")'>
+			<div class = 'cover-photo' style = 'background-image:url("../../res/fabrication/fab_shopdraw.jpg")'>
 				<h1 class = 'light'>Plans and Shop Drawings</h1>
 			</div>
 			<!-- Disabled selection toolbar.
@@ -92,7 +92,7 @@
 						</p>
 					</div>
 					 <!-- To do: updated href to plan PDF link -->
-					<a class = 'no-fade' target = '_blank' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAA9Ao3jPf3w4vpqb7Qkh2s_a/Ryan's%20File%20_for%20Website/SHOP%20DRAWINGS-ALARI%20FABRICATION/1933%20_SHOP%20DRAWING_1%20WITH%20DIM.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a class = 'no-fade' target = '_blank' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAA9Ao3jPf3w4vpqb7Qkh2s_a/Ryan's%20File%20_for%20Website/SHOP%20DRAWINGS-ALARI%20FABRICATION/1933%20_SHOP%20DRAWING_1%20WITH%20DIM.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -110,7 +110,7 @@
 						</p>
 					</div>
 					 <!-- To do: updated href to plan PDF link -->
-					<a class = 'no-fade' target = '_blank' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABBi1vfHUhsWxMYX4TKPwJSa/Ryan's%20File%20_for%20Website/SHOP%20DRAWINGS-ALARI%20FABRICATION/1935%20BAMBOO%20CONCEPT_with%20dimensions.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a class = 'no-fade' target = '_blank' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABBi1vfHUhsWxMYX4TKPwJSa/Ryan's%20File%20_for%20Website/SHOP%20DRAWINGS-ALARI%20FABRICATION/1935%20BAMBOO%20CONCEPT_with%20dimensions.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -128,7 +128,7 @@
 						</p>
 					</div>
 					 <!-- To do: updated href to plan PDF link -->
-					<a class = 'no-fade' target = '_blank' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAcT_QAIHIZ_i4zFZxq3dvea/Ryan's%20File%20_for%20Website/SHOP%20DRAWINGS-ALARI%20FABRICATION/W1_SAMPLE%20_AWNING.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a class = 'no-fade' target = '_blank' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAcT_QAIHIZ_i4zFZxq3dvea/Ryan's%20File%20_for%20Website/SHOP%20DRAWINGS-ALARI%20FABRICATION/W1_SAMPLE%20_AWNING.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -145,7 +145,7 @@
 						</p>
 					</div>
 					 <!-- To do: updated href to plan PDF link -->
-					<a class = 'no-fade' target = '_blank' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAnXLm-6i93N9ROpimcyNX5a/Ryan's%20File%20_for%20Website/SHOP%20DRAWINGS-ALARI%20FABRICATION/W2_CASEMENT%20WINDOW_SAMPLE.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a class = 'no-fade' target = '_blank' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAnXLm-6i93N9ROpimcyNX5a/Ryan's%20File%20_for%20Website/SHOP%20DRAWINGS-ALARI%20FABRICATION/W2_CASEMENT%20WINDOW_SAMPLE.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -163,21 +163,21 @@
 						</p>
 					</div>
 					 <!-- To do: updated href to plan PDF link -->
-					<a class = 'no-fade' target = '_blank' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACFNG0MJbg5TescncxSMarga/Ryan%27s%20File%20_for%20Website/SHOP%20DRAWINGS-ALARI%20FABRICATION/W3_SLIDING%20WINDOW_SAMPLE.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a class = 'no-fade' target = '_blank' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACFNG0MJbg5TescncxSMarga/Ryan%27s%20File%20_for%20Website/SHOP%20DRAWINGS-ALARI%20FABRICATION/W3_SLIDING%20WINDOW_SAMPLE.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
-				
+
 			</div>
 		</div>
 
 		<div class = 'footer'>
 			<h6>&copy; 2015 Alari Homes and Fabrication. All Rights Reserved.</h6>
 		</div>
-		
-		
+
+
 
 		<!-- jQuery and Javascript Friends -->
-		<script src="../scripts/jquery-1.8.0.min.js"></script>
-		<script src="../scripts/jquery.prettyPhoto.js"></script>
+		<script src="../../scripts/jquery-1.8.0.min.js"></script>
+		<script src="../../scripts/jquery.prettyPhoto.js"></script>
 
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library

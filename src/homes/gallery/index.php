@@ -11,9 +11,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
 		<!-- External Styles -->
-		<link rel = 'stylesheet' href = '../styles/reset.css' />
-		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
-		<link rel = 'stylesheet' href = '../styles/prettyPhoto.css' />
+		<link rel = 'stylesheet' href = '../../styles/reset.css' />
+		<link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
+		<link rel = 'stylesheet' href = '../../styles/prettyPhoto.css' />
 
 
 	</head>
@@ -24,20 +24,20 @@
 			<div class = 'wrapper'>
 				<div class = 'header-logobox noselect'>
 					<!-- Please use 380x80 pixel logo for best results. -->
-					<img class = 'nav-logo' src = '../res/homes/homes-dummy-logo.png' />
+					<img class = 'nav-logo' src = '../../res/homes/homes-dummy-logo.png' />
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
-						<a href = '../index.php'><li>Home</li></a>
-						<a href = 'index.php'><li>About Us</li></a>
-						<a href = 'dda.php'><li>DDA Services</li></a>
-						<a href = 'our-team.php'><li>Our Team</li></a>
-						<a href = 'plans-permits.php'><li>Plans and Permits</li></a>
+						<a href = '/'><li>Home</li></a>
+						<a href = '../'><li>About Us</li></a>
+						<a href = '../dda'><li>DDA Services</li></a>
+						<a href = '../our_team'><li>Our Team</li></a>
+						<a href = '../plans_permits'><li>Plans and Permits</li></a>
 						<a class = 'active'><li>Gallery</li></a>
-						<a href = 'contact.php'><li>Contact</li></a>
+						<a href = '../contact'><li>Contact</li></a>
 						<a><li>4079 Kulamanu<ul class = 'dropdown'>
-              <li><a href = 'kulamanu-pricing.php'>Pricing</a></li>
-              <li><a href = 'kulamanu-gallery.php'>Gallery</a></li>
+              <li><a href = '../kulamanu_pricing'>Pricing</a></li>
+              <li><a href = '../kulamanu_gallery'>Gallery</a></li>
             </ul></li></a>
 					</ul>
 				</div>
@@ -45,7 +45,7 @@
 		</div>
 
 		<div class = 'content'>
-			<div class = 'cover-photo' style = 'background-image:url("../res/homes/homes_gallery_cover.jpg")'>
+			<div class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_gallery_cover.jpg")'>
 				<h1 class = 'light'>Gallery</h1>
 			</div>
 
@@ -178,10 +178,10 @@
 
 
 		<!-- jQuery and Javascript Friends -->
-		<script src="../scripts/jquery-1.8.0.min.js" type = 'text/javascript' charset = 'utf-8'></script>
-		<script src="../scripts/jquery.easing.1.3.js"></script>
-		<script src="../scripts/jquery.scrollTo.min.js"></script>
-		<script src="../scripts/jquery.prettyPhoto.js"></script>
+		<script src="../../scripts/jquery-1.8.0.min.js" type = 'text/javascript' charset = 'utf-8'></script>
+		<script src="../../scripts/jquery.easing.1.3.js"></script>
+		<script src="../../scripts/jquery.scrollTo.min.js"></script>
+		<script src="../../scripts/jquery.prettyPhoto.js"></script>
 
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library

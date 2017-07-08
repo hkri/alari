@@ -28,9 +28,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
 		<!-- External Styles -->
-		<link rel = 'stylesheet' href = '../styles/reset.css' />
-		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
-		<link rel = 'stylesheet' href = '../styles/prettyPhoto.css' />
+		<link rel = 'stylesheet' href = '../../styles/reset.css' />
+		<link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
+		<link rel = 'stylesheet' href = '../../styles/prettyPhoto.css' />
 
 
 	</head>
@@ -41,23 +41,23 @@
 			<div class = 'wrapper'>
 				<div class = 'header-logobox noselect'>
 					<!-- Please use 380x80 pixel logo for best results. -->
-					<img class = 'nav-logo' src = '../res/fabrication/fabrication-dummy-logo.png' />
+					<img class = 'nav-logo' src = '../../res/fabrication/fabrication-dummy-logo.png' />
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
-						<a href = '../index.php'><li>Home</li></a>
-						<a href = 'index.php'><li>About Us</li></a>
-						<a href = 'our-team.php'><li>Our Team</li></a>
-						<a href = 'shop-drawings.php'><li>Shop Drawings</li></a>
+						<a href = '/'><li>Home</li></a>
+						<a href = '../'><li>About Us</li></a>
+						<a href = '../our_team'><li>Our Team</li></a>
+						<a href = '../shop-drawings'><li>Shop Drawings</li></a>
 						<a class = 'active'><li>Gallery</li></a>
-						<a href = 'contact.php'><li>Contact</li></a>
+						<a href = '../contact'><li>Contact</li></a>
 					</ul>
 				</div>
 			</div>
 		</div>
 
 		<div class = 'content'>
-			<div class = 'cover-photo' style = 'background-image:url("../res/fabrication/fab_gallery_cover.jpg")'>
+			<div class = 'cover-photo' style = 'background-image:url("../../res/fabrication/fab_gallery_cover.jpg")'>
 				<h1 class = 'light'>Gallery</h1>
 			</div>
 
@@ -537,8 +537,8 @@
 
 
 		<!-- jQuery and Javascript Friends -->
-		<script src="../scripts/jquery-1.3.2.min.js"></script>
-		<script src="../scripts/jquery.prettyPhoto.js"></script>
+		<script src="../../scripts/jquery-1.3.2.min.js"></script>
+		<script src="../../scripts/jquery.prettyPhoto.js"></script>
 
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library

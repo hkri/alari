@@ -14,9 +14,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
 
 		<!-- External Styles -->
-		<link rel = 'stylesheet' href = '../styles/reset.css' />
-		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
-		<link rel = 'stylesheet' href = '../styles/prettyPhoto.css' />
+		<link rel = 'stylesheet' href = '../../styles/reset.css' />
+		<link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
+		<link rel = 'stylesheet' href = '../../styles/prettyPhoto.css' />
 
 		<!-- Google Maps Script -->
 		<script src="https://maps.googleapis.com/maps/api/js"></script>
@@ -41,15 +41,15 @@
 			<div class = 'wrapper'>
 				<div class = 'header-logobox noselect'>
 					<!-- Please use 380x80 pixel logo for best results. -->
-					<img class = 'nav-logo' src = '../res/fabrication/fabrication-dummy-logo.png' />
+					<img class = 'nav-logo' src = '../../res/fabrication/fabrication-dummy-logo.png' />
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
-						<a href = '../index.php'><li>Home</li></a>
-						<a href = 'index.php'><li>About Us</li></a>
-						<a href = 'our-team.php'><li>Our Team</li></a>
-						<a href = 'shop-drawings.php'><li>Shop Drawings</li></a>
-						<a href = 'gallery.php'><li>Gallery</li></a>
+						<a href = '/'><li>Home</li></a>
+						<a href = '../'><li>About Us</li></a>
+						<a href = '../our-team'><li>Our Team</li></a>
+						<a href = '../shop-drawings'><li>Shop Drawings</li></a>
+						<a href = '../gallery'><li>Gallery</li></a>
 						<a class = 'active'><li>Contact</li></a>
 					</ul>
 				</div>
@@ -57,7 +57,7 @@
 		</div>
 
 		<div class = 'content contact-us'>
-				<div class = 'cover-photo' style = 'background-image:url("../res/fabrication/fab_contactus.jpg")'>
+				<div class = 'cover-photo' style = 'background-image:url("../../res/fabrication/fab_contactus.jpg")'>
 					<h1 class = 'light'>Contact Us</h1>
 				</div>
 
@@ -150,8 +150,8 @@
 
 
 		<!-- jQuery and Javascript Friends -->
-		<script src="../scripts/jquery-1.8.0.min.js"></script>
-		<script src="../scripts/jquery.prettyPhoto.js"></script>
+		<script src="../../scripts/jquery-1.8.0.min.js"></script>
+		<script src="../../scripts/jquery.prettyPhoto.js"></script>
 
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library

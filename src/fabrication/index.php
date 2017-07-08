@@ -32,7 +32,7 @@
 				background-color: #4e9dc2;
 			}
 		</style>
-		
+
 	</head>
 
 	<body>
@@ -45,12 +45,12 @@
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
-						<a href = '../index.php'><li>Home</li></a>
+						<a href = '/'><li>Home</li></a>
 						<a class = 'active'><li>About Us</li></a>
-						<a href = 'our-team.php'><li>Our Team</li></a>
-						<a href = 'shop-drawings.php'><li>Shop Drawings</li></a>
-						<a href = 'gallery.php'><li>Gallery</li></a>
-						<a href = 'contact.php'><li>Contact</li></a>
+						<a href = 'our_team'><li>Our Team</li></a>
+						<a href = 'shop_drawings'><li>Shop Drawings</li></a>
+						<a href = 'gallery'><li>Gallery</li></a>
+						<a href = 'contact'><li>Contact</li></a>
 					</ul>
 				</div>
 			</div>
@@ -71,7 +71,7 @@
 						<p>
 						ALARI CUSTOM FABRICATION &amp; DESIGN is staffed by expert and degreed designers and fabricators – model makers and craftsmen.  The management of our overseas factory is covered by both European (German), Filipino Architects and American personnel.
 						<br /> <br />
-						Our selection of hardwoods are harvested both locally and from abroad and are always selected for the highest quality attainable anywhere.   
+						Our selection of hardwoods are harvested both locally and from abroad and are always selected for the highest quality attainable anywhere.
 						<br /> <br />
 						Our commitment to <b><i>only</i></b> renewable natural resources is vigorously maintained.  Our rare Mother-of-Pearl inlays, tiles, mosaics and vanities come from only farmed pearl oysters in the Philippines.
 						<br /> <br />
@@ -112,8 +112,8 @@
 		<div class = 'footer'>
 			<h6>&copy; 2015 Alari Homes and Fabrication. All Rights Reserved.</h6>
 		</div>
-		
-		
+
+
 
 		<!-- jQuery and Javascript Friends -->
 		<script src="../scripts/jquery-1.8.0.min.js"></script>

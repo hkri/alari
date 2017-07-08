@@ -10,8 +10,8 @@
     <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
 
     <!-- External Styles -->
-    <link rel = 'stylesheet' href = '../styles/reset.css' />
-    <link rel = 'stylesheet' href = '../styles/alaristyle.css' />
+    <link rel = 'stylesheet' href = '../../styles/reset.css' />
+    <link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
 
     <!-- Local Stylsheet -->
     <style type = 'text/css'>
@@ -28,20 +28,20 @@
     <div class = 'header'>
       <div class = 'wrapper'>
         <div class = 'header-logobox noselect'>
-          <img class = 'nav-logo' src = '../res/homes/homes-dummy-logo.png' />
+          <img class = 'nav-logo' src = '../../res/homes/homes-dummy-logo.png' />
         </div>
         <div class = 'header-navbox'>
           <ul class = 'nav noselect'>
-            <a href = '../index.php'><li>Home</li></a>
-            <a href = 'index.php'><li>About Us</li></a>
-            <a href = 'dda.php'><li>DDA Services</li></a>
-            <a href = 'our-team.php'><li>Our Team</li></a>
-            <a href = 'plans-permits.php'><li>Plans and Permits</li></a>
-            <a href = 'gallery.php'><li>Gallery</li></a>
+            <a href = '/'><li>Home</li></a>
+            <a href = '../'><li>About Us</li></a>
+            <a href = '../dda'><li>DDA Services</li></a>
+            <a href = '../our_team'><li>Our Team</li></a>
+            <a href = '../plans_permits'><li>Plans and Permits</li></a>
+            <a href = '../gallery'><li>Gallery</li></a>
             <a class = 'active'><li>Contact</li></a>
             <a><li>4079 Kulamanu<ul class = 'dropdown'>
-              <li><a href = 'kulamanu-pricing.php'>Pricing</a></li>
-              <li><a href = 'kulamanu-gallery.php'>Gallery</a></li>
+              <li><a href = '../kulamanu_pricing'>Pricing</a></li>
+              <li><a href = '../kulamanu_gallery'>Gallery</a></li>
             </ul></li></a>
           </ul>
         </div>
@@ -49,7 +49,7 @@
     </div>
 
     <div class = 'content contact-us'>
-        <div class = 'cover-photo' style = 'background-image:url("../res/homes/homes_contactus.jpg")'>
+        <div class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_contactus.jpg")'>
           <h1 class = 'light'>Contact Us</h1>
         </div>
 

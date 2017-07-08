@@ -12,8 +12,8 @@
 		<link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
 
 		<!-- External Styles -->
-		<link rel = 'stylesheet' href = '../styles/reset.css' />
-		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
+		<link rel = 'stylesheet' href = '../../styles/reset.css' />
+		<link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
 
 		<style type = 'text/css'>
 
@@ -26,20 +26,20 @@
 			<div class = 'wrapper'>
 				<div class = 'header-logobox noselect'>
 					<!-- Please use 380x80 pixel logo for best results. -->
-					<img class = 'nav-logo' src = '../res/homes/homes-dummy-logo.png' />
+					<img class = 'nav-logo' src = '../../res/homes/homes-dummy-logo.png' />
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
-						<a href = '../index.php'><li>Home</li></a>
-						<a href = 'index.php'><li>About Us</li></a>
+						<a href = '/'><li>Home</li></a>
+						<a href = '../'><li>About Us</li></a>
 						<a class = 'active'><li>DDA Services</li></a>
-						<a href = 'our-team.php'><li>Our Team</li></a>
-						<a href = 'plans-permits.php'><li>Plans and Permits</li></a>
-						<a href = 'gallery.php'><li>Gallery</li></a>
-						<a href = 'contact.php'><li>Contact</li></a>
+						<a href = '../our_team'><li>Our Team</li></a>
+						<a href = '../plans_permits'><li>Plans and Permits</li></a>
+						<a href = '../gallery'><li>Gallery</li></a>
+						<a href = '../contact'><li>Contact</li></a>
 						<a><li>4079 Kulamanu<ul class = 'dropdown'>
-              <li><a href = 'kulamanu-pricing.php'>Pricing</a></li>
-              <li><a href = 'kulamanu-gallery.php'>Gallery</a></li>
+              <li><a href = '../kulamanu_pricing'>Pricing</a></li>
+              <li><a href = '../kulamanu_gallery'>Gallery</a></li>
             </ul></li></a>
 					</ul>
 				</div>
@@ -47,7 +47,7 @@
 		</div>
 
 		<div class = 'content'>
-			<div class = 'cover-photo' style = 'background-image:url("../res/homes/homes_cover.jpg")'>
+			<div class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_cover.jpg")'>
 				<h1 class = 'light'>Drafting and Architectural Design Service</h1>
 			</div>
 
@@ -59,7 +59,7 @@
 
 				<div class = 'row'>
 					<div class = 'cell size-25 icons'>
-						<img src = '../res/homes/draft.png' alt = 'DDA Icon' />
+						<img src = '../../res/homes/draft.png' alt = 'DDA Icon' />
 					</div>
 					<div class = 'cell size-fill service-item-text'>
 						<h2>Architectural Design Service (DDA Service)</h2>
@@ -68,7 +68,7 @@
 				</div>
 				<div class = 'row'>
 					<div class = 'cell size-25 icons'>
-						<img src = '../res/homes/3d.png' alt = '3D Model Icon'  />
+						<img src = '../../res/homes/3d.png' alt = '3D Model Icon'  />
 					</div>
 					<div class = 'cell size-fill service-item-text'>
 						<h2>3D Visualization</h2>
@@ -77,7 +77,7 @@
 				</div>
 				<div class = 'row'>
 					<div class = 'cell size-25 icons'>
-						<img src = '../res/homes/smodel.png' alt = 'Scaled Model Icon'  />
+						<img src = '../../res/homes/smodel.png' alt = 'Scaled Model Icon'  />
 					</div>
 					<div class = 'cell size-fill service-item-text'>
 						<h2>Scaled Modelling</h2>
@@ -86,7 +86,7 @@
 				</div>
 				<div class = 'row'>
 					<div class = 'cell size-25 icons'>
-						<img src = '../res/homes/walkthrough.png' alt = 'Walkthrough Icon' />
+						<img src = '../../res/homes/walkthrough.png' alt = 'Walkthrough Icon' />
 					</div>
 					<div class = 'cell size-fill service-item-text'>
 						<h2>Walkthrough</h2>
@@ -95,7 +95,7 @@
 				</div>
 				<div class = 'row'>
 					<div class = 'cell size-25 icons'>
-						<img src = '../res/homes/team.png' alt = 'Team Icon' />
+						<img src = '../../res/homes/team.png' alt = 'Team Icon' />
 					</div>
 					<div class = 'cell size-fill service-item-text'>
 						<h2>Multi-disciplinary Team</h2>
@@ -114,7 +114,7 @@
 
 
 		<!-- jQuery and Javascript Friends -->
-		<script src="../scripts/jquery-1.8.0.min.js"></script>
+		<script src="../../scripts/jquery-1.8.0.min.js"></script>
 
 	</body>
 </html>

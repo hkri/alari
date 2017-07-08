@@ -17,8 +17,8 @@
 
 
 		<!-- External Styles -->
-		<link rel = 'stylesheet' href = '../styles/reset.css' />
-		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
+		<link rel = 'stylesheet' href = '../../styles/reset.css' />
+		<link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
 
 		<!-- Page specific styles -->
 		<style type = 'text/css'>
@@ -63,20 +63,20 @@
 			<div class = 'wrapper'>
 				<div class = 'header-logobox noselect'>
 					<!-- Please use 380x80 pixel logo for best results. -->
-					<img class = 'nav-logo' src = '../res/homes/homes-dummy-logo.png' />
+					<img class = 'nav-logo' src = '../../res/homes/homes-dummy-logo.png' />
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
-						<a href = '../index.php'><li>Home</li></a>
-						<a href = 'index.php'><li>About Us</li></a>
-						<a href = 'dda.php'><li>DDA Services</li></a>
+						<a href = '/'><li>Home</li></a>
+						<a href = '../'><li>About Us</li></a>
+						<a href = '../dda'><li>DDA Services</li></a>
 						<a class = 'active'><li>Our Team</li></a>
-						<a href = 'plans-permits.php'><li>Plans and Permits</li></a>
-						<a href = 'gallery.php'><li>Gallery</li></a>
-						<a href = 'contact.php'><li>Contact</li></a>
+						<a href = '../plans_permits'><li>Plans and Permits</li></a>
+						<a href = '../gallery'><li>Gallery</li></a>
+						<a href = '../contact'><li>Contact</li></a>
 						<a><li>4079 Kulamanu<ul class = 'dropdown'>
-              <li><a href = 'kulamanu-pricing.php'>Pricing</a></li>
-              <li><a href = 'kulamanu-gallery.php'>Gallery</a></li>
+              <li><a href = 'kulamanu_pricing'>Pricing</a></li>
+              <li><a href = 'kulamanu_gallery'>Gallery</a></li>
             </ul></li></a>
 					</ul>
 				</div>
@@ -87,7 +87,7 @@
 			<!--
 			<h1 style = 'position: absolute;top: 50%; width: 100%;text-align: center;font-weight: normal;opacity: 0.7'>TODO: PUT "OUR TEAM" RELATED STUFF HERE.</h1>
 			-->
-			<div class = 'cover-photo' style = 'background-image:url("../res/homes/homes_ourteam_cover.jpg")'>
+			<div class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_ourteam_cover.jpg")'>
 				<h1 class = 'light'>Our Team</h1>
 			</div>
 
@@ -100,7 +100,7 @@
 				<!-- Rows for members. Small divisions for avatar, large for profile info. -->
 				<div class = 'row'>
 					<div class = 'cell size-35'>
-						<div class = 'profile-photo' style = 'background-image:url("../res/bio/jim.jpg")'></div>
+						<div class = 'profile-photo' style = 'background-image:url("../../res/bio/jim.jpg")'></div>
 					</div>
 					<div class = 'cell size-fill'>
 						<h3 class = 'team-name'>James Matichuk</h3>
@@ -114,7 +114,7 @@
 
 				<div class = 'row'>
 					<div class = 'cell size-35'>
-						<div class = 'profile-photo' style = 'background-image:url("../res/bio/emilio.jpg")'></div>
+						<div class = 'profile-photo' style = 'background-image:url("../../res/bio/emilio.jpg")'></div>
 					</div>
 					<div class = 'cell size-fill'>
 						<h3 class = 'team-name'>Emilio Elpedes</h3>
@@ -135,6 +135,6 @@
 		</div>
 
 		<!-- jQuery and Javascript Friends -->
-		<script src="../scripts/jquery-1.8.0.min.js"></script>
+		<script src="../../scripts/jquery-1.8.0.min.js"></script>
 	</body>
 </html>

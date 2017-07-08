@@ -14,8 +14,8 @@
 		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
 		<!-- External Styles -->
-		<link rel = 'stylesheet' href = '../styles/reset.css' />
-		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
+		<link rel = 'stylesheet' href = '../../styles/reset.css' />
+		<link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
 
 		<!-- Page specific styles -->
 		<style type = 'text/css'>
@@ -63,16 +63,16 @@
 			<div class = 'wrapper'>
 				<div class = 'header-logobox noselect'>
 					<!-- Please use 380x80 pixel logo for best results. -->
-					<img class = 'nav-logo' src = '../res/fabrication/fabrication-dummy-logo.png' />
+					<img class = 'nav-logo' src = '../../res/fabrication/fabrication-dummy-logo.png' />
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
-						<a href = '../index.php'><li>Home</li></a>
-						<a href = 'index.php'><li>About Us</li></a>
+						<a href = '/'><li>Home</li></a>
+						<a href = '../'><li>About Us</li></a>
 						<a class = 'active'><li>Our Team</li></a>
-						<a href = 'shop-drawings.php'><li>Shop Drawings</li></a>
-						<a href = 'gallery.php'><li>Gallery</li></a>
-						<a href = 'contact.php'><li>Contact</li></a>
+						<a href = '../shop_drawings'><li>Shop Drawings</li></a>
+						<a href = '../gallery'><li>Gallery</li></a>
+						<a href = '../contact'><li>Contact</li></a>
 					</ul>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
 			<!--
 			<h1 style = 'position: absolute;top: 50%; width: 100%;text-align: center;font-weight: normal;opacity: 0.7'>TODO: PUT "OUR TEAM" RELATED STUFF HERE.</h1>
 			-->
-			<div class = 'cover-photo' style = 'background-image:url("../res/fabrication/fab_ourteam_cover.jpg")'>
+			<div class = 'cover-photo' style = 'background-image:url("../../res/fabrication/fab_ourteam_cover.jpg")'>
 				<h1 class = 'light'>Our Team</h1>
 			</div>
 
@@ -95,7 +95,7 @@
 				<!-- Rows for members. Small divisions for avatar, large for profile info. -->
 		        <div class = 'row'>
 		            <div class = 'cell size-35'>
-		                <div class = 'profile-photo'  style = 'background-image:url("../res/bio/ryan.png")'>
+		                <div class = 'profile-photo'  style = 'background-image:url("../../res/bio/ryan.png")'>
 		                </div>
 		            </div>
 		            <div class = 'cell size-fill'>
@@ -112,7 +112,7 @@
 
 		        <div class = 'row'>
 		            <div class = 'cell size-35'>
-		                <div class = 'profile-photo' style = 'background-image:url("../res/bio/chris.jpg")'>
+		                <div class = 'profile-photo' style = 'background-image:url("../../res/bio/chris.jpg")'>
 		                </div>
 		            </div>
 		            <div class = 'cell size-fill'>
@@ -169,7 +169,7 @@
 
 
 		<!-- jQuery and Javascript Friends -->
-		<script src="../scripts/jquery-1.8.0.min.js"></script>
+		<script src="../../scripts/jquery-1.8.0.min.js"></script>
 
 	</body>
 </html>

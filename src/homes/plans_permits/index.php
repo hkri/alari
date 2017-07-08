@@ -14,9 +14,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
 		<!-- External Styles -->
-		<link rel = 'stylesheet' href = '../styles/reset.css' />
-		<link rel = 'stylesheet' href = '../styles/alaristyle.css' />
-		<link rel = 'stylesheet' href = '../styles/prettyPhoto.css' />
+		<link rel = 'stylesheet' href = '../../styles/reset.css' />
+		<link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
+		<link rel = 'stylesheet' href = '../../styles/prettyPhoto.css' />
 
 	</head>
 
@@ -26,20 +26,20 @@
 			<div class = 'wrapper'>
 				<div class = 'header-logobox noselect'>
 					<!-- Please use 380x80 pixel logo for best results. -->
-					<img class = 'nav-logo' src = '../res/homes/homes-dummy-logo.png' />
+					<img class = 'nav-logo' src = '../../res/homes/homes-dummy-logo.png' />
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
-						<a href = '../index.php'><li>Home</li></a>
-						<a href = 'index.php'><li>About Us</li></a>
-						<a href = 'dda.php'><li>DDA Services</li></a>
-						<a href = 'our-team.php'><li>Our Team</li></a>
+						<a href = '/'><li>Home</li></a>
+						<a href = '../'><li>About Us</li></a>
+						<a href = '../dda'><li>DDA Services</li></a>
+						<a href = '../our_team'><li>Our Team</li></a>
 						<a class = 'active'><li>Plans and Permits</li></a>
-						<a href = 'gallery.php'><li>Gallery</li></a>
-						<a href = 'contact.php'><li>Contact</li></a>
+						<a href = '../gallery'><li>Gallery</li></a>
+						<a href = '../contact'><li>Contact</li></a>
 						<a><li>4079 Kulamanu<ul class = 'dropdown'>
-              <li><a href = 'kulamanu-pricing.php'>Pricing</a></li>
-              <li><a href = 'kulamanu-gallery.php'>Gallery</a></li>
+              <li><a href = '../kulamanu_pricing'>Pricing</a></li>
+              <li><a href = '../kulamanu_gallery'>Gallery</a></li>
             </ul></li></a>
 					</ul>
 				</div>
@@ -47,7 +47,7 @@
 		</div>
 
 		<div class = 'content'>
-			<div class = 'cover-photo' style = 'background-image:url("../res/homes/homes_plans.jpg")'>
+			<div class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_plans.jpg")'>
 				<h1 class = 'light'>Plans and Permits</h1>
 			</div>
 
@@ -79,7 +79,7 @@
 						</p>
 					</div>
 					<!-- add class no-fade to each a to disable the link click fade effect -->
-					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACS3creaJrAb8Ui5-7QpEXza/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A000.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACS3creaJrAb8Ui5-7QpEXza/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A000.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -96,7 +96,7 @@
 							Main level floorplan.
 						</p>
 					</div>
-					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACbunzMrHsSrtNyGRiso4YCa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A004.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACbunzMrHsSrtNyGRiso4YCa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A004.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -113,7 +113,7 @@
 							Left and rear elevation.
 						</p>
 					</div>
-					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABLYB5DeBydrbAUMXmZCp03a/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A007.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABLYB5DeBydrbAUMXmZCp03a/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A007.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -130,7 +130,7 @@
 							Right and front elevation.
 						</p>
 					</div>
-					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AADbcM469BKHsP4e8ZgwMl3Ba/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A008.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AADbcM469BKHsP4e8ZgwMl3Ba/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A008.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -147,7 +147,7 @@
 							Section "A" and section "B".
 						</p>
 					</div>
-					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAColMn_SO9TAlKm07p-GWsna/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A009.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAColMn_SO9TAlKm07p-GWsna/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A009.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -164,7 +164,7 @@
 							Blow-up plan, sections, finishes.
 						</p>
 					</div>
-					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABDf01thzOZaAB0FZhly31Ha/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A011.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABDf01thzOZaAB0FZhly31Ha/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A011.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -181,7 +181,7 @@
 							Blow-up plan, sections, finishes.
 						</p>
 					</div>
-					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABZ8Izk6l9Hn_afcsF6d6Waa/Ryan%27s%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A014.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABZ8Izk6l9Hn_afcsF6d6Waa/Ryan%27s%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/A014.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -198,7 +198,7 @@
 							Roof framing and details.
 						</p>
 					</div>
-					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAACh_q4DqYT4nKhATBPIZIda/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/S002.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAACh_q4DqYT4nKhATBPIZIda/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/MAIN%20HOUSE/S002.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 
@@ -218,7 +218,7 @@
 							Ground floor plan, 2nd floor plan.
 						</p>
 					</div>
-					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACV_2FRNnfcOLsENUSXfOWsa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-2.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AACV_2FRNnfcOLsENUSXfOWsa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-2.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -235,7 +235,7 @@
 							Elevation northwest northeast.
 						</p>
 					</div>
-					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAn-NjzymC_LpzOJukg2vjCa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-3.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAn-NjzymC_LpzOJukg2vjCa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-3.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -252,7 +252,7 @@
 							Elevation southwest southeast.
 						</p>
 					</div>
-					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAZ8Es3Royk64tsl2_UTlrJa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-4.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAZ8Es3Royk64tsl2_UTlrJa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-4.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -269,7 +269,7 @@
 							Sections, cross section longitudinal.
 						</p>
 					</div>
-					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABFKq7toSzzj5Ld7H2xF4mna/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-6.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AABFKq7toSzzj5Ld7H2xF4mna/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/A-6.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -286,7 +286,7 @@
 							Foundation details of footing.
 						</p>
 					</div>
-					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAd5ISSt4HWg7d-0tXLncLNa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/S-1.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAd5ISSt4HWg7d-0tXLncLNa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/S-1.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 				<div class = 'listitem'>
@@ -303,7 +303,7 @@
 							2nd floor framing and roof framing.
 						</p>
 					</div>
-					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAJLz78q5VRDxDm0lLBFxNpa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/S-2.pdf?dl=0"><img src = '../res/icons/download.png' /><span>Download PDF</span></a>
+					<a target = '_blank' class = 'no-fade' href = "https://www.dropbox.com/sh/hcmwz76gilgrfhz/AAAJLz78q5VRDxDm0lLBFxNpa/Ryan's%20File%20_for%20Website/PLANS%20-%20ALARI%20HOMES/ACCESSORY%20HOUSE/S-2.pdf?dl=0"><img src = '../../res/icons/download.png' /><span>Download PDF</span></a>
 				</div>
 
 			</div>
@@ -316,8 +316,8 @@
 
 
 		<!-- jQuery and Javascript Friends -->
-		<script src="../scripts/jquery-1.8.0.min.js"></script>
-		<script src="../scripts/jquery.prettyPhoto.js"></script>
+		<script src="../../scripts/jquery-1.8.0.min.js"></script>
+		<script src="../../scripts/jquery.prettyPhoto.js"></script>
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library
 			var $doc = $(document);

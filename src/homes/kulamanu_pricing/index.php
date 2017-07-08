@@ -7,8 +7,8 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
-    <link rel = 'stylesheet' href = '../styles/reset.css' />
-    <link rel = 'stylesheet' href = '../styles/alaristyle.css' />
+    <link rel = 'stylesheet' href = '../../styles/reset.css' />
+    <link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
     <style type = 'text/css'>
       .our-story  { padding-right: 30px;        }
       .row-mission{ margin-top: 30px;           }
@@ -66,20 +66,20 @@
     <div class = 'header'>
       <div class = 'wrapper'>
         <div class = 'header-logobox noselect'>
-          <img class = 'nav-logo' src = '../res/homes/homes-dummy-logo.png' />
+          <img class = 'nav-logo' src = '../../res/homes/homes-dummy-logo.png' />
         </div>
         <div class = 'header-navbox'>
           <ul class = 'nav noselect'>
-            <a href = '../index.php'><li>Home</li></a>
-            <a href = 'index.php'><li>About Us</li></a>
-            <a href = 'dda.php'><li>DDA Services</li></a>
-            <a href = 'our-team.php'><li>Our Team</li></a>
-            <a href = 'plans-permits.php'><li>Plans and Permits</li></a>
-            <a href = 'gallery.php'><li>Gallery</li></a>
-            <a href = 'contact.php'><li>Contact</li></a>
+            <a href = '/'><li>Home</li></a>
+            <a href = '../'><li>About Us</li></a>
+            <a href = '../dda'><li>DDA Services</li></a>
+            <a href = '../our_team'><li>Our Team</li></a>
+            <a href = '../plans_permits'><li>Plans and Permits</li></a>
+            <a href = '../gallery'><li>Gallery</li></a>
+            <a href = '../contact'><li>Contact</li></a>
             <a class = 'active'><li>4079 Kulamanu<ul class = 'dropdown'>
               <li class = 'active'><a>Pricing</a></li>
-              <li><a href = 'kulamanu-gallery.php'>Gallery</a></li>
+              <li><a href = '../kulamanu_gallery'>Gallery</a></li>
             </ul></li></a>
           </ul>
         </div>
@@ -88,7 +88,7 @@
 
     <div class = 'content'>
 
-      <div class = 'cover-photo' style = 'background-image:url("../res/homes/kulamanu_cover.jpg")'>
+      <div class = 'cover-photo' style = 'background-image:url("../../res/homes/kulamanu_cover.jpg")'>
         <h1 class = 'light'>Kulamanu Pricing</h1>
       </div>
 
@@ -304,6 +304,6 @@
     <div class = 'footer'>
       <h6>&copy; 2015 Alari Homes and Fabrication. All Rights Reserved.</h6>
     </div>
-    <script src="../scripts/jquery-1.8.0.min.js"></script>
+    <script src="../../scripts/jquery-1.8.0.min.js"></script>
   </body>
 </html>
