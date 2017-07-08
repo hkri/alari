@@ -144,8 +144,13 @@ a:hover{
 	cursor: default;
 }
 
-.nav a:hover li, .nav a.active li{
+.nav a:hover li, .nav a.active li {
 	border-bottom: 3px solid #3e4044;
+}
+
+.nav li a.active {
+    border-bottom: 3px solid #3e4044;
+    padding-bottom: 5px;
 }
 
 .content{
