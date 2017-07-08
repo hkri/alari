@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<!-- title -->
-		<title>Alari Homes and Fabrication</title>		
+		<title>Alari Homes and Fabrication</title>
 		<!-- Identify encoding as UTF-8 -->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
@@ -15,7 +15,7 @@
 
 		<!-- Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-		
+
 	</head>
 
 	<body>
@@ -34,7 +34,7 @@
 				<!-- ALARI HOMES DESCRIPTION -->
 				<h1>Alari Homes</h1>
 				<p>Delivering a tour de force and uncompromising fusion of <b><i>modern island</i></b> elegance to the Kahala and Hawaii beachfront luxury residential real estate marketplace.</p>
-				<a href = 'homes/index.html' class = 'button-link'>Enter</a>
+				<a href = 'homes/index.php' class = 'button-link'>Enter</a>
 			</div>
 
 			<div class = 'section fab'>
@@ -44,7 +44,7 @@
 				<!-- ALARI FABRICATION DESCRIPTION -->
 				<h1>Alari Custom Fabrication &amp; Design</h1>
 				<p>Coming into existence solely to create exquisite and unique one-of-a-kind designs for both the interior and exterior of your high end build.  Covering the full spectrum of the classic and modern – from conceptualization to fabrication to installation.</p>
-				<a href = 'fabrication/index.html' class = 'button-link'>Enter</a>
+				<a href = 'fabrication/index.php' class = 'button-link'>Enter</a>
 			</div>
 			
 		</div>

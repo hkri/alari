@@ -28,16 +28,16 @@
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
-						<a href = '../index.html'><li>Home</li></a>
-						<a href = 'index.html'><li>About Us</li></a>
-						<a href = 'dda.html'><li>DDA Services</li></a>
-						<a href = 'our-team.html'><li>Our Team</li></a>
-						<a href = 'plans-permits.html'><li>Plans and Permits</li></a>
+						<a href = '../index.php'><li>Home</li></a>
+						<a href = 'index.php'><li>About Us</li></a>
+						<a href = 'dda.php'><li>DDA Services</li></a>
+						<a href = 'our-team.php'><li>Our Team</li></a>
+						<a href = 'plans-permits.php'><li>Plans and Permits</li></a>
 						<a class = 'active'><li>Gallery</li></a>
-						<a href = 'contact.html'><li>Contact</li></a>
+						<a href = 'contact.php'><li>Contact</li></a>
 						<a><li>4079 Kulamanu<ul class = 'dropdown'>
-              <li><a href = 'kulamanu-pricing.html'>Pricing</a></li>
-              <li><a href = 'kulamanu-gallery.html'>Gallery</a></li>
+              <li><a href = 'kulamanu-pricing.php'>Pricing</a></li>
+              <li><a href = 'kulamanu-gallery.php'>Gallery</a></li>
             </ul></li></a>
 					</ul>
 				</div>

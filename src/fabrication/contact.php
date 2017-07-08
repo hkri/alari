@@ -45,11 +45,11 @@
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
-						<a href = '../index.html'><li>Home</li></a>
-						<a href = 'index.html'><li>About Us</li></a>
-						<a href = 'our-team.html'><li>Our Team</li></a>
-						<a href = 'shop-drawings.html'><li>Shop Drawings</li></a>
-						<a href = 'gallery.html'><li>Gallery</li></a>
+						<a href = '../index.php'><li>Home</li></a>
+						<a href = 'index.php'><li>About Us</li></a>
+						<a href = 'our-team.php'><li>Our Team</li></a>
+						<a href = 'shop-drawings.php'><li>Shop Drawings</li></a>
+						<a href = 'gallery.php'><li>Gallery</li></a>
 						<a class = 'active'><li>Contact</li></a>
 					</ul>
 				</div>
