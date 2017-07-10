@@ -17,6 +17,7 @@
     <link rel = 'stylesheet' href = '../../styles/reset.css' />
     <link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
     <link rel = 'stylesheet' href = '../../styles/prettyPhoto.css' />
+    <link rel = 'stylesheet' href = '../../scripts/loading-style.css' />
 
   </head>
 
@@ -43,11 +44,11 @@
     </div>
 
     <div class = 'content'>
-      <div class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_plans.jpg")'>
+      <div id = 'hero-div' class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_plans.jpg")'>
         <h1 class = 'light'>Plans and Permits</h1>
       </div>
 
-      <div class = 'listbox'>
+      <div class = 'listbox page-section'>
 
         <!-- Show when no items available --> <!--
         <h1 class = 'no-items'>Sorry, no items available.</h1>
@@ -311,6 +312,9 @@
 
     <script src="../../scripts/jquery-1.8.0.min.js"></script>
     <script src="../../scripts/jquery.prettyPhoto.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="../../scripts/pace.min.js"></script>
+    <script src="../../scripts/transitions.js"></script>
     <script type = 'text/javascript'>
       //Add reference to jQuery and Easings library
       var $doc = $(document);

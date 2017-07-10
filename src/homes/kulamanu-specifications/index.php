@@ -9,6 +9,7 @@
     <link rel = 'stylesheet' href = '../../styles/reset.css' />
     <link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
     <script src="https://use.fontawesome.com/f937b6b4fb.js"></script>
+    <link rel = 'stylesheet' href = '../../scripts/loading-style.css' />
     <style type = 'text/css'>
       .our-story{
         padding-right: 30px;
@@ -105,7 +106,7 @@
       </div>
     </div>
     <div class = 'content'>
-      <div class = 'index-cover kulamanu-cover' style = 'background-image: url("../../res/homes/kulamanu_history_cover.jpg")'>
+      <div id = 'hero-div' class = 'index-cover kulamanu-cover' style = 'background-image: url("../../res/homes/kulamanu_history_cover.jpg")'>
         <div class = 'tint'>
           <h2>The Project: 4079 Kulamanu Street</h2>
         </div>
@@ -113,10 +114,10 @@
       <div class = 'wrapper index-description-div' style = 'margin-top: 25px;'>
         <div class = 'row row-story'>
           <div class = 'cell size-70'>
-            <img src = '../../res/homes/kulamanu_specs_p1.jpg' />
-            <i class = 'caption'>Lanai and Pool</i>
-            <h2><i class="fa fa-info-circle" aria-hidden="true"></i>Specifications</h2>
-            <ul>
+            <img class = 'page-section' src = '../../res/homes/kulamanu_specs_p1.jpg' />
+            <i class = 'caption page-section'>Lanai and Pool</i>
+            <h2 class = 'page-section'><i class="fa fa-info-circle" aria-hidden="true"></i>Specifications</h2>
+            <ul class = 'page-section'>
               <li>6,674 sf total enclosed space (including 1,250 sf garage)</li>
               <li>9,918 sf land area</li>
               <li>6 Bedrooms:</li>
@@ -132,8 +133,8 @@
               <li>Subterranean spiral wine cellar accessible from living room</li>
               <li>Year built: 2017</li>
             </ul>
-            <h2><i class="fa fa-diamond" aria-hidden="true"></i>Features &amp; Amenities</h2>
-            <ul>
+            <h2 class = 'page-section'><i class="fa fa-diamond" aria-hidden="true"></i>Features &amp; Amenities</h2>
+            <ul class = 'page-section'>
               <li>Ocean Views</li>
               <li>Spacious outdoor living spaces designed for entertaining and relaxing</li>
               <li>Modern design with Hawaiian and other tropical design cues</li>
@@ -143,9 +144,9 @@
              <li>Subdued color and materials palette</li>
              <li>Custom imported solid wood doors and windows</li>
             </ul>
-            <h2><i class="fa fa-map-marker" aria-hidden="true"></i>Property Address</h3>
-            <p>4079 Kulamanu Street, Honolulu, Hawaii 96816</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d810.6146550742291!2d-157.79589414590328!3d21.258425570375366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c00729220d9698f%3A0x9d3f32c74938c8d9!2s4079+Kulamanu+St%2C+Honolulu%2C+HI+96816%2C+USA!5e1!3m2!1sen!2sph!4v1499543398434" width="1000" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <h2 class = 'page-section'><i class="fa fa-map-marker" aria-hidden="true"></i>Property Address</h3>
+            <p class = 'page-section'>4079 Kulamanu Street, Honolulu, Hawaii 96816</p>
+            <iframe class = 'page-section' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d810.6146550742291!2d-157.79589414590328!3d21.258425570375366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c00729220d9698f%3A0x9d3f32c74938c8d9!2s4079+Kulamanu+St%2C+Honolulu%2C+HI+96816%2C+USA!5e1!3m2!1sen!2sph!4v1499543398434" width="1000" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
 
           </div>
           <div class = 'cell size-fill'>
@@ -175,5 +176,8 @@
       <h6>&copy; 2017 Alari Homes and Fabrication. All Rights Reserved.</h6>
     </div>
     <script src="../../scripts/jquery-1.8.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="../../scripts/pace.min.js"></script>
+    <script src="../../scripts/transitions.js"></script>
   </body>
 </html>

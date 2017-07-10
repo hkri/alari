@@ -19,6 +19,7 @@
     <!-- External Styles -->
     <link rel = 'stylesheet' href = '../../styles/reset.css' />
     <link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
+    <link rel = 'stylesheet' href = '../../scripts/loading-style.css' />
 
     <!-- Page specific styles -->
     <style type = 'text/css'>
@@ -83,18 +84,18 @@
       <!--
       <h1 style = 'position: absolute;top: 50%; width: 100%;text-align: center;font-weight: normal;opacity: 0.7'>TODO: PUT "OUR TEAM" RELATED STUFF HERE.</h1>
       -->
-      <div class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_ourteam_cover.jpg")'>
+      <div id = 'hero-div' class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_ourteam_cover.jpg")'>
         <h1 class = 'light'>Our Team</h1>
       </div>
 
       <div class = 'wrapper'>
         <!-- Row for caption -->
         <div class = 'size-fill spacer'>
-          <h2 class = 'section-caption'>Meet the members of Alari's team of highly skilled and talented architects and engineers.</h2>
+          <h2 class = 'section-caption page-section'>Meet the members of Alari's team of highly skilled and talented architects and engineers.</h2>
         </div>
 
         <!-- Rows for members. Small divisions for avatar, large for profile info. -->
-        <div class = 'row'>
+        <div class = 'row page-section'>
           <div class = 'cell size-35'>
             <div class = 'profile-photo' style = 'background-image:url("../../res/bio/jim.jpg")'></div>
           </div>
@@ -108,7 +109,7 @@
           </div>
         </div>
 
-        <div class = 'row'>
+        <div class = 'row page-section'>
           <div class = 'cell size-35'>
             <div class = 'profile-photo' style = 'background-image:url("../../res/bio/emilio.jpg")'></div>
           </div>
@@ -130,7 +131,10 @@
       <h6>&copy; 2017 Alari Homes and Fabrication. All Rights Reserved.</h6>
     </div>
 
-    <!-- jQuery and Javascript Friends -->
     <script src="../../scripts/jquery-1.8.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="../../scripts/pace.min.js"></script>
+    <script src="../../scripts/transitions.js"></script>
+
   </body>
 </html>

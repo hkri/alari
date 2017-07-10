@@ -9,6 +9,7 @@
     <link rel = 'stylesheet' href = '../../styles/reset.css' />
     <link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
 		<link rel = 'stylesheet' href = '../../styles/prettyPhoto.css' />
+    <link rel = 'stylesheet' href = '../../scripts/loading-style.css' />
     <style type = 'text/css'>
     .gallery {
       width: 100%;
@@ -71,13 +72,13 @@
 
     <div class = 'content'>
 
-      <div class = 'cover-photo' style = 'background-image:url("../../res/homes/kulamanu_cover.jpg")'>
+      <div id = 'hero-div' class = 'cover-photo' style = 'background-image:url("../../res/homes/kulamanu_cover.jpg")'>
         <h1 class = 'light'>Kulamanu Renderings</h1>
       </div>
 
       <div class = 'wrapper'>
         <div class = 'row row-story index-description-div'>
-          <div class = 'cell size-70'>
+          <div class = 'cell size-70 page-section'>
             <div class = 'gallery'>
               <div class = 'thumb-wrapper'>
 
@@ -257,6 +258,9 @@
     <script src="../../scripts/jquery.easing.1.3.js"></script>
     <script src="../../scripts/jquery.scrollTo.min.js"></script>
     <script src="../../scripts/jquery.prettyPhoto.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="../../scripts/pace.min.js"></script>
+    <script src="../../scripts/transitions.js"></script>
     <script type = 'text/javascript'>
       var $root = $('body, html');
       var $lnk = $('.scrolllink');

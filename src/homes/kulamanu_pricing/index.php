@@ -9,6 +9,7 @@
     <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <link rel = 'stylesheet' href = '../../styles/reset.css' />
     <link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
+    <link rel = 'stylesheet' href = '../../scripts/loading-style.css' />
     <style type = 'text/css'>
       .our-story  { padding-right: 30px;        }
       .row-mission{ margin-top: 30px;           }
@@ -104,43 +105,43 @@
 
     <div class = 'content'>
 
-      <div class = 'cover-photo' style = 'background-image:url("../../res/homes/kulamanu_cover.jpg")'>
+      <div id = 'hero-div' class = 'cover-photo' style = 'background-image:url("../../res/homes/kulamanu_cover.jpg")'>
         <h1 class = 'light'>Kulamanu Pricing</h1>
       </div>
 
       <div class = 'wrapper index-description-div'>
         <table>
           <tr>
-            <td><h1 class = 'value-text'>6,536</h1></td>
-            <td><h1 class = 'value-text'>$7,786,00</h1></td>
+            <td><h1 class = 'value-text page-section'>6,536</h1></td>
+            <td><h1 class = 'value-text page-section'>$7,786,00</h1></td>
           </tr>
           <tr>
-            <td><p class = 'caption-text'>Total SQF (inclusive of 1,112 SQF of Lanai)</p></td>
-            <td><p class = 'caption-text'>Fair Market Value</p></td>
+            <td><p class = 'caption-text page-section'>Total SQF (inclusive of 1,112 SQF of Lanai)</p></td>
+            <td><p class = 'caption-text page-section'>Fair Market Value</p></td>
           </tr>
         </table>
         <div class = 'row'>
           <div class = 'cell size-70'>
 
-            <p>This Fair Market Value is based on a quantitative analysis of all non-beach front properties with ocean
+            <p class = 'page-section'>This Fair Market Value is based on a quantitative analysis of all non-beach front properties with ocean
             views that have sold over the last two years in the immediate vicinity of 4079 Kulamanu crossing the
             prestigious Oahu neighborhoods of Kahala, Black Point and Diamond Head. A 10% premium has been
             included which covers the extra cost of the extra high quality and expense of the materials used in the
             construction. As there will be some degree of customization of the interior finishes by the final buyer,
             it could be possible to reduce this premium by up to 5% depending on the final interior finishes.</p>
-            <p>The exact $/SQF number using the aforementioned quantitative analysis is $1,305 plus 10% premium
+            <p class = 'page-section'>The exact $/SQF number using the aforementioned quantitative analysis is $1,305 plus 10% premium
             = $1,435 per SQF. This number was then multiplied by the indoor SQF of 5,424 to come up with the
             Fair Market Value of $7,786,00.</p>
-            <p>This quantitative pricing analysis was calculated by <a href = 'http://www.hawaiidamon.com/' target="_blank">Damon Rhys</a> (MPIA degree from University of
+            <p class = 'page-section'>This quantitative pricing analysis was calculated by <a href = 'http://www.hawaiidamon.com/' target="_blank">Damon Rhys</a> (MPIA degree from University of
             California, San Diego), licensed Realtor practicing in Hawaii.</p>
-            <p>
+            <p class = 'page-section'>
               <a href = 'http://www.hawaiidamon.com/' target="_blank">www.hawaiidamon.com</a><br>
               <a href = 'http://www.linkedin.com/in/hawaiixchg' target="_blank">LinkedIn</a>
             </p>
             <br />
-            <h2>Breakdown</h2>
+            <h2 class = 'page-section'>Breakdown</h2>
             <div class = 'clearfix'>
-              <table class = 'breakdown-table'>
+              <table class = 'breakdown-table page-section'>
                 <tr>
                   <td colspan = '3' class = 'caption'>Interior Areas</td>
                 </tr>
@@ -252,7 +253,7 @@
                   <td class = 'grandtotal numeric'>4495.00</td>
                 </tr>
               </table>
-              <table class = 'breakdown-table'>
+              <table class = 'breakdown-table page-section'>
                 <tr>
                   <td colspan = '3' class = 'caption'>Exterior Areas</td>
                 </tr>
@@ -301,7 +302,7 @@
                   <td class = 'caption numeric grandtotal'>1046.08</td>
                 </tr>
               </table>
-              <table class = 'breakdown-table'>
+              <table class = 'breakdown-table page-section'>
                 <tr>
                   <td colspan = '3' class = 'caption'>Rumpus Room</td>
                 </tr>
@@ -344,5 +345,8 @@
       <h6>&copy; 2017 Alari Homes and Fabrication. All Rights Reserved.</h6>
     </div>
     <script src="../../scripts/jquery-1.8.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="../../scripts/pace.min.js"></script>
+    <script src="../../scripts/transitions.js"></script>
   </body>
 </html>
