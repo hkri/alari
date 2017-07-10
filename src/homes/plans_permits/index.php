@@ -37,10 +37,6 @@
             <a class = 'active'><li>Plans and Permits</li></a>
             <a href = '../gallery'><li>Gallery</li></a>
             <a href = '../contact'><li>Contact</li></a>
-            <a><li>4079 Kulamanu<ul class = 'dropdown'>
-              <li><a href = '../kulamanu_pricing'>Pricing</a></li>
-              <li><a href = '../kulamanu_gallery'>Gallery</a></li>
-            </ul></li></a>
           </ul>
         </div>
       </div>

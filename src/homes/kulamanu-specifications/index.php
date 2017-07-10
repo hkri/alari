@@ -100,10 +100,6 @@
             <a href = '/homes/plans_permits'><li>Plans and Permits</li></a>
             <a href = '/homes/gallery'><li>Gallery</li></a>
             <a href = '/homes/contact'><li>Contact</li></a>
-            <a><li>4079 Kulamanu<ul class = 'dropdown'>
-              <li><a href = '/homes/kulamanu_pricing'>Pricing</a></li>
-              <li><a href = '/homes/kulamanu_gallery'>Gallery</a></li>
-            </ul></li></a>
           </ul>
         </div>
       </div>
@@ -150,7 +146,7 @@
             <h2><i class="fa fa-map-marker" aria-hidden="true"></i>Property Address</h3>
             <p>4079 Kulamanu Street, Honolulu, Hawaii 96816</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d810.6146550742291!2d-157.79589414590328!3d21.258425570375366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c00729220d9698f%3A0x9d3f32c74938c8d9!2s4079+Kulamanu+St%2C+Honolulu%2C+HI+96816%2C+USA!5e1!3m2!1sen!2sph!4v1499543398434" width="1000" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
-            
+
           </div>
           <div class = 'cell size-fill'>
             <div id = 'k-toc' class = 'kulamanu toc'>
