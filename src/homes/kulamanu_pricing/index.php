@@ -91,16 +91,12 @@
         <div class = 'header-navbox'>
           <ul class = 'nav noselect'>
             <a href = '/'><li>Home</li></a>
-            <a href = '../'><li>About Us</li></a>
+            <a href = '../' class = 'active'><li class = 'active'>About Us</li></a>
             <a href = '../dda'><li>DDA Services</li></a>
             <a href = '../our_team'><li>Our Team</li></a>
             <a href = '../plans_permits'><li>Plans and Permits</li></a>
             <a href = '../gallery'><li>Gallery</li></a>
             <a href = '../contact'><li>Contact</li></a>
-            <a class = 'active'><li>4079 Kulamanu<ul class = 'dropdown'>
-              <li class = 'active'><a>Pricing</a></li>
-              <li><a href = '../kulamanu_gallery'>Gallery</a></li>
-            </ul></li></a>
           </ul>
         </div>
       </div>

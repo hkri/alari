@@ -174,10 +174,6 @@
             <a href = '/homes/plans_permits'><li>Plans and Permits</li></a>
             <a href = '/homes/gallery'><li>Gallery</li></a>
             <a href = '/homes/contact'><li>Contact</li></a>
-            <a><li>4079 Kulamanu<ul class = 'dropdown'>
-              <li><a href = '/homes/kulamanu_pricing'>Pricing</a></li>
-              <li><a href = '/homes/kulamanu_gallery'>Gallery</a></li>
-            </ul></li></a>
           </ul>
         </div>
       </div>
