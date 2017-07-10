@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>Alari Homes</title>
+    <title>Pricing - 4079 Kulamanu</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
@@ -59,6 +59,26 @@
       .numeric { text-align: right; width: 60px; }
       .col-id { width: 30px; }
       .breakdown-table td, .breakdown-table th { padding: 5px; }
+      .toc ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+      .toc ul li.active {
+        background-color: rgba(0, 0, 0, 0.1);
+        cursor: default;
+      }
+      .toc ul a {
+        color: #1d70b1;
+      }
+      #k-toc {
+        position: relative;
+        width: 250px;
+        margin-left: 40px;
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: 0;
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+      }
     </style>
   </head>
 
@@ -103,206 +123,229 @@
             <td><p class = 'caption-text'>Fair Market Value</p></td>
           </tr>
         </table>
-        <p>This Fair Market Value is based on a quantitative analysis of all non-beach front properties with ocean
-        views that have sold over the last two years in the immediate vicinity of 4079 Kulamanu crossing the
-        prestigious Oahu neighborhoods of Kahala, Black Point and Diamond Head. A 10% premium has been
-        included which covers the extra cost of the extra high quality and expense of the materials used in the
-        construction. As there will be some degree of customization of the interior finishes by the final buyer,
-        it could be possible to reduce this premium by up to 5% depending on the final interior finishes.</p>
-        <p>The exact $/SQF number using the aforementioned quantitative analysis is $1,305 plus 10% premium
-        = $1,435 per SQF. This number was then multiplied by the indoor SQF of 5,424 to come up with the
-        Fair Market Value of $7,786,00.</p>
-        <p>This quantitative pricing analysis was calculated by <a href = 'http://www.hawaiidamon.com/' target="_blank">Damon Rhys</a> (MPIA degree from University of
-        California, San Diego), licensed Realtor practicing in Hawaii.</p>
-        <p>
-          <a href = 'http://www.hawaiidamon.com/' target="_blank">www.hawaiidamon.com</a><br>
-          <a href = 'http://www.linkedin.com/in/hawaiixchg' target="_blank">LinkedIn</a>
-        </p>
-        <br />
-        <h2>Breakdown</h2>
-        <div class = 'clearfix'>
-          <table class = 'breakdown-table'>
-            <tr>
-              <td colspan = '3' class = 'caption'>Interior Areas</td>
-            </tr>
-            <tr>
-              <th class = 'col-id caption'>No.</th>
-              <th class = 'caption'>Name of Space</th>
-              <th class = 'caption numeric'>Area (SF)</th>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Living Area</td>
-              <td class = 'numeric'>297.60</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Dining Area</td>
-              <td class = 'numeric'>305.13</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Hallway</td>
-              <td class = 'numeric'>220.15</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Entry Foyer</td>
-              <td class = 'numeric'>64.00</td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>Master BR</td>
-              <td class = 'numeric'>314.00</td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>Master Bath w/ WIC</td>
-              <td class = 'numeric'>247.74</td>
-            </tr>
-            <tr>
-              <td>7</td>
-              <td>BR-1 w/ shower</td>
-              <td class = 'numeric'>299.16</td>
-            </tr>
-            <tr>
-              <td>8</td>
-              <td>BR-2 w/ shower</td>
-              <td class = 'numeric'>252.80</td>
-            </tr>
-            <tr>
-              <td>9</td>
-              <td>Storage</td>
-              <td class = 'numeric'>17.73</td>
-            </tr>
-            <tr>
-              <td>10</td>
-              <td>Pantry</td>
-              <td class = 'numeric'>49.80</td>
-            </tr>
-            <tr>
-              <td>11</td>
-              <td>Kitchen</td>
-              <td class = 'numeric'>327.32</td>
-            </tr>
-            <tr>
-              <td>12</td>
-              <td>Catwalk</td>
-              <td class = 'numeric'>64.50</td>
-            </tr>
-            <tr>
-              <td>13</td>
-              <td>Garage</td>
-              <td class = 'numeric'>824.00</td>
-            </tr>
-            <tr>
-              <td colspan = '2' class = 'subtotal'>Subtotal</td>
-              <td class = 'subtotal numeric'>3283.93</td>
-            </tr>
-            <tr>
-              <td>14</td>
-              <td>Master BR @ 2F</td>
-              <td class = 'numeric'>286.55</td>
-            </tr>
-            <tr>
-              <td>15</td>
-              <td>Master Bath @ 2F</td>
-              <td class = 'numeric'>122.30</td>
-            </tr>
-            <tr>
-              <td>16</td>
-              <td>WIC @ 2F</td>
-              <td class = 'numeric'>122.30</td>
-            </tr>
-            <tr>
-              <td>17</td>
-              <td>Jacuzzi</td>
-              <td class = 'numeric'>56.00</td>
-            </tr>
-            <tr>
-              <td>18</td>
-              <td>Accessory House 2F</td>
-              <td class = 'numeric'>623.92</td>
-            </tr>
-            <tr>
-              <td colspan = '2' class = 'subtotal'>Subtotal</td>
-              <td class = 'subtotal numeric'>1211.07</td>
-            </tr>
-            <tr>
-              <td colspan = '2' class = 'grandtotal'>Grand Total</td>
-              <td class = 'grandtotal numeric'>4495.00</td>
-            </tr>
-          </table>
-          <table class = 'breakdown-table'>
-            <tr>
-              <td colspan = '3' class = 'caption'>Exterior Areas</td>
-            </tr>
-            <tr>
-              <td class = 'col-id caption'>No.</td>
-              <td class = 'caption'>Name of Space</td>
-              <td class = 'caption numeric'>Area (SF)</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Lanai @ Kitchen</td>
-              <td class = 'numeric'>236.66</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Lanai @ 2F Master Suite</td>
-              <td class = 'numeric'>65.50</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Balcony @ Accessory House 2F</td>
-              <td class = 'numeric'>52.50</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Lanai @ Reflecting Pool</td>
-              <td class = 'numeric'>324.20</td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>Balcony @ 1<sup>st</sup> storey Master BR</td>
-              <td class = 'numeric'>58.70</td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>Stair @ Garage</td>
-              <td class = 'numeric'>63.33</td>
-            </tr>
-            <tr>
-              <td>7</td>
-              <td>Deck @ 2F Master Suite</td>
-              <td class = 'numeric'>245.19</td>
-            </tr>
-            <tr>
-              <td colspan = '2' class = 'caption grandtotal'>Total Area</td>
-              <td class = 'caption numeric grandtotal'>1046.08</td>
-            </tr>
-          </table>
-          <table class = 'breakdown-table'>
-            <tr>
-              <td colspan = '3' class = 'caption'>Rumpus Room</td>
-            </tr>
-            <tr>
-              <td class = 'caption'>No.</td>
-              <td class = 'caption'>Name of Space</td>
-              <td class = 'caption'>Area (SF)</td>
-            </tr>
-            <tr>
-              <td class = 'grandtotal' colspan = '2'>Total Area (with T&amp;B &amp; Laundry)</td>
-              <td class = 'grandtotal numeric'>929.18</td>
-            </tr>
-          </table>
+        <div class = 'row'>
+          <div class = 'cell size-70'>
+
+            <p>This Fair Market Value is based on a quantitative analysis of all non-beach front properties with ocean
+            views that have sold over the last two years in the immediate vicinity of 4079 Kulamanu crossing the
+            prestigious Oahu neighborhoods of Kahala, Black Point and Diamond Head. A 10% premium has been
+            included which covers the extra cost of the extra high quality and expense of the materials used in the
+            construction. As there will be some degree of customization of the interior finishes by the final buyer,
+            it could be possible to reduce this premium by up to 5% depending on the final interior finishes.</p>
+            <p>The exact $/SQF number using the aforementioned quantitative analysis is $1,305 plus 10% premium
+            = $1,435 per SQF. This number was then multiplied by the indoor SQF of 5,424 to come up with the
+            Fair Market Value of $7,786,00.</p>
+            <p>This quantitative pricing analysis was calculated by <a href = 'http://www.hawaiidamon.com/' target="_blank">Damon Rhys</a> (MPIA degree from University of
+            California, San Diego), licensed Realtor practicing in Hawaii.</p>
+            <p>
+              <a href = 'http://www.hawaiidamon.com/' target="_blank">www.hawaiidamon.com</a><br>
+              <a href = 'http://www.linkedin.com/in/hawaiixchg' target="_blank">LinkedIn</a>
+            </p>
+            <br />
+            <h2>Breakdown</h2>
+            <div class = 'clearfix'>
+              <table class = 'breakdown-table'>
+                <tr>
+                  <td colspan = '3' class = 'caption'>Interior Areas</td>
+                </tr>
+                <tr>
+                  <th class = 'col-id caption'>No.</th>
+                  <th class = 'caption'>Name of Space</th>
+                  <th class = 'caption numeric'>Area (SF)</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Living Area</td>
+                  <td class = 'numeric'>297.60</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Dining Area</td>
+                  <td class = 'numeric'>305.13</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Hallway</td>
+                  <td class = 'numeric'>220.15</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Entry Foyer</td>
+                  <td class = 'numeric'>64.00</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Master BR</td>
+                  <td class = 'numeric'>314.00</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Master Bath w/ WIC</td>
+                  <td class = 'numeric'>247.74</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>BR-1 w/ shower</td>
+                  <td class = 'numeric'>299.16</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>BR-2 w/ shower</td>
+                  <td class = 'numeric'>252.80</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Storage</td>
+                  <td class = 'numeric'>17.73</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>Pantry</td>
+                  <td class = 'numeric'>49.80</td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>Kitchen</td>
+                  <td class = 'numeric'>327.32</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>Catwalk</td>
+                  <td class = 'numeric'>64.50</td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>Garage</td>
+                  <td class = 'numeric'>824.00</td>
+                </tr>
+                <tr>
+                  <td colspan = '2' class = 'subtotal'>Subtotal</td>
+                  <td class = 'subtotal numeric'>3283.93</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>Master BR @ 2F</td>
+                  <td class = 'numeric'>286.55</td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>Master Bath @ 2F</td>
+                  <td class = 'numeric'>122.30</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>WIC @ 2F</td>
+                  <td class = 'numeric'>122.30</td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>Jacuzzi</td>
+                  <td class = 'numeric'>56.00</td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>Accessory House 2F</td>
+                  <td class = 'numeric'>623.92</td>
+                </tr>
+                <tr>
+                  <td colspan = '2' class = 'subtotal'>Subtotal</td>
+                  <td class = 'subtotal numeric'>1211.07</td>
+                </tr>
+                <tr>
+                  <td colspan = '2' class = 'grandtotal'>Grand Total</td>
+                  <td class = 'grandtotal numeric'>4495.00</td>
+                </tr>
+              </table>
+              <table class = 'breakdown-table'>
+                <tr>
+                  <td colspan = '3' class = 'caption'>Exterior Areas</td>
+                </tr>
+                <tr>
+                  <td class = 'col-id caption'>No.</td>
+                  <td class = 'caption'>Name of Space</td>
+                  <td class = 'caption numeric'>Area (SF)</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Lanai @ Kitchen</td>
+                  <td class = 'numeric'>236.66</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Lanai @ 2F Master Suite</td>
+                  <td class = 'numeric'>65.50</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Balcony @ Accessory House 2F</td>
+                  <td class = 'numeric'>52.50</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Lanai @ Reflecting Pool</td>
+                  <td class = 'numeric'>324.20</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Balcony @ 1<sup>st</sup> storey Master BR</td>
+                  <td class = 'numeric'>58.70</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Stair @ Garage</td>
+                  <td class = 'numeric'>63.33</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Deck @ 2F Master Suite</td>
+                  <td class = 'numeric'>245.19</td>
+                </tr>
+                <tr>
+                  <td colspan = '2' class = 'caption grandtotal'>Total Area</td>
+                  <td class = 'caption numeric grandtotal'>1046.08</td>
+                </tr>
+              </table>
+              <table class = 'breakdown-table'>
+                <tr>
+                  <td colspan = '3' class = 'caption'>Rumpus Room</td>
+                </tr>
+                <tr>
+                  <td class = 'caption'>No.</td>
+                  <td class = 'caption'>Name of Space</td>
+                  <td class = 'caption'>Area (SF)</td>
+                </tr>
+                <tr>
+                  <td class = 'grandtotal' colspan = '2'>Total Area (with T&amp;B &amp; Laundry)</td>
+                  <td class = 'grandtotal numeric'>929.18</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class = 'cell size-fill'>
+            <div id = 'k-toc' class = 'kulamanu toc'>
+              <h2>4079 Kulamanu
+                <div class = 'subheading'>Please click on the links below to learn more.</div>
+              </h2>
+              <hr />
+              <ul>
+                <li><a href = '../history-of-kulamanu/'>History</a></li>
+                <li><a href = '../kulamanu-specifications/'>Specifications</a></li>
+                <li><a href = 'https://www.dropbox.com/s/svky5hvt5qzqexc/Kulamanu%20walktru.asf' target = '_blank' >3D Walkthrough</a></li>
+                <li class = 'active'><a>Pricing</a></li>
+                <li><a href = '../kulamanu_gallery/'>Renderings</a></li>
+              </ul>
+              <h3>The Alari Group</h3>
+              <ul>
+                <li><a href = '../alari-group'>About the Group</a></li>
+                <li><a href = '../kulamanu-videos'>Videos</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-
     </div>
-
     <div class = 'footer'>
-      <h6>&copy; 2015 Alari Homes and Fabrication. All Rights Reserved.</h6>
+      <h6>&copy; 2017 Alari Homes and Fabrication. All Rights Reserved.</h6>
     </div>
     <script src="../../scripts/jquery-1.8.0.min.js"></script>
   </body>

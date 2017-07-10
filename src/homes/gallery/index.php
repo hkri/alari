@@ -172,12 +172,9 @@
 		</div>
 
 		<div class = 'footer'>
-			<h6>&copy; 2015 Alari Homes and Fabrication. All Rights Reserved.</h6>
-		</div>
+      <h6>&copy; 2017 Alari Homes and Fabrication. All Rights Reserved.</h6>
+    </div>
 
-
-
-		<!-- jQuery and Javascript Friends -->
 		<script src="../../scripts/jquery-1.8.0.min.js" type = 'text/javascript' charset = 'utf-8'></script>
 		<script src="../../scripts/jquery.easing.1.3.js"></script>
 		<script src="../../scripts/jquery.scrollTo.min.js"></script>

@@ -137,7 +137,7 @@
       </div>
     </div>
     <div class = 'footer'>
-      <h6>&copy; 2015 Alari Homes and Fabrication. All Rights Reserved.</h6>
+      <h6>&copy; 2017 Alari Homes and Fabrication. All Rights Reserved.</h6>
     </div>
   </body>
 </html>

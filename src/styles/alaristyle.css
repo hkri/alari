@@ -19,6 +19,12 @@
     user-select: none;
 }
 
+/* Font-awesome */
+i.fa {
+  display: inline-block;
+  margin: 0 12px 0 3px;
+}
+
 .header{
 	position: absolute;
 	width: 100%;
@@ -758,7 +764,6 @@ a:hover{
 	margin: 65px auto 0 auto;
 	width: 100%;
 	min-width: 960px;
-	background-color: red;
 	position: relative;
 	display: block;
 	background-size: cover;
@@ -814,13 +819,18 @@ a:hover{
 	text-transform: uppercase;
 }
 
-.index-description-div p{
+.index-description-div p, .index-description-div ul, .index-description-div ol{
 	margin: 15px 0;
 	font-family: 'Karla', sans-serif;
 	font-size: 1.0rem;
 	color: #393a3c;
 	line-height: 1.9;
 	padding-right: 10px;
+}
+
+.index-description-div ul {
+  list-style-type: disc;
+  padding: 5px 0px 10px 40px;
 }
 
 .index-description-div .mission-text{
@@ -945,3 +955,64 @@ a:hover{
 .content.contact-us input[name='Submit']:hover{background-color: #487d65;}
 .content.contact-us input[name='Clear']{background-color: #84858a;}
 .content.contact-us input[name='Clear']:hover{background-color: #5a5b63;}
+
+
+.kulamanu.toc {
+  background-color: rgb(253, 253, 253);
+  border-radius: .5em;
+  text-align: left;
+  padding: 1em 0;
+  padding-bottom: 1.5em;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  margin: 1em;
+}
+
+.kulamanu.toc hr {
+  margin: 1em 1em;
+  opacity: 0.6;
+}
+
+.kulamanu.toc h2 {
+  margin: 0.5em 1em;
+  font-size: 1.3em;
+}
+
+.kulamanu.toc h2 .subheading{
+  font-size: 0.6em;
+  margin-top: .5em;
+  color: rgb(120, 120, 120);
+  line-height: 1.6em;
+}
+
+.kulamanu.toc ul {
+  margin-top: 1em;
+}
+
+.kulamanu.toc ul li a {
+  display: block;
+}
+
+.kulamanu.toc ul li a:hover {
+  display: block;
+  text-decoration: none;
+}
+
+.kulamanu.toc ul li {
+  font-size: 0.9em;
+  padding: 0.7em 1.3em;
+  transition: .15s background-color ease-in-out;
+}
+
+.kulamanu.toc ul li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: .15s background-color ease-in-out;
+}
+
+.toc h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 18px;
+  color: rgb(77, 77, 77);
+}
