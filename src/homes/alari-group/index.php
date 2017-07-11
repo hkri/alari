@@ -16,6 +16,7 @@
     <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <link rel = 'stylesheet' href = '../../styles/reset.css' />
     <link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
+    <link rel = 'stylesheet' href = '../../scripts/loading-style.css' />
     <script src="https://use.fontawesome.com/f937b6b4fb.js"></script>
     <style type = 'text/css'>
       .our-story{
@@ -179,31 +180,31 @@
       </div>
     </div>
     <div class = 'content'>
-      <div class = 'cover-photo' style = 'background-image:url("../../res/homes/kulamanu_cover.jpg")'>
+      <div id = 'hero-div' class = 'cover-photo' style = 'background-image:url("../../res/homes/kulamanu_cover.jpg")'>
         <h1 class = 'light'>The Alari Group</h1>
       </div>
       <div class = 'wrapper index-description-div' style = 'margin-top: 25px;'>
         <div class = 'row row-story'>
           <div class = 'cell size-70'>
-            <h2>Introduction</h2>
-            <p>The Alari Group presents itself as a one-stop resource for local Hawaii-based luxury residential
+            <h2 class = 'page-section'>Introduction</h2>
+            <p class = 'page-section'>The Alari Group presents itself as a one-stop resource for local Hawaii-based luxury residential
 brokers with tear-down properties. Four highly experienced firms in the design and residential
 construction industry have united under one entity to deliver distinctive personalized turn-key
 premium residences incorporating the latest technologies, innovative materials and design, with
 the greatest convenience and level of personalized service. This team is comprised of the following
 companies:</p>
-            <ul>
+            <ul class = 'page-section'>
               <li>Sketchtank (Design)</li>
               <li>Hawaii Architects (Engineering &amp; architecture)</li>
               <li>Alakea Construction (General contracting)</li>
               <li>Euroforest (Custom fabrication)</li>
             </ul>
-            <p>4079 Kulamanu, a 5,424 sf single family luxury residence in Black Point, is their first collaborative
+            <p class = 'page-section'>4079 Kulamanu, a 5,424 sf single family luxury residence in Black Point, is their first collaborative
 effort, and integrates Alari’s own custom building products imported from the Philippines under the
 their Products &amp; Fabrication division.</p>
             <br />
-            <h2>The Alari Team</h2>
-            <div class = 'team-profile'>
+            <h2 class = 'page-section'>The Alari Team</h2>
+            <div class = 'team-profile page-section'>
               <div class = 'header-logos'>
                 <img class = 'logo' src = '../../res/alari-team/logo-sketchtank.png' />
                 <img class = 'avatar' src = '../../res/alari-team/carlos.jpg' />
@@ -229,7 +230,7 @@ their Products &amp; Fabrication division.</p>
               </div>
             </div>
 
-            <div class = 'team-profile'>
+            <div class = 'team-profile page-section'>
               <div class = 'header-logos'>
                 <img class = 'logo' src = '../../res/alari-team/logo-ha.jpg' />
                 <img class = 'avatar' src = '../../res/alari-team/jim.jpg' />
@@ -250,7 +251,7 @@ and multi-family residential developments.</p>
               </div>
             </div>
 
-            <div class = 'team-profile'>
+            <div class = 'team-profile page-section'>
               <div class = 'header-logos'>
                 <img class = 'logo' src = '../../res/alari-team/logo-alakea.png' />
                 <img class = 'avatar' src = '../../res/alari-team/nick.jpg' />
@@ -270,7 +271,7 @@ integrating environmental consciousness and sustainability. </p>
               </div>
             </div>
 
-            <div class = 'team-profile'>
+            <div class = 'team-profile page-section'>
               <div class = 'header-logos'>
                 <img class = 'logo' src = '../../res/alari-team/logo-euro.jpg' />
                 <img class = 'avatar' src = '../../res/alari-team/cristoph.jpg' />
@@ -297,7 +298,7 @@ lumber to the final finishing and packaging of items for shipment.</p>
             </div>
 
           </div>
-          <div class = 'cell size-fill'>
+          <div class = 'cell size-fill page-section'>
             <div id = 'k-toc' class = 'kulamanu toc'>
               <h2>4079 Kulamanu
                 <div class = 'subheading'>Please click on the links below to learn more.</div>
@@ -324,5 +325,8 @@ lumber to the final finishing and packaging of items for shipment.</p>
       <h6>&copy; 2017 Alari Homes and Fabrication. All Rights Reserved.</h6>
     </div>
     <script src="../../scripts/jquery-1.8.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="../../scripts/pace.min.js"></script>
+    <script src="../../scripts/transitions.js"></script>
   </body>
 </html>

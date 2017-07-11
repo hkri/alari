@@ -16,6 +16,7 @@
     <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <link rel = 'stylesheet' href = '../../styles/reset.css' />
     <link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
+    <link rel = 'stylesheet' href = '../../scripts/loading-style.css' />
     <script src="https://use.fontawesome.com/f937b6b4fb.js"></script>
     <style type = 'text/css'>
       .our-story{
@@ -131,16 +132,16 @@
       </div>
     </div>
     <div class = 'content'>
-      <div class = 'cover-photo' style = 'background-image:url("../../res/homes/kulamanu_cover.jpg")'>
+      <div id = 'hero-div' class = 'cover-photo' style = 'background-image:url("../../res/homes/kulamanu_cover.jpg")'>
         <h1 class = 'light'>Videos</h1>
       </div>
       <div class = 'wrapper index-description-div' style = 'margin-top: 25px;'>
         <div class = 'row row-story'>
           <div class = 'cell size-70'>
-            <h2 id = 'video-title'><?php if (!$load_vid) { echo 'The Alari Group'; } else { echo $GLOBALS['title']; } ?></h2><hr style = 'margin-bottom: 20px;' />
-            <iframe width = '100%' height="420" src="<?php if (!$load_vid) { echo 'https://www.youtube.com/embed/YTqFV2mLTb0?rel=0&amp;showinfo=0'; } else { echo $GLOBALS['url']; } ?>" frameborder="0" allowfullscreen></iframe>
-            <h2><i class="fa fa-youtube-play" aria-hidden="true"></i>All Videos</h2>
-            <ul class = 'playlist'>
+            <h2 class = 'page-section' id = 'video-title'><?php if (!$load_vid) { echo 'The Alari Group'; } else { echo $GLOBALS['title']; } ?></h2><hr style = 'margin-bottom: 20px;' />
+            <iframe class = 'page-section' width = '100%' height="420" src="<?php if (!$load_vid) { echo 'https://www.youtube.com/embed/YTqFV2mLTb0?rel=0&amp;showinfo=0'; } else { echo $GLOBALS['url']; } ?>" frameborder="0" allowfullscreen></iframe>
+            <h2 class = 'page-section'><i class="fa fa-youtube-play" aria-hidden="true"></i>All Videos</h2>
+            <ul class = 'playlist page-section'>
               <!-- YouTube Video > Share > Embed > (src) URL on the embed tag > set on URL parameter -->
               <li><a class = 'playlist-link' href = './index.php?url=https://www.youtube.com/embed/YTqFV2mLTb0?rel=0&amp;showinfo=0&amp;title=The+Alari+Group'><i class="fa fa-play-circle-o" aria-hidden="true"></i>The Alari Group</a></li>
               <li><a class = 'playlist-link' href = './index.php?url=https://www.youtube.com/embed/ij3p20J2Ozw?rel=0&amp;showinfo=0&amp;title=The+Black+Point+Project'><i class="fa fa-play-circle-o" aria-hidden="true"></i>The Alari Group - Black Point Project</a></li>
@@ -174,5 +175,8 @@
       <h6>&copy; 2017 Alari Homes and Fabrication. All Rights Reserved.</h6>
     </div>
     <script src="../../scripts/jquery-1.8.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="../../scripts/pace.min.js"></script>
+    <script src="../../scripts/transitions.js"></script>
   </body>
 </html>

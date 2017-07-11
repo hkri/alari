@@ -8,6 +8,7 @@
     <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <link rel = 'stylesheet' href = '../../styles/reset.css' />
     <link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
+    <link rel = 'stylesheet' href = '../../scripts/loading-style.css' />
     <style type = 'text/css'>
       .our-story{
         padding-right: 30px;
@@ -104,7 +105,7 @@
       </div>
     </div>
     <div class = 'content'>
-      <div class = 'index-cover kulamanu-cover' style = 'background-image: url("../../res/homes/kulamanu_history_cover.jpg")'>
+      <div id = 'hero-div' class = 'index-cover kulamanu-cover' style = 'background-image: url("../../res/homes/kulamanu_history_cover.jpg")'>
         <div class = 'tint'>
           <h2>The Project: 4079 Kulamanu Street</h2>
         </div>
@@ -112,63 +113,63 @@
       <div class = 'wrapper index-description-div' style = 'margin-top: 25px;'>
         <div class = 'row row-story'>
           <div class = 'cell size-70'>
-            <img src = '../../res/homes/kulamanu_4079_p1.jpg' />
+            <img class = 'page-section' src = '../../res/homes/kulamanu_4079_p1.jpg' />
             <i class = 'caption'>Street façade</i>
-            <h2>Background</h2>
-            <p>This property was originally purchased as an empty lot by the owner's grandmother, Alice, in 1957. She chose it because
+            <h2 class = 'page-section'>Background</h2>
+            <p class = 'page-section'>This property was originally purchased as an empty lot by the owner's grandmother, Alice, in 1957. She chose it because
   it was the highest on the street and had the greatest exposure to the island’s pleasant trade winds on the west side of
   Black Point. It took Alice six years to build her home, and its quaint character remained unchanged for more than five
   decades.</p>
-            <p>In 1996, its current owner purchased the house and rented it for 15 years, during which it slowly deteriorated, leaving it
+            <p class = 'page-section'>In 1996, its current owner purchased the house and rented it for 15 years, during which it slowly deteriorated, leaving it
   in desperate need of repairs and updates when it was vacated. Living in Los Angeles at the time, his first impulse was
   to sell the property as-is as a tear down and walk away. That didn’t sit well, however, because even though many years
   had passed since it was a setting for warm childhood memories, a sentimental connection still existed. So, using the
   good bones it still possessed as a base, he set about giving it new life. It became the underlay for one of Kahala's most
   luxurious estates, while paying homage to his grandmother's memory, and her love for island breezes and ocean views.</p>
-            <p>He contracted Carlos Ferreira, principal of Sketchtank Interior Design and Architecture, based in Los Angeles, to create
+            <p class = 'page-section'>He contracted Carlos Ferreira, principal of Sketchtank Interior Design and Architecture, based in Los Angeles, to create
   a new identity for the home. Sketchtank is a firm he has a long-standing relationship with, having hired them previously
   to design his Cuban restaurant and live music venue in Los Angeles, as well as update the facade of a 1940's commercial
   property in downtown Long Beach which was originally a Lehmans Department Store. Besides their collaborating
   history on commercial projects, Sketchtank's experience in high-end celebrity homes factored highly in his decision.
   Hawaii Architects, Inc. a local and respected firm also experienced in high end homes, were the engineers and architect
   of record.</p>
-            <p>The original direction involved a mere update, maintaining the original silhouette and floor plan, but after researching surrounding premium homes, a more ambitious transformation was pursued. Sketchtank gutted
+            <p class = 'page-section'>The original direction involved a mere update, maintaining the original silhouette and floor plan, but after researching surrounding premium homes, a more ambitious transformation was pursued. Sketchtank gutted
   the original floor plan to the footings, while adding a second floor master suite with expansive ocean sunset and
   Diamond Head views, overhanging a new pool, a private guest suite over a 3 car garage and layered landscaping
   with dramatic water features.</p>
-            <p>Whereas many luxury homes focus on one or two great signature spaces, 4079 Kulamanu was created so that
+            <p class = 'page-section'>Whereas many luxury homes focus on one or two great signature spaces, 4079 Kulamanu was created so that
   every room and space plays an important role in its narrative, defining a symphonic range of spatial emotions;
   from quiet, reflective spaces to charismatic areas for entertainment, clearly separated so that various occupants
   can enjoy them simultaneously. There are no ordinary spaces.</p>
-            <p>Sketchtank sought to create as many openings as possible on the envelope walls and use similar materials for
+            <p class = 'page-section'>Sketchtank sought to create as many openings as possible on the envelope walls and use similar materials for
   the interior and exterior to blur the division between inside and outside spaces, celebrating the Hawaiian
   concept of the lanai. The philosophy of Feng Shui heavily influenced the flow between rooms, as illustrated by
   how the expansive pool deck connects to the interior. Maximized openings in perimeter walls enhance the
   home’s relationship with the island.</p>
-            <img src = '../../res/homes/kulamanu_4079_p2.jpg' />
-            <i class = 'caption'>Motor court and guest house atop the 3-car garage</i>
-            <p>The landscaping too speaks to the island. It was informed by the existing terrain and employs several changes
+            <img class = 'page-section' src = '../../res/homes/kulamanu_4079_p2.jpg' />
+            <i class = 'caption page-section'>Motor court and guest house atop the 3-car garage</i>
+            <p class = 'page-section'>The landscaping too speaks to the island. It was informed by the existing terrain and employs several changes
   in elevation to create compelling architectural topography. It defines an engaging path around the site
   punctuated by several key moments.</p>
-            <p>A minimalist material palette punctuated by Alari’s rich Mother-of-pearl and capiz accents was chosen to allow
+            <p class = 'page-section'>A minimalist material palette punctuated by Alari’s rich Mother-of-pearl and capiz accents was chosen to allow
   the exterior views to be focal points, with specifications calling for a massive amount of imported travertine for
   floors and facades of the first level, complementing hand-applied Venetian finishes for exterior and interior
   walls.</p>
-            <p>In the tradition of Frank Lloyd Wright, every element in the home is a puzzle piece in a perfectly balanced
+            <p class = 'page-section'>In the tradition of Frank Lloyd Wright, every element in the home is a puzzle piece in a perfectly balanced
   composition, and as such, this home is offered as a completely resolved design, with only minor allowances for
   client alterations, to be carried out with the design architect.</p>
             <br />
-            <h2>Location</h2>
-            <p>4079 Kulamanu is located in <b>Black Point, Kahala</b>, Hawaii's most desirable residential neighborhood. Known as
+            <h2 class = 'page-section'>Location</h2>
+            <p class = 'page-section'>4079 Kulamanu is located in <b>Black Point, Kahala</b>, Hawaii's most desirable residential neighborhood. Known as
   the island's luxury hideaway, it is conveniently situated near downtown Honolulu and Waikiki.</p>
-            <ul>
+            <ul class = 'page-section'>
               <li>Located conveniently near Kahala Mall's Whole Foods Market</li>
               <li>Steps away from Cromwell’s Beach and Diamond Head</li>
               <li>Near Doris Duke's Shangri-La Museum</li>
               <li>Two blocks away from Fort Ruger (Triangle) Park</li>
             </ul>
           </div>
-          <div class = 'cell size-fill'>
+          <div class = 'cell size-fill page-section'>
             <div id = 'k-toc' class = 'kulamanu toc'>
               <h2>4079 Kulamanu
                 <div class = 'subheading'>Please click on the links below to learn more.</div>
@@ -195,5 +196,8 @@
       <h6>&copy; 2017 Alari Homes and Fabrication. All Rights Reserved.</h6>
     </div>
     <script src="../../scripts/jquery-1.8.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="../../scripts/pace.min.js"></script>
+    <script src="../../scripts/transitions.js"></script>
   </body>
 </html>

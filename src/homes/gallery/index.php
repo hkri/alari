@@ -14,7 +14,7 @@
 		<link rel = 'stylesheet' href = '../../styles/reset.css' />
 		<link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
 		<link rel = 'stylesheet' href = '../../styles/prettyPhoto.css' />
-
+		<link rel = 'stylesheet' href = '../../scripts/loading-style.css' />
 
 	</head>
 
@@ -41,15 +41,15 @@
 		</div>
 
 		<div class = 'content'>
-			<div class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_gallery_cover.jpg")'>
+			<div id = 'hero-div' class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_gallery_cover.jpg")'>
 				<h1 class = 'light'>Gallery</h1>
 			</div>
 
-			<div class = 'size-fill'>
+			<div class = 'size-fill page-section'>
 					<h2 class = 'section-caption'>View the collection of photographs and videos of our products and services.</h2>
 			</div>
 
-			<div class = 'gallery'>
+			<div class = 'gallery page-section'>
 				<div class = 'thumb-wrapper'>
 
 					<!-- A thumbnail
@@ -175,6 +175,10 @@
 		<script src="../../scripts/jquery.easing.1.3.js"></script>
 		<script src="../../scripts/jquery.scrollTo.min.js"></script>
 		<script src="../../scripts/jquery.prettyPhoto.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+		<script src="../../scripts/pace.min.js"></script>
+		<script src="../../scripts/transitions.js"></script>
 
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library

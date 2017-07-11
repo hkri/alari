@@ -14,6 +14,7 @@
     <!-- External Styles -->
     <link rel = 'stylesheet' href = '../../styles/reset.css' />
     <link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
+    <link rel = 'stylesheet' href = '../../scripts/loading-style.css' />
 
     <style type = 'text/css'>
 
@@ -43,17 +44,17 @@
     </div>
 
     <div class = 'content'>
-      <div class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_cover.jpg")'>
+      <div id = 'hero-div' class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_cover.jpg")'>
         <h1 class = 'light'>Drafting and Architectural Design Service</h1>
       </div>
 
-      <div class = 'size-fill'>
+      <div class = 'size-fill page-section'>
           <h2 class = 'section-caption'>Here at ALARI Homes, we want you to be a part of our team - from your concept, hand in hand we can provide you</h2>
       </div>
 
       <div class = 'wrapper dds'>
 
-        <div class = 'row'>
+        <div class = 'row page-section'>
           <div class = 'cell size-25 icons'>
             <img src = '../../res/homes/draft.png' alt = 'DDA Icon' />
           </div>
@@ -62,7 +63,7 @@
             <p>Ranging from conceptualization, permit and drawing phase to construction drawings.</p>
           </div>
         </div>
-        <div class = 'row'>
+        <div class = 'row page-section'>
           <div class = 'cell size-25 icons'>
             <img src = '../../res/homes/3d.png' alt = '3D Model Icon'  />
           </div>
@@ -71,7 +72,7 @@
             <p>We can develop through conceptual sketch to 3D visualization.</p>
           </div>
         </div>
-        <div class = 'row'>
+        <div class = 'row page-section'>
           <div class = 'cell size-25 icons'>
             <img src = '../../res/homes/smodel.png' alt = 'Scaled Model Icon'  />
           </div>
@@ -80,7 +81,7 @@
             <p>We can develop through conceptual sketch to 3D visualization.</p>
           </div>
         </div>
-        <div class = 'row'>
+        <div class = 'row page-section'>
           <div class = 'cell size-25 icons'>
             <img src = '../../res/homes/walkthrough.png' alt = 'Walkthrough Icon' />
           </div>
@@ -89,7 +90,7 @@
             <p>We can even walk you through your home through our 3D walkthrough.</p>
           </div>
         </div>
-        <div class = 'row'>
+        <div class = 'row page-section'>
           <div class = 'cell size-25 icons'>
             <img src = '../../res/homes/team.png' alt = 'Team Icon' />
           </div>
@@ -105,5 +106,8 @@
       <h6>&copy; 2017 Alari Homes and Fabrication. All Rights Reserved.</h6>
     </div>
     <script src="../../scripts/jquery-1.8.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="../../scripts/pace.min.js"></script>
+    <script src="../../scripts/transitions.js"></script>
   </body>
 </html>

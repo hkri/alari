@@ -12,6 +12,7 @@
     <!-- External Styles -->
     <link rel = 'stylesheet' href = '../../styles/reset.css' />
     <link rel = 'stylesheet' href = '../../styles/alaristyle.css' />
+<link rel = 'stylesheet' href = '../../scripts/loading-style.css' />
 
     <!-- Local Stylsheet -->
     <style type = 'text/css'>
@@ -45,12 +46,12 @@
     </div>
 
     <div class = 'content contact-us'>
-        <div class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_contactus.jpg")'>
+        <div id = 'hero-div' class = 'cover-photo' style = 'background-image:url("../../res/homes/homes_contactus.jpg")'>
           <h1 class = 'light'>Contact Us</h1>
         </div>
 
         <div class = 'wrapper'>
-          <div class = 'row spacer'></div>
+          <div class = 'row spacer page-section'></div>
 
           <!-- Section Contact-->
           <div class = 'row csection'>
@@ -113,12 +114,12 @@
           </div>
           <!-- End of Section Contact -->
 
-          <div class = 'row message-box'>
+          <div class = 'row message-box page-section'>
             <h1>Send A Message</h1>
             <p>You can also write us a message here. Fill up the fields below, and we'll respond to your email as soon as we can.</p>
           </div>
           <div class = 'row'>
-            <form class = 'messageus-form' method="post" accept-charset="utf-8">
+            <form class = 'messageus-form page-section' method="post" accept-charset="utf-8">
               <p><input name = 'FullName' type = 'text' placeholder = 'Full Name' data-validation="length" data-validation-length="min4" data-validation-error-msg="Please enter valid name" /></p>
                       <p><input name = 'Email' type = 'text' placeholder = 'Email Address' data-validation="email" data-validation-error-msg="Please enter valid email" /></p>
                       <p><textarea name = 'Message' placeholder = 'Write your message here.' data-validation="length" data-validation-length="min4" data-validation-error-msg="Please enter valid message"></textarea></p>
@@ -135,5 +136,9 @@
     <div class = 'footer'>
       <h6>&copy; 2017 Alari Homes and Fabrication. All Rights Reserved.</h6>
     </div>
+    <script src="../../scripts/jquery-1.8.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="../../scripts/pace.min.js"></script>
+    <script src="../../scripts/transitions.js"></script>
   </body>
 </html>
