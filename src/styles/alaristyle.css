@@ -1016,3 +1016,11 @@ a:hover{
   margin-left: 18px;
   color: rgb(77, 77, 77);
 }
+
+.form-error {
+  color: red;
+}
+
+.mail-success {
+  color: green;
+}

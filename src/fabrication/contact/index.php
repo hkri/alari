@@ -133,12 +133,32 @@
 							<p><input name = 'FullName' type = 'text' placeholder = 'Full Name' data-validation="length" data-validation-length="min4" data-validation-error-msg="Please enter valid name" /></p>
 			                <p><input name = 'Email' type = 'text' placeholder = 'Email Address' data-validation="email" data-validation-error-msg="Please enter valid email" /></p>
 			                <p><textarea name = 'Message' placeholder = 'Write your message here.' data-validation="length" data-validation-length="min4" data-validation-error-msg="Please enter valid message"></textarea></p>
+							<?php
+							  	if($_SERVER['REQUEST_METHOD'] === 'POST'){
+								  	$subject = "Inquiry";
+								  	$to = "spirit_renegade@yahoo.com";
+									$from = "admin@alarihawaii.com";
+								  	$name = $_POST['FullName'];
+								  	$email = $_POST['Email'];
+								  	$message = $_POST['Message'];
+								  	if (strlen($name) >= 4 && strlen($email) >= 4 && strlen($message) >= 4) {
+									  	$body .= "Customer: " . $name . "\n\n";
+									  	$body .= "E-mail: " . $email . "\n\n";
+									  	$body .= "Customer message: \n\n";
+									  	$body .= $message;
+									  	$headers = "From:" . $from;
+									  	mail($to, $subject, $body, $headers);
+									  	echo "<span class='mail-success'>Mail Sent. We will contact you shortly.</span>";
+								  	} else {
+									  	echo "<span class='form-error'>There was a problem submitting your inquiry. Please contact system support.</span>";
+								  	}
+							  	}
+						  	?>
 			                <div class = 'form-controls'>
 			                    <input name = 'Submit' class = 'button-link' type = 'submit' value = 'Send' />
 			                    <input name = 'Clear' class = 'button-link' type = 'reset' value = 'Clear' />
 			                </div>
 						</form>
-						<!-- TODO: Validate and send email -->
 					</div>
 				</div>
 		</div>
@@ -152,6 +172,7 @@
 		<!-- jQuery and Javascript Friends -->
 		<script src="../../scripts/jquery-1.8.0.min.js"></script>
 		<script src="../../scripts/jquery.prettyPhoto.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 
 		<script type = 'text/javascript'>
 			//Add reference to jQuery and Easings library
@@ -169,7 +190,7 @@
 
 			});
 
-
+			$.validate({});
 		</script>
 
 	</body>
