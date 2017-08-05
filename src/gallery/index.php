@@ -28,8 +28,7 @@
 				</div>
 				<div class = 'header-navbox'>
 					<ul class = 'nav noselect'>
-						<a href = '/'><li>Home</li></a>
-						<a href = '../'><li>About Us</li></a>
+						<a href = '../'><li>Home</li></a>
 						<a href = '../dda'><li>DDA Services</li></a>
 						<a href = '../our_team'><li>Our Team</li></a>
 						<a href = '../plans_permits'><li>Plans and Permits</li></a>
