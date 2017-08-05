@@ -56,14 +56,6 @@
           <!-- Please use 380x80 pixel logo for best results. -->
           <img class = 'nav-logo' src = '../../res/homes/homes-dummy-logo.png' />
         </div>
-        <div class = 'header-navbox'>
-          <ul class = 'nav noselect'>
-            <a class = 'active' href = '../'><li class = 'cursor-pointer'>Home</li></a>
-            <a href = '../our_team'><li>Our Team</li></a>
-            <a href = '../gallery'><li>Gallery</li></a>
-            <a href = '../contact'><li>Contact</li></a>
-          </ul>
-        </div>
       </div>
     </div>
 
