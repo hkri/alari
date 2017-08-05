@@ -35,13 +35,17 @@
       .toc ul a {
         color: #1d70b1;
       }
+      .toc ul li.active {
+        background-color: rgba(0, 0, 0, 0.1);
+        cursor: default;
+      }
     </style>
   </head>
   <body>
     <div class = 'header'>
       <div class = 'wrapper'>
         <div class = 'header-logobox noselect'>
-          <img class = 'nav-logo' src = '../res/homes/homes-dummy-logo.png' />
+          <a href = '/'><img class = 'nav-logo' src = '../res/homes/homes-dummy-logo.png' /></a>
         </div>
       </div>
     </div>
@@ -77,6 +81,7 @@
               </h2>
               <hr />
               <ul>
+                <li class = 'active'><a>Home</a></li>
                 <li><a href = 'history-of-kulamanu/'>History</a></li>
                 <li><a href = 'kulamanu-specifications/'>Specifications</a></li>
                 <li><a href = 'https://www.dropbox.com/s/svky5hvt5qzqexc/Kulamanu%20walktru.asf' target = '_blank' >3D Walkthrough</a></li>
