@@ -169,9 +169,7 @@
         <div class = 'header-navbox'>
           <ul class = 'nav noselect'>
             <a class = 'active' href = '../'><li class = 'cursor-pointer'>Home</li></a>
-            <a href = '../dda'><li>DDA Services</li></a>
             <a href = '../our_team'><li>Our Team</li></a>
-            <a href = '../plans_permits'><li>Plans and Permits</li></a>
             <a href = '../gallery'><li>Gallery</li></a>
             <a href = '../contact'><li>Contact</li></a>
           </ul>

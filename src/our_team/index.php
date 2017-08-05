@@ -69,9 +69,7 @@
         <div class = 'header-navbox'>
           <ul class = 'nav noselect'>
             <a href = '../'><li>Home</li></a>
-            <a href = '../dda'><li>DDA Services</li></a>
             <a class = 'active'><li>Our Team</li></a>
-            <a href = '../plans_permits'><li>Plans and Permits</li></a>
             <a href = '../gallery'><li>Gallery</li></a>
             <a href = '../contact'><li>Contact</li></a>
           </ul>
