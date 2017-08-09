@@ -11,15 +11,16 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"> 
   </head>
   <body>
+    <div id="home"></div>
     <div class="ui sidebar vertical transition menu">
-      <a class="item" href="#">Home</a>
+      <a class="item" href="#home">Home</a>
       <a class="item" href="#gallery">Gallery</a>
       <a class="item" href="#contact">Contact</a>
     </div>
     <div class="pusher">
       <div id="navpanel" class="ui fluid container">
         <div id="nav" class="ui secondary basic center aligned menu">
-          <a class="item d-menu-item" href = "#">Home</a>
+          <a class="item d-menu-item" href = "#home">Home</a>
           <a class="item d-menu-item" href="#gallery">Gallery</a>
           <a class="item d-menu-item" href="#contact">Contact</a>
           <a class="item sidebar-toggle"><i class="icon sidebar"></i></a>
@@ -133,6 +134,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="assets/owl-carousel/owl.carousel.min.js"></script>
     <script src="assets/semantic-ui/semantic.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
         $(".owl-carousel").owlCarousel({
