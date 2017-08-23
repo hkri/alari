@@ -41,12 +41,14 @@ body
 
 #cover
 {
+  position: relative;
   background-image: url('../img/facade.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
   max-width: 1360px;
   margin: 0 auto;
+  padding-bottom: 40.25%;
 }
 
 #cover::after
@@ -54,13 +56,86 @@ body
   content: ' ';
   display: block;
   height: 1px;
-  padding-bottom: 40.25%;
 }
 
 #cover-heading
 {
   min-height: 100px;
   font-size: 1em;
+}
+
+#vid-bg
+{
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 56.5%;
+}
+
+#vid-bg iframe
+{
+  padding: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#vid-selection
+{
+  display: block;
+  padding: 0;
+  list-style-type: none;
+  width: auto;
+  text-align: center;
+  margin: 0;
+  background-color: rgb(37, 37, 37);
+}
+
+#vid-selection li
+{
+  display: inline-block;
+  padding: 1em 1em;
+  color: rgb(240, 240, 240);
+  cursor: pointer;
+}
+
+#vid-selection li.active
+{
+  position: relative;
+  background-color: orange;
+  color: rgb(17, 17, 17);
+}
+
+#vid-selection li.active::before
+{
+  content: ' ';
+  position: absolute;
+  border-color: transparent;
+  border-bottom-color: orange;
+  border-width: 12px;
+  border-style: solid;
+  width: 1px;
+  height: 1px;
+  top: -21px;
+  left: 50%;
+  transform:translateX(-50%);
+  z-index: 999;
+}
+
+@media(max-width: 600px)
+{
+  #vid-selection li
+  {
+    display: block;
+  }
+
+  #vid-selection li.active::before
+  {
+    display: none;
+  }
 }
 
 @media(max-width: 1100px)
