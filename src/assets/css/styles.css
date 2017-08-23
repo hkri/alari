@@ -98,12 +98,15 @@ body
 {
   display: inline-block;
   padding: 1em 1em;
+  color: rgb(240, 240, 240);
+  cursor: pointer;
 }
 
 #vid-selection li.active
 {
   position: relative;
   background-color: orange;
+  color: rgb(17, 17, 17);
 }
 
 #vid-selection li.active::before
@@ -120,16 +123,6 @@ body
   left: 50%;
   transform:translateX(-50%);
   z-index: 999;
-}
-
-#vid-selection li a
-{
-  color: rgb(240, 240, 240);
-}
-
-#vid-selection li.active a
-{
-  color: rgb(17, 17, 17);
 }
 
 @media(max-width: 600px)

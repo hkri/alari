@@ -30,13 +30,14 @@
         <h1 class"ui header">4079 Kulamanu</h1>
         <p class="subheading">A custom modern luxury residence offered by the Alari Group.</p>
       </div>
+      <a name="video-area"></a>
       <div id="vid-bg">
         <iframe id="video-player" src="https://www.youtube-nocookie.com/embed/ij3p20J2Ozw?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
       </div>
       <ul id="vid-selection">
-        <li id="black-point-video" class="active"><a href="#cover-heading">The Black Point Project</a></li>
-        <li id="alari-group-video" class=""><a href="#cover-heading">The Alari Group</a></li>
-        <li id="the-environment-video" class=""><a href="#cover-heading">The Alari Group &amp; and the Environment</a></li>
+        <li id="black-point-video" class="active">The Black Point Project</li>
+        <li id="alari-group-video" class="">The Alari Group</li>
+        <li id="the-environment-video" class="">The Alari Group &amp; and the Environment</li>
       </ul>
       <div id="cover" class="ui basic segment"></div>
       <div id="gallery" class="article">
@@ -165,6 +166,12 @@
     <script src="assets/semantic-ui/semantic.min.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
     <script type="text/javascript">
+      function scrollToAnchor(aid){
+        var aTag = $("[name='" + aid +"']");
+        console.log(aTag);
+        $('html,body').animate({scrollTop: aTag.offset().top - 80},'slow');
+      }
+
       $(document).ready(function(){
         $(".owl-carousel").owlCarousel({
           autoplay: true,
@@ -173,6 +180,7 @@
           loop: true,
           margin: 8,
         });
+        scrollToAnchor('video-area');
       });
 
       function deselectVideoLinks()
@@ -191,18 +199,21 @@
         deselectVideoLinks();
         selectVideoLink('#black-point-video');
         $('#video-player').attr('src', 'https://www.youtube-nocookie.com/embed/ij3p20J2Ozw?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1');
+        scrollToAnchor('video-area');
       });
 
       $('#alari-group-video').on('click', function() {
         deselectVideoLinks();
         selectVideoLink('#alari-group-video');
         $('#video-player').attr('src', 'https://www.youtube-nocookie.com/embed/YTqFV2mLTb0?rel=0&amp;controls=0&autoplay=1&showinfo=0;');
+        scrollToAnchor('video-area');
       });
 
       $('#the-environment-video').on('click', function() {
         deselectVideoLinks();
         selectVideoLink('#the-environment-video');
         $('#video-player').attr('src', 'https://www.youtube-nocookie.com/embed/WqvFksWYPNU?rel=0&amp;controls=0&autoplay=1&showinfo=0;');
+        scrollToAnchor('video-area');
       });
 
       $('.ui.sidebar')
