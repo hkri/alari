@@ -38,6 +38,7 @@
         <li id="black-point-video" class="active">The Black Point Project</li>
         <li id="alari-group-video" class="">The Alari Group</li>
         <li id="the-environment-video" class="">The Alari Group &amp; and the Environment</li>
+        <li id="the-3d-walkthrough" class="">The 3D Walkthrough</li>
       </ul>
       <div id="cover" class="ui basic segment"></div>
       <div id="gallery" class="article">
@@ -212,6 +213,13 @@
         deselectVideoLinks();
         selectVideoLink('#the-environment-video');
         $('#video-player').attr('src', 'https://www.youtube-nocookie.com/embed/WqvFksWYPNU?rel=0&amp;controls=1&autoplay=1&showinfo=0;');
+        scrollToAnchor('video-area');
+      });
+
+      $('#the-3d-walkthrough').on('click', function() {
+        deselectVideoLinks();
+        selectVideoLink('#the-3d-walkthrough');
+        $('#video-player').attr('src', 'https://www.youtube-nocookie.com/embed/2YCHOju5IY8?rel=0&amp;controls=1&autoplay=1&showinfo=0;');
         scrollToAnchor('video-area');
       });
 
